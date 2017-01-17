@@ -1,0 +1,3249 @@
+530 unused metabolties were found and removed.
+Another copy of RC00959 exists at 2421: PHOSPHOGLUCMUT_RXN_c
+Original: RC00959: g1p[c]  <=> g6p_A[c] 
+Duplicate: PHOSPHOGLUCMUT_RXN_c: g1p[c]  <=> g6p_A[c] 
+Reversibility matches for both.
+Round 1 removed 1 reactions.
+Another copy of RC02740 exists at 2472: RXN909_280_c
+Original: RC02740: g6p_A[c]  <=> f6p[c] 
+Duplicate: RXN909_280_c: g6p_A[c]  -> f6p[c] 
+Duplicate reaction is irreversible.
+Round 2 removed 1 reactions.
+Another copy of RC03321 exists at 2647: PGI_c
+Original: RC03321: g6p_B[c]  <=> f6p[c] 
+Duplicate: PGI_c: g6p_B[c]  <=> f6p[c] 
+Reversibility matches for both.
+Round 3 removed 1 reactions.
+Another copy of RC01600 exists at 3288: HEX1_c
+Original: RC01600: atp[c] + glc_bD[c]  -> g6p_B[c] + adp[c] + h[c] 
+Duplicate: HEX1_c: atp[c] + glc_bD[c]  -> g6p_B[c] + adp[c] + 2 h[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 5 removed 1 reactions.
+Another copy of RC01786 exists at 2007: RXN_1685_c
+Original: RC01786: atp[c] + glc_aD[c]  -> g6p_A[c] + adp[c] + h[c] 
+Duplicate: RXN_1685_c: atp[c] + glc_aD[c]  -> g6p_A[c] + adp[c] + 2 h[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 6 removed 1 reactions.
+Another copy of RC01602 exists at 3216: ALDOSE_1_EPIMERASE_RXN_c
+Original: RC01602: glc_aD[c]  <=> glc_bD[c] 
+Duplicate: ALDOSE_1_EPIMERASE_RXN_c: glc_aD[c]  <=> glc_bD[c] 
+Reversibility matches for both.
+Round 9 removed 1 reactions.
+Another copy of RC01070 exists at 2023: FBA_c
+Original: RC01070: fdp[c]  <=> dhap[c] + g3p[c] 
+Duplicate: FBA_c: fdp[c]  <=> dhap[c] + g3p[c] 
+Reversibility matches for both.
+Round 10 removed 1 reactions.
+Another copy of RC04780 exists at 2457: F16BDEPHOS_RXN_c
+Original: RC04780: fdp[c] + h2o[c]  -> f6p[c] + pi[c] 
+Duplicate: F16BDEPHOS_RXN_c: fdp[c] + h2o[c]  -> f6p[c] + pi[c] 
+Reversibility matches for both.
+Round 11 removed 1 reactions.
+Another copy of RC04779 exists at 2972: PFK_c
+Original: RC04779: f6p[c] + atp[c]  -> adp[c] + h[c] + fdp[c] 
+Duplicate: PFK_c: f6p[c] + atp[c]  -> adp[c] + 2 h[c] + fdp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 12 removed 1 reactions.
+Another copy of RC01015 exists at 3164: TPI_c
+Original: RC01015: g3p[c]  <=> dhap[c] 
+Duplicate: TPI_c: g3p[c]  <=> dhap[c] 
+Reversibility matches for both.
+Round 13 removed 1 reactions.
+Another copy of RC01061 exists at 3161: GAPD_c
+Original: RC01061: g3p[c] + pi[c] + nad[c]  <=> h[c] + 13dpg[c] + nadh[c] 
+Duplicate: GAPD_c: g3p[c] + pi[c] + nad[c]  <=> h[c] + 13dpg[c] + nadh[c] 
+Reversibility matches for both.
+Round 14 removed 1 reactions.
+Another copy of RC01518 exists at 2154: PGM_c
+Original: RC01518: 2pg[c]  <=> 3pg[c] 
+Duplicate: PGM_c: 3pg[c]  <=> 2pg[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 16 removed 1 reactions.
+Another copy of RC00658 exists at 2625: ENO_c
+Original: RC00658: 2pg[c]  <=> h2o[c] + pep[c] 
+Duplicate: ENO_c: 2pg[c]  <=> h2o[c] + pep[c] 
+Reversibility matches for both.
+Round 17 removed 1 reactions.
+Another copy of RC00431 exists at 2753: PEPCK_c
+Original: RC00431: gtp[c] + oaa[c]  <=> pep[c] + gdp[c] + co2[c] 
+Duplicate: PEPCK_c: gtp[c] + oaa[c]  -> pep[c] + gdp[c] + co2[c] 
+Duplicate reaction is irreversible.
+Round 18 removed 1 reactions.
+Another copy of RC00200 exists at 2247: PYK_c
+Original: RC00200: adp[c] + h[c] + pep[c]  -> atp[c] + pyr[c] 
+Duplicate: PYK_c: adp[c] + 2 h[c] + pep[c]  -> atp[c] + pyr[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 19 removed 1 reactions.
+Another copy of RM00209 exists at 2717: PDH_m
+Original: RM00209: pyr[m] + coa[m] + nad[m]  -> accoa[m] + co2[m] + nadh[m] 
+Duplicate: PDH_m: pyr[m] + coa[m] + nad[m]  <=> accoa[m] + co2[m] + nadh[m] 
+Duplicate reaction is reversible.
+Round 20 removed 1 reactions.
+Another copy of RC00703 exists at 2956: LDH_L_c
+Original: RC00703: nad[c] + lac_L[c]  <=> h[c] + nadh[c] + pyr[c] 
+Duplicate: LDH_L_c: nad[c] + lac_L[c]  <=> h[c] + nadh[c] + pyr[c] 
+Reversibility matches for both.
+Round 21 removed 1 reactions.
+Another copy of RC00710 exists at 3374: ALDD2_c
+Original: RC00710: h2o[c] + nad[c] + acald[c]  -> 2 h[c] + nadh[c] + ac[c] 
+Duplicate: ALDD2_c: h2o[c] + nad[c] + acald[c]  <=> 2 h[c] + nadh[c] + ac[c] 
+Duplicate reaction is reversible.
+Round 23 removed 1 reactions.
+Another copy of RM00710 exists at 3366: ALDD2_m
+Original: RM00710: nad[m] + acald[m] + h2o[m]  -> nadh[m] + ac[m] + 2 h[m] 
+Duplicate: ALDD2_m: nad[m] + acald[m] + h2o[m]  <=> nadh[m] + ac[m] + 2 h[m] 
+Duplicate reaction is reversible.
+Round 24 removed 1 reactions.
+Another copy of RC00754 exists at 3192: ALCD2if_c
+Original: RC00754: nad[c] + etoh[c]  <=> h[c] + nadh[c] + acald[c] 
+Duplicate: ALCD2if_c: h[c] + nadh[c] + acald[c]  <=> nad[c] + etoh[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 25 removed 1 reactions.
+Another copy of RM00344 exists at 3081: PC_m
+Original: RM00344: pyr[m] + atp[m] + hco3[m]  -> h[m] + adp[m] + pi[m] + oaa[m] 
+Duplicate: PC_m: pyr[m] + atp[m] + hco3[m]  -> 2 h[m] + adp[m] + pi[m] + oaa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 27 removed 1 reactions.
+Another copy of RM00351 exists at 3304: CS_m
+Original: RM00351: accoa[m] + h2o[m] + oaa[m]  -> coa[m] + h[m] + cit[m] 
+Duplicate: CS_m: accoa[m] + h2o[m] + oaa[m]  -> coa[m] + h[m] + cit[m] 
+Reversibility matches for both.
+Round 28 removed 1 reactions.
+Another copy of RC00267 exists at 3158: ISOCITDEH_RXN_c
+Original: RC00267: nadp[c] + icit[c]  -> co2[c] + nadph[c] + akg[c] 
+Duplicate: ISOCITDEH_RXN_c: nadp[c] + icit[c]  -> co2[c] + nadph[c] + akg[c] 
+Reversibility matches for both.
+Round 32 removed 1 reactions.
+Another copy of RM00267 exists at 3103: ISOCITDEH_RXN_m
+Original: RM00267: icit[m] + nadp[m]  -> co2[m] + akg[m] + nadph[m] 
+Duplicate: ISOCITDEH_RXN_m: icit[m] + nadp[m]  -> co2[m] + akg[m] + nadph[m] 
+Reversibility matches for both.
+Round 33 removed 1 reactions.
+Another copy of RM00709 exists at 3445: ISOCITRATE_DEHYDROGENASE_NAD__RXN_m
+Original: RM00709: nad[m] + icit[m]  -> co2[m] + nadh[m] + akg[m] 
+Duplicate: ISOCITRATE_DEHYDROGENASE_NAD__RXN_m: nad[m] + icit[m]  -> co2[m] + nadh[m] + akg[m] 
+Reversibility matches for both.
+Round 34 removed 1 reactions.
+Another copy of RMC0003 exists at 2994: AKGDH_m
+Original: RMC0003: coa[m] + nad[m] + akg[m]  -> co2[m] + nadh[m] + succoa[m] 
+Duplicate: AKGDH_m: coa[m] + nad[m] + akg[m]  -> co2[m] + nadh[m] + succoa[m] 
+Reversibility matches for both.
+Round 35 removed 1 reactions.
+Another copy of RM00432 exists at 2515: SUCOAS1_m
+Original: RM00432: coa[m] + gtp[m] + succ[m]  <=> pi[m] + succoa[m] + gdp[m] 
+Duplicate: SUCOAS1_m: coa[m] + gtp[m] + succ[m]  <=> pi[m] + succoa[m] + gdp[m] 
+Reversibility matches for both.
+Round 36 removed 1 reactions.
+Another copy of RM01082 exists at 2158: FUM_m
+Original: RM01082: mal_L[m]  <=> h2o[m] + fum[m] 
+Duplicate: FUM_m: mal_L[m]  <=> h2o[m] + fum[m] 
+Reversibility matches for both.
+Round 39 removed 1 reactions.
+Another copy of RM00342 exists at 2447: MDH_m
+Original: RM00342: nad[m] + mal_L[m]  <=> nadh[m] + h[m] + oaa[m] 
+Duplicate: MDH_m: nad[m] + mal_L[m]  <=> nadh[m] + h[m] + oaa[m] 
+Reversibility matches for both.
+Round 40 removed 1 reactions.
+Another copy of RC02736 exists at 2895: G6PDH2r_c
+Original: RC02736: g6p_B[c] + nadp[c]  <=> h[c] + nadph[c] + 6pgl[c] 
+Duplicate: G6PDH2r_c: g6p_B[c] + nadp[c]  <=> h[c] + nadph[c] + 6pgl[c] 
+Reversibility matches for both.
+Round 41 removed 1 reactions.
+Another copy of RC02035 exists at 2062: PGL_c
+Original: RC02035: h2o[c] + 6pgl[c]  -> h[c] + 6pgc[c] 
+Duplicate: PGL_c: h2o[c] + 6pgl[c]  <=> h[c] + 6pgc[c] 
+Duplicate reaction is reversible.
+Round 42 removed 1 reactions.
+Another copy of RC01528 exists at 2110: GND_c
+Original: RC01528: nadp[c] + 6pgc[c]  -> co2[c] + nadph[c] + ru5p_D[c] 
+Duplicate: GND_c: nadp[c] + 6pgc[c]  <=> co2[c] + nadph[c] + ru5p_D[c] 
+Duplicate reaction is reversible.
+Round 44 removed 1 reactions.
+Another copy of RC01529 exists at 2871: RPE_c
+Original: RC01529: ru5p_D[c]  <=> xu5p_D[c] 
+Duplicate: RPE_c: ru5p_D[c]  <=> xu5p_D[c] 
+Reversibility matches for both.
+Round 45 removed 1 reactions.
+Another copy of RC01056 exists at 2139: RPI_c
+Original: RC01056: r5p[c]  <=> ru5p_D[c] 
+Duplicate: RPI_c: r5p[c]  <=> ru5p_D[c] 
+Reversibility matches for both.
+Round 46 removed 1 reactions.
+Another copy of RC01049 exists at 2179: PRPPS_c
+Original: RC01049: atp[c] + r5p[c]  <=> h[c] + amp[c] + prpp[c] 
+Duplicate: PRPPS_c: atp[c] + r5p[c]  -> 2 h[c] + amp[c] + prpp[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 47 removed 1 reactions.
+Another copy of RC01051 exists at 2897: RIBOKIN_RXN_c
+Original: RC01051: atp[c] + rib_D[c]  -> adp[c] + h[c] + r5p[c] 
+Duplicate: RIBOKIN_RXN_c: atp[c] + rib_D[c]  -> adp[c] + 2 h[c] + r5p[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 48 removed 1 reactions.
+Another copy of RC01641 exists at 2111: TKT1_c
+Original: RC01641: g3p[c] + s7p[c]  <=> xu5p_D[c] + r5p[c] 
+Duplicate: TKT1_c: g3p[c] + s7p[c]  <=> xu5p_D[c] + r5p[c] 
+Reversibility matches for both.
+Round 49 removed 1 reactions.
+Another copy of RC01830 exists at 3453: TKT2_c
+Original: RC01830: f6p[c] + g3p[c]  <=> xu5p_D[c] + e4p[c] 
+Duplicate: TKT2_c: xu5p_D[c] + e4p[c]  <=> f6p[c] + g3p[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 50 removed 1 reactions.
+Another copy of RC01827 exists at 3370: TALA_c
+Original: RC01827: g3p[c] + s7p[c]  <=> f6p[c] + e4p[c] 
+Duplicate: TALA_c: g3p[c] + s7p[c]  <=> f6p[c] + e4p[c] 
+Reversibility matches for both.
+Round 51 removed 1 reactions.
+Another copy of RC01066 exists at 2760: DEOXYRIBOSE_P_ALD_RXN_c
+Original: RC01066: 2dr5p[c]  <=> g3p[c] + acald[c] 
+Duplicate: DEOXYRIBOSE_P_ALD_RXN_c: 2dr5p[c]  <=> g3p[c] + acald[c] 
+Reversibility matches for both.
+Round 53 removed 1 reactions.
+Another copy of RC01057 exists at 3030: PPM_c
+Original: RC01057: r1p[c]  <=> r5p[c] 
+Duplicate: PPM_c: r1p[c]  <=> r5p[c] 
+Reversibility matches for both.
+Round 54 removed 1 reactions.
+Another copy of RC00199 exists at 2638: PPS_c
+Original: RC00199: atp[c] + h2o[c] + pyr[c]  -> 2 h[c] + amp[c] + pi[c] + pep[c] 
+Duplicate: PPS_c: atp[c] + h2o[c] + pyr[c]  -> 3 h[c] + amp[c] + pi[c] + pep[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 59 removed 1 reactions.
+Another copy of RM00216 exists at 2743: ME2_m
+Original: RM00216: nadp[m] + mal_L[m]  -> pyr[m] + co2[m] + nadph[m] 
+Duplicate: ME2_m: nadp[m] + mal_L[m]  <=> pyr[m] + co2[m] + nadph[m] 
+Duplicate reaction is reversible.
+Round 60 removed 1 reactions.
+Another copy of RM00238 exists at 3137: ACACT1_m
+Original: RM00238: 2 accoa[m]  <=> coa[m] + aacoa[m] 
+Duplicate: ACACT1_m: 2 accoa[m]  <=> coa[m] + aacoa[m] 
+Reversibility matches for both.
+Round 61 removed 1 reactions.
+Another copy of RC00004 exists at 2316: PPA_c
+Original: RC00004: h2o[c] + ppi[c]  -> h[c] + 2 pi[c] 
+Duplicate: PPA_c: h2o[c] + ppi[c]  <=> h[c] + 2 pi[c] 
+Duplicate reaction is reversible.
+Round 66 removed 1 reactions.
+Another copy of RM00004 exists at 2303: PPA_m
+Original: RM00004: h2o[m] + ppi[m]  -> h[m] + 2 pi[m] 
+Duplicate: PPA_m: h2o[m] + ppi[m]  <=> h[m] + 2 pi[m] 
+Duplicate reaction is reversible.
+Round 67 removed 1 reactions.
+Another copy of RMC0004 exists at 69: RMC0005
+Original: RMC0004: 4 h[c] + adp[m] + pi[m]  -> h2o[m] + 3 h[m] + atp[m] 
+Duplicate: RMC0005: 3 h[c] + adp[m] + pi[m]  -> h2o[m] + 2 h[m] + atp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 68 removed 1 reactions.
+Another copy of RM00112 exists at 2358: NADTRHD_m
+Original: RM00112: nadh[m] + nadp[m]  <=> nad[m] + nadph[m] 
+Duplicate: NADTRHD_m: nad[m] + nadph[m]  -> nadh[m] + nadp[m] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 72 removed 1 reactions.
+Another copy of RM00713 exists at 2432: SSAL_m
+Original: RM00713: nad[m] + h2o[m] + sucsal[m]  -> nadh[m] + 2 h[m] + succ[m] 
+Duplicate: SSAL_m: nad[m] + h2o[m] + sucsal[m]  <=> nadh[m] + 2 h[m] + succ[m] 
+Duplicate reaction is reversible.
+Round 74 removed 1 reactions.
+Another copy of RC00114 exists at 3163: GLUSy_c
+Original: RC00114: h[c] + nadph[c] + akg[c] + gln_L[c]  -> nadp[c] + 2 glu_L[c] 
+Duplicate: GLUSy_c: h[c] + nadph[c] + akg[c] + gln_L[c]  -> nadp[c] + 2 glu_L[c] 
+Reversibility matches for both.
+Round 75 removed 1 reactions.
+Another copy of RC00093 exists at 2883: GLUS_c
+Original: RC00093: h[c] + nadh[c] + akg[c] + gln_L[c]  -> nad[c] + 2 glu_L[c] 
+Duplicate: GLUS_c: nad[c] + 2 glu_L[c]  <=> h[c] + nadh[c] + akg[c] + gln_L[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 76 removed 1 reactions.
+Another copy of RM00707 exists at 2403: PYRROLINECARBDEHYDROG_RXN_m
+Original: RM00707: nad[m] + 2 h2o[m] + 1pyr5c[m]  -> nadh[m] + h[m] + glu_L[m] 
+Duplicate: PYRROLINECARBDEHYDROG_RXN_m: nad[m] + 2 h2o[m] + 1pyr5c[m]  <=> nadh[m] + h[m] + glu_L[m] 
+Duplicate reaction is reversible.
+Round 80 removed 1 reactions.
+Another copy of RC01072 exists at 2398: GLUPRT_c
+Original: RC01072: h2o[c] + prpp[c] + gln_L[c]  -> ppi[c] + glu_L[c] + pram[c] 
+Duplicate: GLUPRT_c: ppi[c] + glu_L[c] + pram[c]  <=> h2o[c] + prpp[c] + gln_L[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 83 removed 1 reactions.
+Another copy of RC00768 exists at 2900: GF6PTA_c
+Original: RC00768: f6p[c] + gln_L[c]  -> glu_L[c] + gam6p[c] 
+Duplicate: GF6PTA_c: f6p[c] + gln_L[c]  <=> glu_L[c] + gam6p[c] 
+Duplicate reaction is reversible.
+Round 86 removed 1 reactions.
+Another copy of RM01648 exists at 3283: ABTA_m
+Original: RM01648: akg[m] + 4abut[m]  <=> sucsal[m] + glu_L[m] 
+Duplicate: ABTA_m: akg[m] + 4abut[m]  <=> sucsal[m] + glu_L[m] 
+Reversibility matches for both.
+Round 87 removed 1 reactions.
+Another copy of RC01083 exists at 3079: ADSL1_c
+Original: RC01083: dcamp[c]  <=> amp[c] + fum[c] 
+Duplicate: ADSL1_c: dcamp[c]  <=> amp[c] + fum[c] 
+Reversibility matches for both.
+Round 93 removed 1 reactions.
+Another copy of RC00575 exists at 2581: CBPS_c
+Original: RC00575: 2 atp[c] + h2o[c] + gln_L[c] + hco3[c]  -> 2 adp[c] + 2 h[c] + pi[c] + glu_L[c] + cbp[c] 
+Duplicate: CBPS_c: 2 atp[c] + h2o[c] + gln_L[c] + hco3[c]  -> 2 adp[c] + 4 h[c] + pi[c] + glu_L[c] + cbp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 97 removed 1 reactions.
+Another copy of RC01514 exists at 3290: RXN909_109_c
+Original: RC01514: atp[c] + glyc_R[c]  -> adp[c] + h[c] + 3pg[c] 
+Duplicate: RXN909_109_c: atp[c] + glyc_R[c]  -> adp[c] + 2 h[c] + 3pg[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 98 removed 1 reactions.
+Another copy of RC01513 exists at 2055: PGCD_c
+Original: RC01513: nad[c] + 3pg[c]  <=> h[c] + nadh[c] + 3php[c] 
+Duplicate: PGCD_c: nad[c] + 3pg[c]  -> h[c] + nadh[c] + 3php[c] 
+Duplicate reaction is irreversible.
+Round 99 removed 1 reactions.
+Another copy of RM00945 exists at 2067: GHMT2_m
+Original: RM00945: ser_L[m] + thf[m]  <=> h2o[m] + gly[m] + mlthf[m] 
+Duplicate: GHMT2_m: ser_L[m] + thf[m]  <=> h2o[m] + gly[m] + mlthf[m] 
+Reversibility matches for both.
+Round 105 removed 1 reactions.
+Another copy of RC01290 exists at 2056: CYSTS_c
+Original: RC01290: ser_L[c] + hcys_L[c]  <=> h2o[c] + cyst_L[c] 
+Duplicate: CYSTS_c: ser_L[c] + hcys_L[c]  <=> h2o[c] + cyst_L[c] 
+Reversibility matches for both.
+Round 110 removed 1 reactions.
+Another copy of RM01465 exists at 2673: THRD_m
+Original: RM01465: nad[m] + thr_L[m]  <=> nadh[m] + h[m] + 2aobut[m] 
+Duplicate: THRD_m: nad[m] + thr_L[m]  -> nadh[m] + 2 h[m] + 2aobut[m] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 117 removed 1 reactions.
+Another copy of RC00897 exists at 2247: CYSS_c
+Original: RC00897: h2s[c] + acser[c]  -> h[c] + ac[c] + cys_L[c] 
+Duplicate: CYSS_c: h2s[c] + acser[c]  <=> h[c] + ac[c] + cys_L[c] 
+Duplicate reaction is reversible.
+Round 119 removed 1 reactions.
+Another copy of RC00893 exists at 2871: CYSO_c
+Original: RC00893: o2[c] + cys_L[c]  -> 2 h[c] + 3sala[c] 
+Duplicate: CYSO_c: o2[c] + cys_L[c]  -> h[c] + 3sala[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 123 removed 1 reactions.
+Another copy of RCC0009 exists at 2544: 3SPYRSP_c
+Original: RCC0009: h2o[c] + 3snpyr[c]  -> h[c] + pyr[c] + so3[c] 
+Duplicate: 3SPYRSP_c: h2o[c] + 3snpyr[c]  -> h[c] + pyr[c] + so3[c] 
+Reversibility matches for both.
+Round 124 removed 1 reactions.
+Another copy of RMC0009 exists at 2551: 3SPYRSP_m
+Original: RMC0009: h2o[m] + 3snpyr[m]  -> pyr[m] + h[m] + so3[m] 
+Duplicate: 3SPYRSP_m: h2o[m] + 3snpyr[m]  -> pyr[m] + h[m] + so3[m] 
+Reversibility matches for both.
+Round 125 removed 1 reactions.
+Another copy of RC00192 exists at 2324: AHC_c
+Original: RC00192: h2o[c] + ahcys[c]  <=> hcys_L[c] + adn[c] 
+Duplicate: AHC_c: h2o[c] + ahcys[c]  <=> hcys_L[c] + adn[c] 
+Reversibility matches for both.
+Round 128 removed 1 reactions.
+Another copy of RC00178 exists at 2362: ADMDC_c
+Original: RC00178: h[c] + amet[c]  -> co2[c] + ametam[c] 
+Duplicate: ADMDC_c: h[c] + amet[c]  <=> co2[c] + ametam[c] 
+Duplicate reaction is reversible.
+Round 130 removed 1 reactions.
+Another copy of RC01920 exists at 2094: SPMS_c
+Original: RC01920: ametam[c] + ptrc[c]  -> h[c] + 5mta[c] + spmd[c] 
+Duplicate: SPMS_c: ametam[c] + ptrc[c]  <=> h[c] + 5mta[c] + spmd[c] 
+Duplicate reaction is reversible.
+Round 131 removed 1 reactions.
+Another copy of RC01402 exists at 2661: MTAP_c
+Original: RC01402: pi[c] + 5mta[c]  <=> 5mdr1p[c] + ade[c] 
+Duplicate: MTAP_c: pi[c] + 5mta[c]  <=> 5mdr1p[c] + ade[c] 
+Reversibility matches for both.
+Round 133 removed 1 reactions.
+Another copy of RC07396 exists at 3006: RXN909_174_c
+Original: RC07396: glu_L[c] + 2kmb[c]  -> akg[c] + met_L[c] 
+Duplicate: RXN909_174_c: glu_L[c] + 2kmb[c]  -> akg[c] + met_L[c] 
+Reversibility matches for both.
+Round 134 removed 1 reactions.
+Another copy of RC07392 exists at 2109: 4_2_1_109_RXN_c
+Original: RC07392: 5mdru1p[c]  -> h2o[c] + dkmpp[c] 
+Duplicate: 4_2_1_109_RXN_c: 5mdru1p[c]  -> h2o[c] + dkmpp[c] 
+Reversibility matches for both.
+Round 135 removed 1 reactions.
+Another copy of RM01090 exists at 2298: LEUTA_m
+Original: RM01090: akg[m] + leu_L[m]  <=> glu_L[m] + 4mop[m] 
+Duplicate: LEUTA_m: akg[m] + leu_L[m]  <=> glu_L[m] + 4mop[m] 
+Reversibility matches for both.
+Round 137 removed 1 reactions.
+Another copy of RM01214 exists at 2590: VALTA_m
+Original: RM01214: akg[m] + val_L[m]  <=> glu_L[m] + 3mob[m] 
+Duplicate: VALTA_m: akg[m] + val_L[m]  <=> glu_L[m] + 3mob[m] 
+Reversibility matches for both.
+Round 138 removed 1 reactions.
+Another copy of RM02199 exists at 2049: ILETA_m
+Original: RM02199: akg[m] + ile_L[m]  <=> glu_L[m] + 3mop[m] 
+Duplicate: ILETA_m: akg[m] + ile_L[m]  -> glu_L[m] + 3mop[m] 
+Duplicate reaction is irreversible.
+Round 139 removed 1 reactions.
+Another copy of RMC0011 exists at 3161: RXN909_116_m
+Original: RMC0011: coa[m] + nad[m] + 4mop[m]  -> co2[m] + nadh[m] + ivcoa[m] 
+Duplicate: RXN909_116_m: coa[m] + nad[m] + 4mop[m]  -> co2[m] + nadh[m] + ivcoa[m] 
+Reversibility matches for both.
+Round 140 removed 1 reactions.
+Another copy of RMC0012 exists at 2976: OIVD2_m
+Original: RMC0012: coa[m] + nad[m] + 3mob[m]  -> co2[m] + nadh[m] + ibcoa[m] 
+Duplicate: OIVD2_m: coa[m] + nad[m] + 3mob[m]  <=> co2[m] + nadh[m] + ibcoa[m] 
+Duplicate reaction is reversible.
+Round 141 removed 1 reactions.
+Another copy of RMC0013 exists at 2478: OIVD3_m
+Original: RMC0013: coa[m] + nad[m] + 3mop[m]  -> co2[m] + nadh[m] + 2mbcoa[m] 
+Duplicate: OIVD3_m: coa[m] + nad[m] + 3mop[m]  <=> co2[m] + nadh[m] + 2mbcoa[m] 
+Duplicate reaction is reversible.
+Round 142 removed 1 reactions.
+Another copy of RM04138 exists at 2118: RXN909_37_m
+Original: RM04138: atp[m] + hco3[m] + 3mb2coa[m]  -> h[m] + adp[m] + pi[m] + 3mgcoa[m] 
+Duplicate: RXN909_37_m: atp[m] + hco3[m] + 3mb2coa[m]  -> 2 h[m] + adp[m] + pi[m] + 3mgcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 146 removed 1 reactions.
+Another copy of RM04204 exists at 3123: ECOAH9i_m
+Original: RM04204: h2o[m] + 2mb2coa[m]  <=> 3hmbcoa[m] 
+Duplicate: ECOAH9i_m: h2o[m] + 2mb2coa[m]  -> 3hmbcoa[m] 
+Duplicate reaction is irreversible.
+Round 147 removed 1 reactions.
+Another copy of RM04224 exists at 2013: METHYLACYLYLCOA_HYDROXY_RXN_m
+Original: RM04224: h2o[m] + 2mp2coa[m]  <=> 3hibutcoa[m] 
+Duplicate: METHYLACYLYLCOA_HYDROXY_RXN_m: h2o[m] + 2mp2coa[m]  <=> 3hibutcoa[m] 
+Reversibility matches for both.
+Round 148 removed 1 reactions.
+Another copy of RM05064 exists at 2350: 3_HYDROXYISOBUTYRYL_COA_HYDROLASE_RXN_m
+Original: RM05064: h2o[m] + 3hibutcoa[m]  -> coa[m] + h[m] + 3hmp[m] 
+Duplicate: 3_HYDROXYISOBUTYRYL_COA_HYDROLASE_RXN_m: h2o[m] + 3hibutcoa[m]  <=> coa[m] + h[m] + 3hmp[m] 
+Duplicate reaction is reversible.
+Round 149 removed 1 reactions.
+Another copy of RM04203 exists at 2300: RXN909_15_m
+Original: RM04203: nad[m] + 3hmbcoa[m]  <=> nadh[m] + h[m] + 2maacoa[m] 
+Duplicate: RXN909_15_m: nad[m] + 3hmbcoa[m]  <=> nadh[m] + h[m] + 2maacoa[m] 
+Reversibility matches for both.
+Another copy of RM04203 exists at 2361: HACD9_m
+Original: RM04203: nad[m] + 3hmbcoa[m]  <=> nadh[m] + h[m] + 2maacoa[m] 
+Duplicate: HACD9_m: nad[m] + 3hmbcoa[m]  -> nadh[m] + h[m] + 2maacoa[m] 
+Duplicate reaction is irreversible.
+Round 150 removed 2 reactions.
+Another copy of RM01360 exists at 2696: HMGL_m
+Original: RM01360: hmgcoa[m]  -> accoa[m] + acac[m] 
+Duplicate: HMGL_m: hmgcoa[m]  <=> accoa[m] + acac[m] 
+Duplicate reaction is reversible.
+Round 152 removed 1 reactions.
+Another copy of RM00410 exists at 3006: RXN909_38_m
+Original: RM00410: succoa[m] + acac[m]  <=> succ[m] + aacoa[m] 
+Duplicate: RXN909_38_m: succoa[m] + acac[m]  <=> succ[m] + aacoa[m] 
+Reversibility matches for both.
+Round 153 removed 1 reactions.
+Another copy of RC01978 exists at 2793: HMGCOAS_c
+Original: RC01978: h2o[c] + accoa[c] + aacoa[c]  -> h[c] + coa[c] + hmgcoa[c] 
+Duplicate: HMGCOAS_c: h2o[c] + accoa[c] + aacoa[c]  <=> h[c] + coa[c] + hmgcoa[c] 
+Duplicate reaction is reversible.
+Round 154 removed 1 reactions.
+Another copy of RM00927 exists at 2691: ACACT10_m
+Original: RM00927: coa[m] + 2maacoa[m]  <=> accoa[m] + ppcoa[m] 
+Duplicate: ACACT10_m: coa[m] + 2maacoa[m]  <=> accoa[m] + ppcoa[m] 
+Reversibility matches for both.
+Round 155 removed 1 reactions.
+Another copy of RM01859 exists at 2939: PPCOAC_m
+Original: RM01859: atp[m] + hco3[m] + ppcoa[m]  -> h[m] + adp[m] + pi[m] + mmcoa_S[m] 
+Duplicate: PPCOAC_m: atp[m] + hco3[m] + ppcoa[m]  -> 2 h[m] + adp[m] + pi[m] + mmcoa_S[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 158 removed 1 reactions.
+Another copy of RM02765 exists at 2652: MME_m
+Original: RM02765: mmcoa_R[m]  <=> mmcoa_S[m] 
+Duplicate: MME_m: mmcoa_R[m]  <=> mmcoa_S[m] 
+Reversibility matches for both.
+Round 159 removed 1 reactions.
+Another copy of RM00833 exists at 3217: MMM2_m
+Original: RM00833: mmcoa_R[m]  <=> succoa[m] 
+Duplicate: MMM2_m: mmcoa_R[m]  <=> succoa[m] 
+Reversibility matches for both.
+Round 160 removed 1 reactions.
+Another copy of RMC0014 exists at 2685: 2OXOADOX_m
+Original: RMC0014: coa[m] + nad[m] + 2oxoadp[m]  -> co2[m] + nadh[m] + glutcoa[m] 
+Duplicate: 2OXOADOX_m: coa[m] + nad[m] + 2oxoadp[m]  <=> co2[m] + nadh[m] + glutcoa[m] 
+Duplicate reaction is reversible.
+Round 165 removed 1 reactions.
+Another copy of RM03026 exists at 2641: RXN909_59_m
+Original: RM03026: 3hbcoa[m]  <=> h2o[m] + b2coa[m] 
+Duplicate: RXN909_59_m: h2o[m] + b2coa[m]  <=> 3hbcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 166 removed 1 reactions.
+Another copy of RM01975 exists at 2227: RXN909_60_m
+Original: RM01975: nadh[m] + h[m] + aacoa[m]  <=> nad[m] + 3hbcoa[m] 
+Duplicate: RXN909_60_m: nad[m] + 3hbcoa[m]  <=> nadh[m] + h[m] + aacoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 167 removed 1 reactions.
+Another copy of RC04867 exists at 2600: RXN909_130_c
+Original: RC04867: amet[c] + Ndmelys[c]  -> h[c] + ahcys[c] + Ntmelys[c] 
+Duplicate: RXN909_130_c: amet[c] + Ndmelys[c]  -> h[c] + ahcys[c] + Ntmelys[c] 
+Reversibility matches for both.
+Round 170 removed 1 reactions.
+Another copy of RC03376 exists at 2779: PROCOLLAGEN_LYSINE_5_DIOXYGENASE_RXN_c
+Original: RC03376: akg[c] + o2[c] + pcollglys[c]  <=> co2[c] + pcollg5hlys[c] + succ[c] 
+Duplicate: PROCOLLAGEN_LYSINE_5_DIOXYGENASE_RXN_c: akg[c] + o2[c] + pcollglys[c]  <=> co2[c] + pcollg5hlys[c] + succ[c] 
+Reversibility matches for both.
+Round 171 removed 1 reactions.
+Another copy of RC03283 exists at 2432: TMABADH_c
+Original: RC03283: h2o[c] + nad[c] + 4tmeabut[c]  -> 2 h[c] + nadh[c] + 4tmeabutn[c] 
+Duplicate: TMABADH_c: h2o[c] + nad[c] + 4tmeabut[c]  -> 2 h[c] + nadh[c] + 4tmeabutn[c] 
+Reversibility matches for both.
+Round 172 removed 1 reactions.
+Another copy of RC02397 exists at 2221: BBHOX_c
+Original: RC02397: akg[c] + o2[c] + 4tmeabutn[c]  -> co2[c] + succ[c] + crn[c] 
+Duplicate: BBHOX_c: akg[c] + o2[c] + 4tmeabutn[c]  -> co2[c] + succ[c] + crn[c] 
+Reversibility matches for both.
+Round 173 removed 1 reactions.
+Another copy of RM00667 exists at 2536: ORNITHINE_GLU_AMINOTRANSFORASE_RXN_m
+Original: RM00667: akg[m] + orn[m]  <=> glu_L[m] + glu5sa[m] 
+Duplicate: ORNITHINE_GLU_AMINOTRANSFORASE_RXN_m: akg[m] + orn[m]  <=> glu_L[m] + glu5sa[m] 
+Reversibility matches for both.
+Round 174 removed 1 reactions.
+Another copy of RMC0015 exists at 2485: SPONTPRO_RXN_m
+Original: RMC0015: glu5sa[m]  <=> h2o[m] + h[m] + 1pyr5c[m] 
+Duplicate: SPONTPRO_RXN_m: glu5sa[m]  <=> h2o[m] + h[m] + 1pyr5c[m] 
+Reversibility matches for both.
+Round 175 removed 1 reactions.
+Another copy of RM03313 exists at 3288: G5SD_m
+Original: RM03313: h[m] + nadph[m] + glu5p[m]  -> pi[m] + nadp[m] + glu5sa[m] 
+Duplicate: G5SD_m: pi[m] + nadp[m] + glu5sa[m]  <=> h[m] + nadph[m] + glu5p[m] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 182 removed 1 reactions.
+Another copy of RC01252 exists at 3096: PROAKGOX1_c
+Original: RC01252: akg[c] + o2[c] + pro_L[c]  -> co2[c] + succ[c] + 4hpro_LT[c] 
+Duplicate: PROAKGOX1_c: akg[c] + o2[c] + pro_L[c]  <=> co2[c] + succ[c] + 4hpro_LT[c] 
+Duplicate reaction is reversible.
+Round 184 removed 1 reactions.
+Another copy of RC00670 exists at 2060: RXN909_41_c
+Original: RC00670: h[c] + orn[c]  -> co2[c] + ptrc[c] 
+Duplicate: RXN909_41_c: h[c] + orn[c]  <=> co2[c] + ptrc[c] 
+Duplicate reaction is reversible.
+Another copy of RC00670 exists at 3363: ORNDECARBOX_RXN_c
+Original: RC00670: h[c] + orn[c]  -> co2[c] + ptrc[c] 
+Duplicate: ORNDECARBOX_RXN_c: h[c] + orn[c]  -> co2[c] + ptrc[c] 
+Reversibility matches for both.
+Round 185 removed 2 reactions.
+Another copy of RC03293 exists at 2366: RXN909_192_c
+Original: RC03293: nadp[c] + 4hpro_LT[c]  <=> 2 h[c] + nadph[c] + 1p3h5c[c] 
+Duplicate: RXN909_192_c: nadp[c] + 4hpro_LT[c]  -> h[c] + nadph[c] + 1p3h5c[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 188 removed 1 reactions.
+Another copy of RC00669 exists at 2575: ACETYLORNDEACET_RXN_c
+Original: RC00669: h2o[c] + acorn[c]  <=> ac[c] + orn[c] 
+Duplicate: ACETYLORNDEACET_RXN_c: h2o[c] + acorn[c]  -> ac[c] + orn[c] 
+Duplicate reaction is irreversible.
+Round 194 removed 1 reactions.
+Another copy of RM01251 exists at 3103: RXN909_188_m
+Original: RM01251: 2 h[m] + nadph[m] + 1pyr5c[m]  -> nadp[m] + pro_L[m] 
+Duplicate: RXN909_188_m: nadp[m] + pro_L[m]  <=> 2 h[m] + nadph[m] + 1pyr5c[m] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 195 removed 1 reactions.
+Another copy of RC01251 exists at 3107: RXN909_188_c
+Original: RC01251: 2 h[c] + nadph[c] + 1pyr5c[c]  -> nadp[c] + pro_L[c] 
+Duplicate: RXN909_188_c: nadp[c] + pro_L[c]  <=> 2 h[c] + nadph[c] + 1pyr5c[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 196 removed 1 reactions.
+Another copy of RC01167 exists at 2855: RXN909_42_c
+Original: RC01167: h[c] + his_L[c]  -> co2[c] + hista[c] 
+Duplicate: RXN909_42_c: h[c] + his_L[c]  -> co2[c] + hista[c] 
+Reversibility matches for both.
+Round 199 removed 1 reactions.
+Another copy of RM00734 exists at 2869: TYRTA_m
+Original: RM00734: akg[m] + tyr_L[m]  <=> glu_L[m] + 34hpp[m] 
+Duplicate: TYRTA_m: akg[m] + tyr_L[m]  <=> glu_L[m] + 34hpp[m] 
+Reversibility matches for both.
+Round 200 removed 1 reactions.
+Another copy of RC00734 exists at 2856: TYRTA_c
+Original: RC00734: akg[c] + tyr_L[c]  <=> glu_L[c] + 34hpp[c] 
+Duplicate: TYRTA_c: akg[c] + tyr_L[c]  <=> glu_L[c] + 34hpp[c] 
+Reversibility matches for both.
+Round 201 removed 1 reactions.
+Another copy of RC02521 exists at 3298: 34HPPOR_c
+Original: RC02521: o2[c] + 34hpp[c]  -> co2[c] + hgentis[c] 
+Duplicate: 34HPPOR_c: o2[c] + 34hpp[c]  -> co2[c] + hgentis[c] 
+Reversibility matches for both.
+Round 202 removed 1 reactions.
+Another copy of RC02519 exists at 2441: HGNTOR_c
+Original: RC02519: o2[c] + hgentis[c]  -> h[c] + 4mlacac[c] 
+Duplicate: HGNTOR_c: o2[c] + hgentis[c]  -> h[c] + 4mlacac[c] 
+Reversibility matches for both.
+Round 203 removed 1 reactions.
+Another copy of RC03181 exists at 2365: MACACI_c
+Original: RC03181: 4mlacac[c]  -> 4fumacac[c] 
+Duplicate: MACACI_c: 4mlacac[c]  <=> 4fumacac[c] 
+Duplicate reaction is reversible.
+Round 204 removed 1 reactions.
+Another copy of RC01364 exists at 2299: FUMAC_c
+Original: RC01364: h2o[c] + 4fumacac[c]  -> h[c] + fum[c] + acac[c] 
+Duplicate: FUMAC_c: h2o[c] + 4fumacac[c]  <=> h[c] + fum[c] + acac[c] 
+Duplicate reaction is reversible.
+Round 205 removed 1 reactions.
+Another copy of RC02078 exists at 2647: RXN909_19_c
+Original: RC02078: o2[c] + 2 34dhphe[c]  -> 2 h2o[c] + 2 dopaqn[c] 
+Duplicate: RXN909_19_c: o2[c] + 2 34dhphe[c]  -> 2 h2o[c] + 2 dopaqn[c] 
+Reversibility matches for both.
+Round 207 removed 1 reactions.
+Another copy of RC02080 exists at 2537: 3HLYTCL_c
+Original: RC02080: h[c] + 34dhphe[c]  -> co2[c] + dopa[c] 
+Duplicate: 3HLYTCL_c: h[c] + 34dhphe[c]  <=> co2[c] + dopa[c] 
+Duplicate reaction is reversible.
+Round 210 removed 1 reactions.
+Another copy of RC00736 exists at 3070: TYRCBOX_c
+Original: RC00736: h[c] + tyr_L[c]  -> co2[c] + tym[c] 
+Duplicate: TYRCBOX_c: h[c] + tyr_L[c]  -> co2[c] + tym[c] 
+Reversibility matches for both.
+Round 211 removed 1 reactions.
+Another copy of RC07211 exists at 1989: PHENYLALANINE_4_MONOOXYGENASE_RXN_c
+Original: RC07211: o2[c] + phe_L[c] + thbpt[c]  -> tyr_L[c] + thbpt4acam[c] 
+Duplicate: PHENYLALANINE_4_MONOOXYGENASE_RXN_c: o2[c] + phe_L[c] + thbpt[c]  -> tyr_L[c] + thbpt4acam[c] 
+Reversibility matches for both.
+Round 213 removed 1 reactions.
+Another copy of RC00694 exists at 2083: RXN909_57_c
+Original: RC00694: akg[c] + phe_L[c]  <=> glu_L[c] + phpyr[c] 
+Duplicate: RXN909_57_c: akg[c] + phe_L[c]  <=> glu_L[c] + phpyr[c] 
+Reversibility matches for both.
+Another copy of RC00694 exists at 2572: PHEAMINOTRANS_DEG_RXN_c
+Original: RC00694: akg[c] + phe_L[c]  <=> glu_L[c] + phpyr[c] 
+Duplicate: PHEAMINOTRANS_DEG_RXN_c: glu_L[c] + phpyr[c]  <=> akg[c] + phe_L[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 215 removed 2 reactions.
+Another copy of RC01372 exists at 3260: RXN909_55_c
+Original: RC01372: o2[c] + phpyr[c]  -> co2[c] + 2hyoxplac[c] 
+Duplicate: RXN909_55_c: o2[c] + phpyr[c]  -> co2[c] + 2hyoxplac[c] 
+Reversibility matches for both.
+Round 216 removed 1 reactions.
+Another copy of RC01960 exists at 2134: KYN3OX_c
+Original: RC01960: h[c] + nadph[c] + o2[c] + Lkynr[c]  -> h2o[c] + nadp[c] + hLkynr[c] 
+Duplicate: KYN3OX_c: h[c] + nadph[c] + o2[c] + Lkynr[c]  -> h2o[c] + nadp[c] + hLkynr[c] 
+Reversibility matches for both.
+Round 225 removed 1 reactions.
+Another copy of RC02665 exists at 3275: 3HAO_c
+Original: RC02665: o2[c] + 3hanthrn[c]  -> h[c] + cmusa[c] 
+Duplicate: 3HAO_c: o2[c] + 3hanthrn[c]  -> h[c] + cmusa[c] 
+Reversibility matches for both.
+Round 229 removed 1 reactions.
+Another copy of RC04323 exists at 2243: PCLAD_c
+Original: RC04323: h[c] + cmusa[c]  -> co2[c] + am6sa[c] 
+Duplicate: PCLAD_c: h[c] + cmusa[c]  -> co2[c] + am6sa[c] 
+Reversibility matches for both.
+Round 231 removed 1 reactions.
+Another copy of RC00842 exists at 2458: G3PD1_c
+Original: RC00842: h[c] + dhap[c] + nadh[c]  <=> nad[c] + glyc3p[c] 
+Duplicate: G3PD1_c: h[c] + dhap[c] + nadh[c]  -> nad[c] + glyc3p[c] 
+Duplicate reaction is irreversible.
+Round 232 removed 1 reactions.
+Another copy of RC01013 exists at 2351: 2_3_1_42_RXN_c
+Original: RC01013: dhap[c] + Rtotalcoa[c]  -> coa[c] + adhap[c] 
+Duplicate: 2_3_1_42_RXN_c: dhap[c] + Rtotalcoa[c]  <=> coa[c] + adhap[c] 
+Duplicate reaction is reversible.
+Round 234 removed 1 reactions.
+Another copy of RC01030 exists at 2938: GLYCPDIESTER_RXN_c
+Original: RC01030: h2o[c] + g3pc[c]  -> h[c] + glyc3p[c] + chol[c] 
+Duplicate: GLYCPDIESTER_RXN_c: h2o[c] + g3pc[c]  -> h[c] + glyc3p[c] + chol[c] 
+Reversibility matches for both.
+Round 241 removed 1 reactions.
+Another copy of RC01023 exists at 2496: CHAT_c
+Original: RC01023: accoa[c] + chol[c]  <=> coa[c] + ach[c] 
+Duplicate: CHAT_c: accoa[c] + chol[c]  <=> coa[c] + ach[c] 
+Reversibility matches for both.
+Round 242 removed 1 reactions.
+Another copy of RC01026 exists at 2360: ACHE_c
+Original: RC01026: h2o[c] + ach[c]  -> h[c] + ac[c] + chol[c] 
+Duplicate: ACHE_c: h2o[c] + ach[c]  <=> h[c] + ac[c] + chol[c] 
+Duplicate reaction is reversible.
+Round 243 removed 1 reactions.
+Another copy of RC01021 exists at 3004: CHOLK_c
+Original: RC01021: atp[c] + chol[c]  -> adp[c] + h[c] + cholp[c] 
+Duplicate: CHOLK_c: atp[c] + chol[c]  -> adp[c] + h[c] + cholp[c] 
+Reversibility matches for both.
+Round 244 removed 1 reactions.
+Another copy of RC01890 exists at 2646: CHLPCTD_c
+Original: RC01890: h[c] + cholp[c] + ctp[c]  <=> ppi[c] + cdpchol[c] 
+Duplicate: CHLPCTD_c: h[c] + cholp[c] + ctp[c]  -> ppi[c] + cdpchol[c] 
+Duplicate reaction is irreversible.
+Round 245 removed 1 reactions.
+Another copy of RC07377 exists at 3177: RXN_10638_c
+Original: RC07377: ser_L[c] + pchol[c]  <=> chol[c] + ps[c] 
+Duplicate: RXN_10638_c: ser_L[c] + pchol[c]  -> chol[c] + ps[c] 
+Duplicate reaction is irreversible.
+Round 250 removed 1 reactions.
+Another copy of RC02038 exists at 2694: PETHCT_c
+Original: RC02038: h[c] + ctp[c] + ethamp[c]  <=> ppi[c] + cdpea[c] 
+Duplicate: PETHCT_c: h[c] + ctp[c] + ethamp[c]  -> ppi[c] + cdpea[c] 
+Duplicate reaction is irreversible.
+Round 252 removed 1 reactions.
+Another copy of RC01468 exists at 3315: ETHAK_c
+Original: RC01468: atp[c] + etha[c]  -> adp[c] + h[c] + ethamp[c] 
+Duplicate: ETHAK_c: atp[c] + etha[c]  -> adp[c] + h[c] + ethamp[c] 
+Reversibility matches for both.
+Round 253 removed 1 reactions.
+Another copy of RC01036 exists at 3205: RXN909_107_c
+Original: RC01036: h[c] + nadh[c] + glyald[c]  <=> nad[c] + glyc[c] 
+Duplicate: RXN909_107_c: h[c] + nadh[c] + glyald[c]  -> nad[c] + glyc[c] 
+Duplicate reaction is irreversible.
+Round 265 removed 1 reactions.
+Another copy of RC00847 exists at 2757: GLYK_c
+Original: RC00847: atp[c] + glyc[c]  -> adp[c] + h[c] + glyc3p[c] 
+Duplicate: GLYK_c: atp[c] + glyc[c]  -> adp[c] + 2 h[c] + glyc3p[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 267 removed 1 reactions.
+Another copy of RC01011 exists at 2690: DHAK_c
+Original: RC01011: atp[c] + dha[c]  -> adp[c] + h[c] + dhap[c] 
+Duplicate: DHAK_c: atp[c] + dha[c]  -> adp[c] + 2 h[c] + dhap[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 269 removed 1 reactions.
+Another copy of RM04738 exists at 3295: RXN909_64_m
+Original: RM04738: 3hhdcoa[m]  <=> h2o[m] + hdd2coa[m] 
+Duplicate: RXN909_64_m: 3hhdcoa[m]  <=> h2o[m] + hdd2coa[m] 
+Reversibility matches for both.
+Round 274 removed 1 reactions.
+Another copy of RM04737 exists at 2623: RXN909_65_m
+Original: RM04737: nadh[m] + h[m] + 3ohdcoa[m]  <=> nad[m] + 3hhdcoa[m] 
+Duplicate: RXN909_65_m: nad[m] + 3hhdcoa[m]  <=> nadh[m] + h[m] + 3ohdcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of RM04737 exists at 3086: RXN909_66_m
+Original: RM04737: nadh[m] + h[m] + 3ohdcoa[m]  <=> nad[m] + 3hhdcoa[m] 
+Duplicate: RXN909_66_m: nad[m] + 3hhdcoa[m]  <=> nadh[m] + h[m] + 3ohdcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 275 removed 2 reactions.
+Another copy of RM03991 exists at 2224: RXN909_68_m
+Original: RM03991: coa[m] + 3ohdcoa[m]  <=> accoa[m] + tdcoa[m] 
+Duplicate: RXN909_68_m: accoa[m] + tdcoa[m]  <=> coa[m] + 3ohdcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 276 removed 1 reactions.
+Another copy of RM04740 exists at 2281: RXN909_71_m
+Original: RM04740: 3htdcoa[m]  <=> h2o[m] + td2coa[m] 
+Duplicate: RXN909_71_m: 3htdcoa[m]  <=> h2o[m] + td2coa[m] 
+Reversibility matches for both.
+Round 278 removed 1 reactions.
+Another copy of RM04739 exists at 2966: RXN909_74_m
+Original: RM04739: nadh[m] + h[m] + 3otdcoa[m]  <=> nad[m] + 3htdcoa[m] 
+Duplicate: RXN909_74_m: nad[m] + 3htdcoa[m]  -> nadh[m] + h[m] + 3otdcoa[m] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Another copy of RM04739 exists at 3204: RXN909_75_m
+Original: RM04739: nadh[m] + h[m] + 3otdcoa[m]  <=> nad[m] + 3htdcoa[m] 
+Duplicate: RXN909_75_m: nad[m] + 3htdcoa[m]  <=> nadh[m] + h[m] + 3otdcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 279 removed 2 reactions.
+Another copy of RM03858 exists at 2566: RXN909_76_m
+Original: RM03858: coa[m] + 3otdcoa[m]  <=> accoa[m] + ddcacoa[m] 
+Duplicate: RXN909_76_m: accoa[m] + ddcacoa[m]  <=> coa[m] + 3otdcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 280 removed 1 reactions.
+Another copy of RM04170 exists at 2857: RXN909_83_m
+Original: RM04170: 3hddcoa[m]  <=> h2o[m] + dd2coa[m] 
+Duplicate: RXN909_83_m: 3hddcoa[m]  <=> h2o[m] + dd2coa[m] 
+Reversibility matches for both.
+Round 282 removed 1 reactions.
+Another copy of RM04741 exists at 2294: RXN909_73_m
+Original: RM04741: nadh[m] + h[m] + 3oddcoa[m]  <=> nad[m] + 3hddcoa[m] 
+Duplicate: RXN909_73_m: nad[m] + 3hddcoa[m]  <=> nadh[m] + h[m] + 3oddcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of RM04741 exists at 2958: RXN909_72_m
+Original: RM04741: nadh[m] + h[m] + 3oddcoa[m]  <=> nad[m] + 3hddcoa[m] 
+Duplicate: RXN909_72_m: nad[m] + 3hddcoa[m]  <=> nadh[m] + h[m] + 3oddcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 283 removed 2 reactions.
+Another copy of RM04742 exists at 2091: RXN909_84_m
+Original: RM04742: coa[m] + 3oddcoa[m]  <=> accoa[m] + dcacoa[m] 
+Duplicate: RXN909_84_m: accoa[m] + dcacoa[m]  <=> coa[m] + 3oddcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 284 removed 1 reactions.
+Another copy of RM04744 exists at 2862: RXN909_87_m
+Original: RM04744: 3hdcoa[m]  <=> h2o[m] + dc2coa[m] 
+Duplicate: RXN909_87_m: 3hdcoa[m]  <=> h2o[m] + dc2coa[m] 
+Reversibility matches for both.
+Round 286 removed 1 reactions.
+Another copy of RM04743 exists at 2496: RXN909_89_m
+Original: RM04743: nadh[m] + h[m] + 3odcoa[m]  <=> nad[m] + 3hdcoa[m] 
+Duplicate: RXN909_89_m: nad[m] + 3hdcoa[m]  <=> nadh[m] + h[m] + 3odcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of RM04743 exists at 3051: RXN909_88_m
+Original: RM04743: nadh[m] + h[m] + 3odcoa[m]  <=> nad[m] + 3hdcoa[m] 
+Duplicate: RXN909_88_m: nad[m] + 3hdcoa[m]  <=> nadh[m] + h[m] + 3odcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 287 removed 2 reactions.
+Another copy of RM03778 exists at 3143: RXN909_90_m
+Original: RM03778: coa[m] + 3odcoa[m]  <=> accoa[m] + occoa[m] 
+Duplicate: RXN909_90_m: accoa[m] + occoa[m]  <=> coa[m] + 3odcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 288 removed 1 reactions.
+Another copy of RM04746 exists at 2142: RXN909_93_m
+Original: RM04746: 3hocoa[m]  <=> h2o[m] + oc2coa[m] 
+Duplicate: RXN909_93_m: 3hocoa[m]  <=> h2o[m] + oc2coa[m] 
+Reversibility matches for both.
+Round 290 removed 1 reactions.
+Another copy of RM04745 exists at 2349: RXN909_95_m
+Original: RM04745: nadh[m] + h[m] + 3oocoa[m]  <=> nad[m] + 3hocoa[m] 
+Duplicate: RXN909_95_m: nad[m] + 3hocoa[m]  <=> nadh[m] + h[m] + 3oocoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of RM04745 exists at 3103: RXN909_94_m
+Original: RM04745: nadh[m] + h[m] + 3oocoa[m]  <=> nad[m] + 3hocoa[m] 
+Duplicate: RXN909_94_m: nad[m] + 3hocoa[m]  <=> nadh[m] + h[m] + 3oocoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 291 removed 2 reactions.
+Another copy of RM04747 exists at 3090: RXN909_96_m
+Original: RM04747: coa[m] + 3oocoa[m]  <=> accoa[m] + hxcoa[m] 
+Duplicate: RXN909_96_m: accoa[m] + hxcoa[m]  <=> coa[m] + 3oocoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 292 removed 1 reactions.
+Another copy of RM04749 exists at 2389: RXN909_99_m
+Original: RM04749: 3hhcoa[m]  <=> h2o[m] + hx2coa[m] 
+Duplicate: RXN909_99_m: 3hhcoa[m]  <=> h2o[m] + hx2coa[m] 
+Reversibility matches for both.
+Round 294 removed 1 reactions.
+Another copy of RM04748 exists at 2566: RXN909_100_m
+Original: RM04748: nadh[m] + h[m] + 3ohcoa[m]  <=> nad[m] + 3hhcoa[m] 
+Duplicate: RXN909_100_m: nad[m] + 3hhcoa[m]  <=> nadh[m] + h[m] + 3ohcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of RM04748 exists at 3230: RXN909_101_m
+Original: RM04748: nadh[m] + h[m] + 3ohcoa[m]  <=> nad[m] + 3hhcoa[m] 
+Duplicate: RXN909_101_m: nad[m] + 3hhcoa[m]  <=> nadh[m] + h[m] + 3ohcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 295 removed 2 reactions.
+Another copy of RM01177 exists at 2535: RXN909_102_m
+Original: RM01177: coa[m] + 3ohcoa[m]  <=> accoa[m] + btcoa[m] 
+Duplicate: RXN909_102_m: accoa[m] + btcoa[m]  <=> coa[m] + 3ohcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of RM01177 exists at 3159: RXN909_103_m
+Original: RM01177: coa[m] + 3ohcoa[m]  <=> accoa[m] + btcoa[m] 
+Duplicate: RXN909_103_m: accoa[m] + btcoa[m]  <=> coa[m] + 3ohcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 296 removed 2 reactions.
+Another copy of RM01923 exists at 2530: RXN909_104_m
+Original: RM01923: coa[m] + pmtcrn[m]  -> pmtcoa[m] + crn[m] 
+Duplicate: RXN909_104_m: pmtcoa[m] + crn[m]  <=> coa[m] + pmtcrn[m] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 299 removed 1 reactions.
+Another copy of RC01923 exists at 2523: RXN909_104_c
+Original: RC01923: crn[c] + pmtcoa[c]  -> coa[c] + pmtcrn[c] 
+Duplicate: RXN909_104_c: crn[c] + pmtcoa[c]  <=> coa[c] + pmtcrn[c] 
+Duplicate reaction is reversible.
+Round 300 removed 1 reactions.
+Another copy of RM06985 exists at 2260: RXN909_324_m
+Original: RM06985: h[m] + nadph[m] + hx2coa[m]  -> nadp[m] + hxcoa[m] 
+Duplicate: RXN909_324_m: nadp[m] + hx2coa[m]  -> h[m] + nadph[m] + hxcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 301 removed 1 reactions.
+Another copy of RM03776 exists at 2690: RXN909_325_m
+Original: RM03776: h[m] + nadph[m] + oc2coa[m]  -> nadp[m] + occoa[m] 
+Duplicate: RXN909_325_m: nadp[m] + oc2coa[m]  -> h[m] + nadph[m] + occoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 302 removed 1 reactions.
+Another copy of RM04753 exists at 2094: RXN909_326_m
+Original: RM04753: h[m] + nadph[m] + dc2coa[m]  -> nadp[m] + dcacoa[m] 
+Duplicate: RXN909_326_m: nadp[m] + dc2coa[m]  -> h[m] + nadph[m] + dcacoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 303 removed 1 reactions.
+Another copy of RM03856 exists at 2684: RXN909_327_m
+Original: RM03856: h[m] + nadph[m] + dd2coa[m]  -> nadp[m] + ddcacoa[m] 
+Duplicate: RXN909_327_m: nadp[m] + dd2coa[m]  -> h[m] + nadph[m] + ddcacoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 304 removed 1 reactions.
+Another copy of RM03989 exists at 2244: RXN909_328_m
+Original: RM03989: h[m] + nadph[m] + td2coa[m]  -> nadp[m] + tdcoa[m] 
+Duplicate: RXN909_328_m: nadp[m] + td2coa[m]  -> h[m] + nadph[m] + tdcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 305 removed 1 reactions.
+Another copy of RM01278 exists at 2387: RXN909_329_m
+Original: RM01278: h[m] + nadph[m] + hdd2coa[m]  -> nadp[m] + pmtcoa[m] 
+Duplicate: RXN909_329_m: nadp[m] + hdd2coa[m]  -> h[m] + nadph[m] + pmtcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 306 removed 1 reactions.
+Another copy of RCC0019 exists at 3046: ACCOAC_c
+Original: RCC0019: atp[c] + accoa[c] + hco3[c]  <=> adp[c] + h[c] + pi[c] + malcoa[c] 
+Duplicate: ACCOAC_c: atp[c] + accoa[c] + hco3[c]  -> adp[c] + 2 h[c] + pi[c] + malcoa[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 307 removed 1 reactions.
+Another copy of RM02085 exists at 2985: MGCH_m
+Original: RM02085: h2o[m] + 3mgcoa[m]  <=> hmgcoa[m] 
+Duplicate: MGCH_m: hmgcoa[m]  <=> h2o[m] + 3mgcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 309 removed 1 reactions.
+Another copy of RM01939 exists at 2322: AATA_m
+Original: RM01939: akg[m] + L2aadp[m]  <=> glu_L[m] + 2oxoadp[m] 
+Duplicate: AATA_m: akg[m] + L2aadp[m]  <=> glu_L[m] + 2oxoadp[m] 
+Reversibility matches for both.
+Round 310 removed 1 reactions.
+Another copy of RC01959 exists at 2095: FKYNH_c
+Original: RC01959: h2o[c] + Lfmkynr[c]  -> h[c] + for[c] + Lkynr[c] 
+Duplicate: FKYNH_c: h2o[c] + Lfmkynr[c]  -> 3 h[c] + for[c] + Lkynr[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 314 removed 1 reactions.
+Another copy of RC03889 exists at 2311: AM6SAD_c
+Original: RC03889: h2o[c] + nad[c] + am6sa[c]  -> 2 h[c] + nadh[c] + amuco[c] 
+Duplicate: AM6SAD_c: h2o[c] + nad[c] + am6sa[c]  -> 2 h[c] + nadh[c] + amuco[c] 
+Reversibility matches for both.
+Round 320 removed 1 reactions.
+Another copy of RC04144 exists at 2763: PRAGS_c
+Original: RC04144: atp[c] + pram[c] + gly[c]  <=> adp[c] + h[c] + pi[c] + gar[c] 
+Duplicate: PRAGS_c: atp[c] + pram[c] + gly[c]  -> adp[c] + 2 h[c] + pi[c] + gar[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 323 removed 1 reactions.
+Another copy of RC04325 exists at 2756: GARFT_c
+Original: RC04325: gar[c] + 10fthf[c]  <=> h[c] + thf[c] + fgam[c] 
+Duplicate: GARFT_c: gar[c] + 10fthf[c]  <=> h[c] + thf[c] + fgam[c] 
+Reversibility matches for both.
+Round 324 removed 1 reactions.
+Another copy of RC04463 exists at 2732: PRFGS_c
+Original: RC04463: atp[c] + h2o[c] + gln_L[c] + fgam[c]  -> adp[c] + h[c] + pi[c] + glu_L[c] + fpram[c] 
+Duplicate: PRFGS_c: atp[c] + h2o[c] + gln_L[c] + fgam[c]  -> adp[c] + 2 h[c] + pi[c] + glu_L[c] + fpram[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 325 removed 1 reactions.
+Another copy of RC04208 exists at 3056: PRAIS_c
+Original: RC04208: atp[c] + fpram[c]  -> adp[c] + 2 h[c] + pi[c] + air[c] 
+Duplicate: PRAIS_c: atp[c] + fpram[c]  -> adp[c] + 2 h[c] + pi[c] + air[c] 
+Reversibility matches for both.
+Round 326 removed 1 reactions.
+Another copy of RC04209 exists at 3285: AIRC_c
+Original: RC04209: co2[c] + air[c]  <=> h[c] + 5aizc[c] 
+Duplicate: AIRC_c: 2 h[c] + 5aizc[c]  <=> co2[c] + air[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 327 removed 1 reactions.
+Another copy of RC04559 exists at 2449: ADSL2_c
+Original: RC04559: 25aics[c]  <=> fum[c] + aicar[c] 
+Duplicate: ADSL2_c: 25aics[c]  <=> fum[c] + aicar[c] 
+Reversibility matches for both.
+Round 329 removed 1 reactions.
+Another copy of RC04560 exists at 3145: AICART_c
+Original: RC04560: 10fthf[c] + aicar[c]  <=> thf[c] + fprica[c] 
+Duplicate: AICART_c: 10fthf[c] + aicar[c]  <=> thf[c] + fprica[c] 
+Reversibility matches for both.
+Round 330 removed 1 reactions.
+Another copy of RC01127 exists at 2816: IMPC_c
+Original: RC01127: h2o[c] + imp[c]  <=> fprica[c] 
+Duplicate: IMPC_c: h2o[c] + imp[c]  <=> fprica[c] 
+Reversibility matches for both.
+Round 331 removed 1 reactions.
+Another copy of RC01126 exists at 2641: NTD11_c
+Original: RC01126: h2o[c] + imp[c]  -> pi[c] + ins[c] 
+Duplicate: NTD11_c: h2o[c] + imp[c]  <=> pi[c] + ins[c] 
+Duplicate reaction is reversible.
+Round 332 removed 1 reactions.
+Another copy of RC01863 exists at 2175: PUNP5_c
+Original: RC01863: pi[c] + ins[c]  <=> r1p[c] + hxan[c] 
+Duplicate: PUNP5_c: pi[c] + ins[c]  <=> r1p[c] + hxan[c] 
+Reversibility matches for both.
+Round 333 removed 1 reactions.
+Another copy of RC01132 exists at 2249: HXPRT_c
+Original: RC01132: prpp[c] + hxan[c]  -> ppi[c] + imp[c] 
+Duplicate: HXPRT_c: ppi[c] + imp[c]  <=> prpp[c] + hxan[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 334 removed 1 reactions.
+Another copy of RC00185 exists at 2766: ADNK1_c
+Original: RC00185: atp[c] + adn[c]  -> adp[c] + h[c] + amp[c] 
+Duplicate: ADNK1_c: atp[c] + adn[c]  -> adp[c] + 2 h[c] + amp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 335 removed 1 reactions.
+Another copy of RC00183 exists at 2283: NTD7_c
+Original: RC00183: amp[c] + h2o[c]  -> pi[c] + adn[c] 
+Duplicate: NTD7_c: amp[c] + h2o[c]  <=> pi[c] + adn[c] 
+Duplicate reaction is reversible.
+Round 336 removed 1 reactions.
+Another copy of RC01561 exists at 2900: PUNP1_c
+Original: RC01561: pi[c] + adn[c]  <=> r1p[c] + ade[c] 
+Duplicate: PUNP1_c: pi[c] + adn[c]  <=> r1p[c] + ade[c] 
+Reversibility matches for both.
+Round 337 removed 1 reactions.
+Another copy of RC00190 exists at 2908: ADPT_c
+Original: RC00190: prpp[c] + ade[c]  -> amp[c] + ppi[c] 
+Duplicate: ADPT_c: prpp[c] + ade[c]  -> amp[c] + ppi[c] 
+Reversibility matches for both.
+Round 338 removed 1 reactions.
+Another copy of RC02748 exists at 2457: DEOXYINOPHOSPHOR_RXN_c
+Original: RC02748: pi[c] + din[c]  <=> hxan[c] + 2dr1p[c] 
+Duplicate: DEOXYINOPHOSPHOR_RXN_c: pi[c] + din[c]  <=> hxan[c] + 2dr1p[c] 
+Reversibility matches for both.
+Round 339 removed 1 reactions.
+Another copy of RC02557 exists at 2291: DEOXYADENPHOSPHOR_RXN_c
+Original: RC02557: pi[c] + dad_2[c]  <=> ade[c] + 2dr1p[c] 
+Duplicate: DEOXYADENPHOSPHOR_RXN_c: ade[c] + 2dr1p[c]  <=> pi[c] + dad_2[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 340 removed 1 reactions.
+Another copy of RC02088 exists at 2585: RXN909_247_c
+Original: RC02088: h2o[c] + damp[c]  -> pi[c] + dad_2[c] 
+Duplicate: RXN909_247_c: pi[c] + dad_2[c]  -> h2o[c] + damp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 341 removed 1 reactions.
+Another copy of RC02017 exists at 2081: RNDR1_c
+Original: RC02017: adp[c] + trdrd[c]  -> h2o[c] + dadp[c] + trdox[c] 
+Duplicate: RNDR1_c: h2o[c] + dadp[c] + trdox[c]  <=> adp[c] + 2 trdrd[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 343 removed 1 reactions.
+Another copy of RC01137 exists at 2497: NDPK8_c
+Original: RC01137: atp[c] + dadp[c]  <=> adp[c] + datp[c] 
+Duplicate: NDPK8_c: atp[c] + dadp[c]  -> adp[c] + datp[c] 
+Duplicate reaction is irreversible.
+Round 345 removed 1 reactions.
+Another copy of RC00191 exists at 2094: RXN909_182_c
+Original: RC00191: h2o[c] + camp[c]  -> h[c] + amp[c] 
+Duplicate: RXN909_182_c: h2o[c] + camp[c]  -> h[c] + amp[c] 
+Reversibility matches for both.
+Round 347 removed 1 reactions.
+Another copy of RC00509 exists at 2128: ADSK_c
+Original: RC00509: atp[c] + aps[c]  <=> adp[c] + h[c] + paps[c] 
+Duplicate: ADSK_c: atp[c] + aps[c]  -> adp[c] + 2 h[c] + paps[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 348 removed 1 reactions.
+Another copy of RC00961 exists at 2119: RXN909_249_c
+Original: RC00961: h2o[c] + idp[c]  <=> h[c] + pi[c] + imp[c] 
+Duplicate: RXN909_249_c: h[c] + pi[c] + imp[c]  -> h2o[c] + idp[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 350 removed 1 reactions.
+Another copy of RC01130 exists at 2903: IMPD_c
+Original: RC01130: h2o[c] + nad[c] + imp[c]  -> h[c] + nadh[c] + xmp[c] 
+Duplicate: IMPD_c: h2o[c] + nad[c] + imp[c]  <=> h[c] + nadh[c] + xmp[c] 
+Duplicate reaction is reversible.
+Round 354 removed 1 reactions.
+Another copy of RC01231 exists at 2484: GMPS2_c
+Original: RC01231: atp[c] + h2o[c] + gln_L[c] + xmp[c]  -> 2 h[c] + amp[c] + ppi[c] + glu_L[c] + gmp[c] 
+Duplicate: GMPS2_c: atp[c] + h2o[c] + gln_L[c] + xmp[c]  -> 3 h[c] + amp[c] + ppi[c] + glu_L[c] + gmp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 356 removed 1 reactions.
+Another copy of RC02719 exists at 3059: NTD10_c
+Original: RC02719: h2o[c] + xmp[c]  -> pi[c] + xtsn[c] 
+Duplicate: NTD10_c: h2o[c] + xmp[c]  <=> pi[c] + xtsn[c] 
+Duplicate reaction is reversible.
+Round 357 removed 1 reactions.
+Another copy of RC02297 exists at 2933: PUNP7_c
+Original: RC02297: pi[c] + xtsn[c]  <=> r1p[c] + xan[c] 
+Duplicate: PUNP7_c: pi[c] + xtsn[c]  <=> r1p[c] + xan[c] 
+Reversibility matches for both.
+Round 358 removed 1 reactions.
+Another copy of RC02142 exists at 2448: XPPT_c
+Original: RC02142: prpp[c] + xan[c]  -> ppi[c] + xmp[c] 
+Duplicate: XPPT_c: ppi[c] + xmp[c]  <=> prpp[c] + xan[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 359 removed 1 reactions.
+Another copy of RC02103 exists at 2254: XAND_c
+Original: RC02103: h2o[c] + nad[c] + xan[c]  <=> h[c] + nadh[c] + urate[c] 
+Duplicate: XAND_c: h2o[c] + nad[c] + xan[c]  <=> h[c] + nadh[c] + urate[c] 
+Reversibility matches for both.
+Round 360 removed 1 reactions.
+Another copy of RC01768 exists at 2612: HXAND_c
+Original: RC01768: h2o[c] + nad[c] + hxan[c]  -> h[c] + nadh[c] + xan[c] 
+Duplicate: HXAND_c: h2o[c] + nad[c] + hxan[c]  <=> h[c] + nadh[c] + xan[c] 
+Duplicate reaction is reversible.
+Round 362 removed 1 reactions.
+Another copy of RC01227 exists at 2110: NTD9_c
+Original: RC01227: h2o[c] + gmp[c]  -> pi[c] + gsn[c] 
+Duplicate: NTD9_c: h2o[c] + gmp[c]  <=> pi[c] + gsn[c] 
+Duplicate reaction is reversible.
+Round 364 removed 1 reactions.
+Another copy of RC02147 exists at 3010: PUNP3_c
+Original: RC02147: pi[c] + gsn[c]  <=> r1p[c] + gua[c] 
+Duplicate: PUNP3_c: pi[c] + gsn[c]  <=> r1p[c] + gua[c] 
+Reversibility matches for both.
+Round 365 removed 1 reactions.
+Another copy of RC01229 exists at 2314: GUAPRT_c
+Original: RC01229: prpp[c] + gua[c]  -> ppi[c] + gmp[c] 
+Duplicate: GUAPRT_c: prpp[c] + gua[c]  <=> ppi[c] + gmp[c] 
+Duplicate reaction is reversible.
+Round 366 removed 1 reactions.
+Another copy of RC01969 exists at 3130: DEOXYGUANPHOSPHOR_RXN_c
+Original: RC01969: pi[c] + dgsn[c]  <=> 2dr1p[c] + gua[c] 
+Duplicate: DEOXYGUANPHOSPHOR_RXN_c: pi[c] + dgsn[c]  <=> 2dr1p[c] + gua[c] 
+Reversibility matches for both.
+Round 367 removed 1 reactions.
+Another copy of RC00328 exists at 2352: NDP3_c
+Original: RC00328: h2o[c] + gdp[c]  -> h[c] + pi[c] + gmp[c] 
+Duplicate: NDP3_c: h2o[c] + gdp[c]  -> h[c] + pi[c] + gmp[c] 
+Reversibility matches for both.
+Round 369 removed 1 reactions.
+Another copy of RC02019 exists at 2384: RNDR2_c
+Original: RC02019: gdp[c] + trdrd[c]  -> h2o[c] + trdox[c] + dgdp[c] 
+Duplicate: RNDR2_c: gdp[c] + 2 trdrd[c]  -> h2o[c] + trdox[c] + dgdp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 371 removed 1 reactions.
+Another copy of RC00434 exists at 3236: GUACYC_c
+Original: RC00434: gtp[c]  -> ppi[c] + 35cgmp[c] 
+Duplicate: GUACYC_c: gtp[c]  <=> ppi[c] + 35cgmp[c] 
+Duplicate reaction is reversible.
+Round 377 removed 1 reactions.
+Another copy of RC01234 exists at 2382: PDE4_c
+Original: RC01234: h2o[c] + 35cgmp[c]  -> h[c] + gmp[c] 
+Duplicate: PDE4_c: h2o[c] + 35cgmp[c]  -> h[c] + gmp[c] 
+Reversibility matches for both.
+Round 379 removed 1 reactions.
+Another copy of RC01993 exists at 2743: DHORTS_c
+Original: RC01993: h2o[c] + dhor_S[c]  <=> h[c] + cbasp[c] 
+Duplicate: DHORTS_c: h2o[c] + dhor_S[c]  <=> h[c] + cbasp[c] 
+Reversibility matches for both.
+Round 380 removed 1 reactions.
+Another copy of RC01870 exists at 2366: ORPT_c
+Original: RC01870: ppi[c] + orot5p[c]  <=> prpp[c] + orot[c] 
+Duplicate: ORPT_c: ppi[c] + orot5p[c]  <=> prpp[c] + orot[c] 
+Reversibility matches for both.
+Round 382 removed 1 reactions.
+Another copy of RC00965 exists at 2852: OMPDC_c
+Original: RC00965: h[c] + orot5p[c]  -> co2[c] + ump[c] 
+Duplicate: OMPDC_c: h[c] + orot5p[c]  <=> co2[c] + ump[c] 
+Duplicate reaction is reversible.
+Round 383 removed 1 reactions.
+Another copy of RC00964 exists at 2343: URIK1_c
+Original: RC00964: atp[c] + uri[c]  -> adp[c] + h[c] + ump[c] 
+Duplicate: URIK1_c: atp[c] + uri[c]  -> adp[c] + 2 h[c] + ump[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 385 removed 1 reactions.
+Another copy of RC01876 exists at 2096: PYNP2_c
+Original: RC01876: pi[c] + uri[c]  <=> r1p[c] + ura[c] 
+Duplicate: PYNP2_c: pi[c] + uri[c]  <=> r1p[c] + ura[c] 
+Reversibility matches for both.
+Round 386 removed 1 reactions.
+Another copy of RC00978 exists at 2884: DURAD_c
+Original: RC00978: nadp[c] + 56dura[c]  <=> h[c] + nadph[c] + ura[c] 
+Duplicate: DURAD_c: h[c] + nadph[c] + ura[c]  -> nadp[c] + 56dura[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 387 removed 1 reactions.
+Another copy of RC02269 exists at 2139: DHPM1_c
+Original: RC02269: h2o[c] + 56dura[c]  <=> h[c] + cala[c] 
+Duplicate: DHPM1_c: h2o[c] + 56dura[c]  <=> h[c] + cala[c] 
+Reversibility matches for both.
+Round 388 removed 1 reactions.
+Another copy of RC00155 exists at 1993: NDP7_c
+Original: RC00155: h2o[c] + udp[c]  -> h[c] + pi[c] + ump[c] 
+Duplicate: NDP7_c: h2o[c] + udp[c]  -> h[c] + pi[c] + ump[c] 
+Reversibility matches for both.
+Round 393 removed 1 reactions.
+Another copy of RC00573 exists at 2048: CTPS2_c
+Original: RC00573: atp[c] + h2o[c] + gln_L[c] + utp[c]  -> adp[c] + 2 h[c] + pi[c] + glu_L[c] + ctp[c] 
+Duplicate: CTPS2_c: atp[c] + h2o[c] + gln_L[c] + utp[c]  -> adp[c] + 3 h[c] + pi[c] + glu_L[c] + ctp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 397 removed 1 reactions.
+Another copy of RC00513 exists at 2811: CYTDK1_c
+Original: RC00513: atp[c] + cytd[c]  -> adp[c] + h[c] + cmp[c] 
+Duplicate: CYTDK1_c: atp[c] + cytd[c]  -> adp[c] + 2 h[c] + cmp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 401 removed 1 reactions.
+Another copy of RC02024 exists at 2836: RNDR3_c
+Original: RC02024: trdrd[c] + cdp[c]  -> h2o[c] + trdox[c] + dcdp[c] 
+Duplicate: RNDR3_c: 2 trdrd[c] + cdp[c]  -> h2o[c] + trdox[c] + dcdp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 403 removed 1 reactions.
+Another copy of RC02016 exists at 2628: TRDR_c
+Original: RC02016: h[c] + nadph[c] + trdox[c]  -> nadp[c] + trdrd[c] 
+Duplicate: TRDR_c: h[c] + nadph[c] + trdox[c]  -> nadp[c] + 2 trdrd[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 404 removed 1 reactions.
+Another copy of RC01665 exists at 2282: RXN909_353_c
+Original: RC01665: atp[c] + dcmp[c]  <=> adp[c] + dcdp[c] 
+Duplicate: RXN909_353_c: adp[c] + dcdp[c]  -> atp[c] + dcmp[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 406 removed 1 reactions.
+Another copy of RC02099 exists at 2483: DURIK1_c
+Original: RC02099: atp[c] + duri[c]  -> adp[c] + h[c] + dump[c] 
+Duplicate: DURIK1_c: atp[c] + duri[c]  -> adp[c] + 2 h[c] + dump[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 409 removed 1 reactions.
+Another copy of RC02484 exists at 2697: URA_PHOSPH_RXN_c
+Original: RC02484: pi[c] + duri[c]  <=> 2dr1p[c] + ura[c] 
+Duplicate: URA_PHOSPH_RXN_c: pi[c] + duri[c]  <=> 2dr1p[c] + ura[c] 
+Reversibility matches for both.
+Round 411 removed 1 reactions.
+Another copy of RC02100 exists at 2158: DUTPDP_c
+Original: RC02100: h2o[c] + dutp[c]  -> h[c] + ppi[c] + dump[c] 
+Duplicate: DUTPDP_c: h2o[c] + dutp[c]  -> h[c] + ppi[c] + dump[c] 
+Reversibility matches for both.
+Round 414 removed 1 reactions.
+Another copy of RC02018 exists at 2186: RNDR4_c
+Original: RC02018: trdrd[c] + udp[c]  -> h2o[c] + trdox[c] + dudp[c] 
+Duplicate: RNDR4_c: 2 trdrd[c] + udp[c]  -> h2o[c] + trdox[c] + dudp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 415 removed 1 reactions.
+Another copy of RC02101 exists at 3042: TMDS_c
+Original: RC02101: dump[c] + mlthf[c]  -> dhf[c] + dtmp[c] 
+Duplicate: TMDS_c: dump[c] + mlthf[c]  <=> dhf[c] + dtmp[c] 
+Duplicate reaction is reversible.
+Round 416 removed 1 reactions.
+Another copy of RC01567 exists at 2661: TMDK1_c
+Original: RC01567: atp[c] + thymd[c]  -> adp[c] + h[c] + dtmp[c] 
+Duplicate: TMDK1_c: atp[c] + thymd[c]  -> adp[c] + 2 h[c] + dtmp[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 421 removed 1 reactions.
+Another copy of RC01415 exists at 2095: DURAD2_c
+Original: RC01415: nadp[c] + 56dthm[c]  <=> h[c] + nadph[c] + thym[c] 
+Duplicate: DURAD2_c: h[c] + nadph[c] + thym[c]  -> nadp[c] + 56dthm[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 422 removed 1 reactions.
+Another copy of RC03055 exists at 2580: DHPM2_c
+Original: RC03055: h2o[c] + 56dthm[c]  <=> h[c] + 3uib[c] 
+Duplicate: DHPM2_c: h2o[c] + 56dthm[c]  <=> h[c] + 3uib[c] 
+Reversibility matches for both.
+Round 423 removed 1 reactions.
+Another copy of RM00705 exists at 2997: MMSAD3_m
+Original: RM00705: coa[m] + nad[m] + msa[m]  -> accoa[m] + co2[m] + nadh[m] 
+Duplicate: MMSAD3_m: coa[m] + nad[m] + msa[m]  -> accoa[m] + co2[m] + nadh[m] 
+Reversibility matches for both.
+Round 426 removed 1 reactions.
+Another copy of RM00706 exists at 2738: 1_2_1_18_RXN_m
+Original: RM00706: coa[m] + nadp[m] + msa[m]  -> accoa[m] + co2[m] + nadph[m] 
+Duplicate: 1_2_1_18_RXN_m: coa[m] + nadp[m] + msa[m]  -> accoa[m] + co2[m] + nadph[m] 
+Reversibility matches for both.
+Round 427 removed 1 reactions.
+Another copy of RM00908 exists at 2487: APAT2_m
+Original: RM00908: akg[m] + ala_B[m]  <=> glu_L[m] + msa[m] 
+Duplicate: APAT2_m: akg[m] + ala_B[m]  <=> glu_L[m] + msa[m] 
+Reversibility matches for both.
+Round 430 removed 1 reactions.
+Another copy of RM03045 exists at 2989: PRPNCOAHYD_m
+Original: RM03045: h2o[m] + prpncoa[m]  <=> 3hpcoa[m] 
+Duplicate: PRPNCOAHYD_m: h2o[m] + prpncoa[m]  <=> 3hpcoa[m] 
+Reversibility matches for both.
+Round 431 removed 1 reactions.
+Another copy of RC00939 exists at 2558: DHFR_c
+Original: RC00939: h[c] + nadph[c] + dhf[c]  <=> nadp[c] + thf[c] 
+Duplicate: DHFR_c: nadp[c] + thf[c]  <=> h[c] + nadph[c] + dhf[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 437 removed 1 reactions.
+Another copy of RC04286 exists at 2570: PTHPS_c
+Original: RC04286: ahdt[c]  -> 6pthp[c] + pppi[c] 
+Duplicate: PTHPS_c: ahdt[c]  -> 6pthp[c] + pppi[c] 
+Reversibility matches for both.
+Round 443 removed 1 reactions.
+Another copy of RC01793 exists at 2571: RXN_7909_c
+Original: RC01793: h[c] + nadh[c] + dhbpt[c]  -> nad[c] + thbpt[c] 
+Duplicate: RXN_7909_c: h[c] + nadh[c] + dhbpt[c]  <=> nad[c] + thbpt[c] 
+Duplicate reaction is reversible.
+Round 444 removed 1 reactions.
+Another copy of RC04620 exists at 3056: RXN909_112_c
+Original: RC04620: 3 h2o[c] + ahdt[c]  -> 2 h[c] + 3 pi[c] + dhnpt[c] 
+Duplicate: RXN909_112_c: 3 h2o[c] + ahdt[c]  <=> 3 h[c] + 3 pi[c] + dhnpt[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 446 removed 1 reactions.
+Another copy of RC01655 exists at 2576: MTHFC_c
+Original: RC01655: h2o[c] + methf[c]  <=> h[c] + 10fthf[c] 
+Duplicate: MTHFC_c: h2o[c] + methf[c]  <=> h[c] + 10fthf[c] 
+Reversibility matches for both.
+Round 448 removed 1 reactions.
+Another copy of RM01655 exists at 2567: MTHFC_m
+Original: RM01655: h2o[m] + methf[m]  <=> h[m] + 10fthf[m] 
+Duplicate: MTHFC_m: h2o[m] + methf[m]  <=> h[m] + 10fthf[m] 
+Reversibility matches for both.
+Round 449 removed 1 reactions.
+Another copy of RC01218 exists at 3146: MTHFD2_c
+Original: RC01218: nad[c] + mlthf[c]  <=> nadh[c] + methf[c] 
+Duplicate: MTHFD2_c: nad[c] + mlthf[c]  -> nadh[c] + methf[c] 
+Duplicate reaction is irreversible.
+Round 452 removed 1 reactions.
+Another copy of RC07168 exists at 1986: MTHFR2_c
+Original: RC07168: 2 h[c] + nadh[c] + mlthf[c]  <=> nad[c] + 5mthf[c] 
+Duplicate: MTHFR2_c: h[c] + nadh[c] + mlthf[c]  -> nad[c] + 5mthf[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 456 removed 1 reactions.
+Another copy of RM01301 exists at 2418: 3_1_2_23_RXN_m
+Original: RM01301: h2o[m] + 4hbzcoa[m]  -> coa[m] + h[m] + 4hbz[m] 
+Duplicate: 3_1_2_23_RXN_m: h2o[m] + 4hbzcoa[m]  -> coa[m] + h[m] + 4hbz[m] 
+Reversibility matches for both.
+Round 459 removed 1 reactions.
+Another copy of RM08767 exists at 2382: RXN3O_1120_m
+Original: RM08767: coa[m] + nad[m] + h2o[m] + 4cmcoa[m]  -> accoa[m] + nadh[m] + h[m] + 4hbzcoa[m] 
+Duplicate: RXN3O_1120_m: coa[m] + nad[m] + h2o[m] + 4cmcoa[m]  -> accoa[m] + nadh[m] + h[m] + 4hbzcoa[m] 
+Reversibility matches for both.
+Round 460 removed 1 reactions.
+Another copy of RM08766 exists at 2590: T4HCINNMFM_m
+Original: RM08766: 34hpl[m]  -> h2o[m] + T4hcinnm[m] 
+Duplicate: T4HCINNMFM_m: 34hpl[m]  -> h2o[m] + T4hcinnm[m] 
+Reversibility matches for both.
+Round 461 removed 1 reactions.
+Another copy of RM03336 exists at 2838: 34HPLFM_m
+Original: RM03336: nadh[m] + h[m] + 34hpp[m]  <=> nad[m] + 34hpl[m] 
+Duplicate: 34HPLFM_m: nadh[m] + h[m] + 34hpp[m]  -> nad[m] + 34hpl[m] 
+Duplicate reaction is irreversible.
+Round 462 removed 1 reactions.
+Another copy of RC02082 exists at 2255: HMGCOAR_c
+Original: RC02082: 2 h[c] + 2 nadph[c] + hmgcoa[c]  <=> 2 nadp[c] + coa[c] + mev_R[c] 
+Duplicate: HMGCOAR_c: 2 h[c] + 2 nadph[c] + hmgcoa[c]  -> 2 nadp[c] + coa[c] + mev_R[c] 
+Duplicate reaction is irreversible.
+Round 474 removed 1 reactions.
+Another copy of RC02245 exists at 2428: MEVK1_c
+Original: RC02245: atp[c] + mev_R[c]  -> adp[c] + h[c] + 5pmev[c] 
+Duplicate: MEVK1_c: atp[c] + mev_R[c]  -> adp[c] + 2 h[c] + 5pmev[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 475 removed 1 reactions.
+Another copy of RC01123 exists at 2823: IPDDI_c
+Original: RC01123: ipdp[c]  <=> dmpp[c] 
+Duplicate: IPDDI_c: ipdp[c]  <=> dmpp[c] 
+Reversibility matches for both.
+Round 478 removed 1 reactions.
+Another copy of RC01658 exists at 3055: DMATT_c
+Original: RC01658: ipdp[c] + dmpp[c]  -> ppi[c] + grdp[c] 
+Duplicate: DMATT_c: ipdp[c] + dmpp[c]  <=> ppi[c] + grdp[c] 
+Duplicate reaction is reversible.
+Round 479 removed 1 reactions.
+Another copy of RC02003 exists at 2933: GRTT_c
+Original: RC02003: ipdp[c] + grdp[c]  -> ppi[c] + frdp[c] 
+Duplicate: GRTT_c: ipdp[c] + grdp[c]  <=> ppi[c] + frdp[c] 
+Duplicate reaction is reversible.
+Round 480 removed 1 reactions.
+Another copy of RC01018 exists at 2693: DOLICHOL_KINASE_RXN_c
+Original: RC01018: ctp[c] + dolichol[c]  -> h[c] + cdp[c] + dolp[c] 
+Duplicate: DOLICHOL_KINASE_RXN_c: ctp[c] + dolichol[c]  -> h[c] + cdp[c] + dolp[c] 
+Reversibility matches for both.
+Round 486 removed 1 reactions.
+Another copy of RC05969 exists at 2563: 2_7_8_15_RXN_c
+Original: RC05969: dolp[c] + uacgam[c]  <=> ump[c] + naglc2p[c] 
+Duplicate: 2_7_8_15_RXN_c: dolp[c] + uacgam[c]  -> ump[c] + naglc2p[c] 
+Duplicate reaction is irreversible.
+Round 494 removed 1 reactions.
+Another copy of RC05970 exists at 2197: 2_4_1_141_RXN_c
+Original: RC05970: uacgam[c] + naglc2p[c]  -> h[c] + udp[c] + chito2pdol[c] 
+Duplicate: 2_4_1_141_RXN_c: uacgam[c] + naglc2p[c]  -> h[c] + udp[c] + chito2pdol[c] 
+Reversibility matches for both.
+Round 495 removed 1 reactions.
+Another copy of RC01009 exists at 2557: 2_4_1_83_RXN_c
+Original: RC01009: dolp[c] + gdpmann[c]  <=> gdp[c] + dolmanp[c] 
+Duplicate: 2_4_1_83_RXN_c: dolp[c] + gdpmann[c]  -> gdp[c] + dolmanp[c] 
+Duplicate reaction is irreversible.
+Round 500 removed 1 reactions.
+Another copy of RC01384 exists at 3130: UDP_GLUCURONATE_DECARBOXYLASE_RXN_c
+Original: RC01384: h[c] + udpglcur[c]  -> co2[c] + udpxyl[c] 
+Duplicate: UDP_GLUCURONATE_DECARBOXYLASE_RXN_c: h[c] + udpglcur[c]  -> co2[c] + udpxyl[c] 
+Reversibility matches for both.
+Round 524 removed 1 reactions.
+Another copy of RC00028 exists at 2298: RXN_2141_c
+Original: RC00028: h2o[c] + malt[c]  -> 2 glc_aD[c] 
+Duplicate: RXN_2141_c: h2o[c] + malt[c]  <=> 2 glc_aD[c] 
+Duplicate reaction is reversible.
+Round 532 removed 1 reactions.
+Another copy of RC02294 exists at 2153: RXN909_175_c
+Original: RC02294: pi[c] + rnam[c]  <=> h[c] + r1p[c] + ncam[c] 
+Duplicate: RXN909_175_c: pi[c] + rnam[c]  -> h[c] + r1p[c] + ncam[c] 
+Duplicate reaction is irreversible.
+Round 558 removed 1 reactions.
+Another copy of RC02323 exists at 2460: RXN_5841_c
+Original: RC02323: h2o[c] + nmn[c]  -> pi[c] + rnam[c] 
+Duplicate: RXN_5841_c: h2o[c] + nmn[c]  -> pi[c] + rnam[c] 
+Reversibility matches for both.
+Round 560 removed 1 reactions.
+Another copy of RC01724 exists at 3036: NAPRT_c
+Original: RC01724: h[c] + prpp[c] + nac[c]  <=> ppi[c] + nicrnt[c] 
+Duplicate: NAPRT_c: ppi[c] + nicrnt[c]  <=> h[c] + prpp[c] + nac[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 562 removed 1 reactions.
+Another copy of RC00257 exists at 2900: NADS2_c
+Original: RC00257: atp[c] + h2o[c] + gln_L[c] + dnad[c]  -> h[c] + amp[c] + nad[c] + ppi[c] + glu_L[c] 
+Duplicate: NADS2_c: atp[c] + h2o[c] + gln_L[c] + dnad[c]  -> 2 h[c] + amp[c] + nad[c] + ppi[c] + glu_L[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 565 removed 1 reactions.
+Another copy of RC04231 exists at 2347: PPNCL2_c
+Original: RC04231: cys_L[c] + ctp[c] + 4ppan[c]  -> h[c] + ppi[c] + cmp[c] + 4ppcys[c] 
+Duplicate: PPNCL2_c: cys_L[c] + ctp[c] + 4ppan[c]  <=> h[c] + ppi[c] + cmp[c] + 4ppcys[c] 
+Duplicate reaction is reversible.
+Round 571 removed 1 reactions.
+Another copy of RC03018 exists at 2500: PNTK_c
+Original: RC03018: atp[c] + pnto_R[c]  -> adp[c] + h[c] + 4ppan[c] 
+Duplicate: PNTK_c: atp[c] + pnto_R[c]  -> adp[c] + 2 h[c] + 4ppan[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 572 removed 1 reactions.
+Another copy of RC03269 exists at 3154: PPCDC_c
+Original: RC03269: h[c] + 4ppcys[c]  -> co2[c] + pan4p[c] 
+Duplicate: PPCDC_c: h[c] + 4ppcys[c]  <=> co2[c] + pan4p[c] 
+Duplicate reaction is reversible.
+Round 573 removed 1 reactions.
+Another copy of RC01819 exists at 2346: MAN6PI_c
+Original: RC01819: man6p[c]  <=> f6p[c] 
+Duplicate: MAN6PI_c: man6p[c]  <=> f6p[c] 
+Reversibility matches for both.
+Round 575 removed 1 reactions.
+Another copy of RC01326 exists at 2615: HEX4_c
+Original: RC01326: atp[c] + man[c]  -> adp[c] + h[c] + man6p[c] 
+Duplicate: HEX4_c: atp[c] + man[c]  -> adp[c] + h[c] + man6p[c] 
+Reversibility matches for both.
+Round 576 removed 1 reactions.
+Another copy of RC01818 exists at 2023: PNANM_c
+Original: RC01818: man1p[c]  <=> man6p[c] 
+Duplicate: PNANM_c: man1p[c]  <=> man6p[c] 
+Reversibility matches for both.
+Round 581 removed 1 reactions.
+Another copy of RC00885 exists at 2090: MAN1PT_c
+Original: RC00885: h[c] + gtp[c] + man1p[c]  <=> ppi[c] + gdpmann[c] 
+Duplicate: MAN1PT_c: h[c] + gtp[c] + man1p[c]  -> ppi[c] + gdpmann[c] 
+Duplicate reaction is irreversible.
+Round 582 removed 1 reactions.
+Another copy of RC00888 exists at 2094: GMAND_c
+Original: RC00888: gdpmann[c]  -> h2o[c] + gdpddman[c] 
+Duplicate: GMAND_c: gdpmann[c]  -> h2o[c] + gdpddman[c] 
+Reversibility matches for both.
+Round 583 removed 1 reactions.
+Another copy of RC05692 exists at 2537: GFUCS_c
+Original: RC05692: h[c] + nadph[c] + gdpddman[c]  <=> nadp[c] + gdpfuc[c] 
+Duplicate: GFUCS_c: h[c] + nadph[c] + gdpddman[c]  -> nadp[c] + gdpfuc[c] 
+Duplicate reaction is irreversible.
+Round 584 removed 1 reactions.
+Another copy of RC02732 exists at 2923: 6_PHOSPHOFRUCTO_2_KINASE_RXN_c
+Original: RC02732: f6p[c] + atp[c]  -> adp[c] + h[c] + f26bp[c] 
+Duplicate: 6_PHOSPHOFRUCTO_2_KINASE_RXN_c: f6p[c] + atp[c]  <=> adp[c] + 2 h[c] + f26bp[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 585 removed 1 reactions.
+Another copy of RC00955 exists at 2738: UGLT_c
+Original: RC00955: udpg[c] + gal1p[c]  <=> g1p[c] + udpgal[c] 
+Duplicate: UGLT_c: udpg[c] + gal1p[c]  <=> g1p[c] + udpgal[c] 
+Reversibility matches for both.
+Round 587 removed 1 reactions.
+Another copy of RC00289 exists at 3218: GALU_c
+Original: RC00289: g1p[c] + h[c] + utp[c]  <=> ppi[c] + udpg[c] 
+Duplicate: GALU_c: g1p[c] + h[c] + utp[c]  <=> ppi[c] + udpg[c] 
+Reversibility matches for both.
+Round 588 removed 1 reactions.
+Another copy of RC00291 exists at 2993: UDPG4E_c
+Original: RC00291: udpg[c]  <=> udpgal[c] 
+Duplicate: UDPG4E_c: udpg[c]  <=> udpgal[c] 
+Reversibility matches for both.
+Round 589 removed 1 reactions.
+Another copy of RC00286 exists at 2041: UGD_RXN_c
+Original: RC00286: h2o[c] + 2 nad[c] + udpg[c]  -> 3 h[c] + 2 nadh[c] + udpglcur[c] 
+Duplicate: UGD_RXN_c: h2o[c] + 2 nad[c] + udpg[c]  <=> 3 h[c] + 2 nadh[c] + udpglcur[c] 
+Duplicate reaction is reversible.
+Round 593 removed 1 reactions.
+Another copy of RC01184 exists at 2579: MYO_INOSITOL_OXYGENASE_RXN_c
+Original: RC01184: o2[c] + inost[c]  -> h[c] + h2o[c] + glcur[c] 
+Duplicate: MYO_INOSITOL_OXYGENASE_RXN_c: o2[c] + inost[c]  -> h[c] + h2o[c] + glcur[c] 
+Reversibility matches for both.
+Round 594 removed 1 reactions.
+Another copy of RCC0053 exists at 2674: UDPGNP_c
+Original: RCC0053: h2o[c] + udpglcur[c]  -> h[c] + udp[c] + glcur[c] 
+Duplicate: UDPGNP_c: h2o[c] + udpglcur[c]  -> h[c] + udp[c] + glcur[c] 
+Reversibility matches for both.
+Round 597 removed 1 reactions.
+Another copy of RC01904 exists at 2110: XYLUR_c
+Original: RC01904: h[c] + nadph[c] + xylu_L[c]  <=> nadp[c] + xylt[c] 
+Duplicate: XYLUR_c: h[c] + nadph[c] + xylu_L[c]  -> nadp[c] + xylt[c] 
+Duplicate reaction is irreversible.
+Round 598 removed 1 reactions.
+Another copy of RC01639 exists at 2687: XYLULOKIN_RXN_c
+Original: RC01639: atp[c] + xylu_D[c]  -> adp[c] + h[c] + xu5p_D[c] 
+Duplicate: XYLULOKIN_RXN_c: atp[c] + xylu_D[c]  <=> adp[c] + 2 h[c] + xu5p_D[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 602 removed 1 reactions.
+Another copy of RC02640 exists at 2141: GULN3D_c
+Original: RC02640: nad[c] + guln[c]  <=> h[c] + nadh[c] + 3dhguln[c] 
+Duplicate: GULN3D_c: nad[c] + guln[c]  <=> h[c] + nadh[c] + 3dhguln[c] 
+Reversibility matches for both.
+Round 603 removed 1 reactions.
+Another copy of RC02058 exists at 2209: ACGAM6PS_c
+Original: RC02058: accoa[c] + gam6p[c]  -> h[c] + coa[c] + acgam6p[c] 
+Duplicate: ACGAM6PS_c: accoa[c] + gam6p[c]  <=> h[c] + coa[c] + acgam6p[c] 
+Duplicate reaction is reversible.
+Round 606 removed 1 reactions.
+Another copy of RC02059 exists at 2931: AGDC_c
+Original: RC02059: h2o[c] + acgam6p[c]  -> ac[c] + gam6p[c] 
+Duplicate: AGDC_c: h2o[c] + acgam6p[c]  -> ac[c] + gam6p[c] 
+Reversibility matches for both.
+Round 607 removed 1 reactions.
+Another copy of RC01201 exists at 2827: N_ACETYLGLUCOSAMINE_KINASE_RXN_c
+Original: RC01201: atp[c] + acgam[c]  -> adp[c] + h[c] + acgam6p[c] 
+Duplicate: N_ACETYLGLUCOSAMINE_KINASE_RXN_c: atp[c] + acgam[c]  -> adp[c] + h[c] + acgam6p[c] 
+Reversibility matches for both.
+Round 608 removed 1 reactions.
+Another copy of RC00416 exists at 2390: UAGDP_c
+Original: RC00416: h[c] + utp[c] + acgam1p[c]  <=> ppi[c] + uacgam[c] 
+Duplicate: UAGDP_c: h[c] + utp[c] + acgam1p[c]  <=> ppi[c] + uacgam[c] 
+Reversibility matches for both.
+Round 612 removed 1 reactions.
+Another copy of RC08193 exists at 2335: ACGAMPM_c
+Original: RC08193: acgam6p[c]  <=> acgam1p[c] 
+Duplicate: ACGAMPM_c: acgam1p[c]  <=> acgam6p[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 613 removed 1 reactions.
+Another copy of RC00475 exists at 2838: RXN_969_c
+Original: RC00475: o2[c] + glyclt[c]  -> h2o2[c] + glx[c] 
+Duplicate: RXN_969_c: o2[c] + glyclt[c]  -> h2o2[c] + glx[c] 
+Reversibility matches for both.
+Round 615 removed 1 reactions.
+Another copy of RC03394 exists at 2650: MI145PP_c
+Original: RC03394: h2o[c] + mi145p[c]  -> pi[c] + mi14p[c] 
+Duplicate: MI145PP_c: h2o[c] + mi145p[c]  <=> pi[c] + mi14p[c] 
+Duplicate reaction is reversible.
+Round 628 removed 1 reactions.
+Another copy of RC06983 exists at 2980: RXN0_276_c
+Original: RC06983: nad[c] + hmgth[c]  <=> h[c] + nadh[c] + Sfglutth[c] 
+Duplicate: RXN0_276_c: nad[c] + hmgth[c]  -> h[c] + nadh[c] + Sfglutth[c] 
+Duplicate reaction is irreversible.
+Round 631 removed 1 reactions.
+Another copy of RC00527 exists at 2033: SFGTH_c
+Original: RC00527: h2o[c] + Sfglutth[c]  <=> h[c] + for[c] + gthrd[c] 
+Duplicate: SFGTH_c: h2o[c] + Sfglutth[c]  <=> h[c] + for[c] + gthrd[c] 
+Reversibility matches for both.
+Round 632 removed 1 reactions.
+Another copy of RC00508 exists at 2547: BPNT2_c
+Original: RC00508: h2o[c] + paps[c]  -> pi[c] + aps[c] 
+Duplicate: BPNT2_c: h2o[c] + paps[c]  -> pi[c] + aps[c] 
+Reversibility matches for both.
+Round 634 removed 1 reactions.
+Another copy of RC01281 exists at 2661: SERPT_c
+Original: RC01281: h[c] + ser_L[c] + pmtcoa[c]  -> co2[c] + coa[c] + 3dsphgn[c] 
+Duplicate: SERPT_c: h[c] + ser_L[c] + pmtcoa[c]  -> co2[c] + coa[c] + 3dsphgn[c] 
+Reversibility matches for both.
+Round 641 removed 1 reactions.
+Another copy of RC02464 exists at 2669: RXN909_156_c
+Original: RC02464: sph1p[c]  -> ethamp[c] + hxdcal[c] 
+Duplicate: RXN909_156_c: ethamp[c] + hxdcal[c]  -> sph1p[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 655 removed 1 reactions.
+Another copy of RC01926 exists at 2790: SPHK21_c
+Original: RC01926: atp[c] + sphings[c]  -> adp[c] + h[c] + sphs1p[c] 
+Duplicate: SPHK21_c: atp[c] + sphings[c]  -> adp[c] + 2 h[c] + sphs1p[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 660 removed 1 reactions.
+Another copy of RC02978 exists at 3168: 3DSPHR_c
+Original: RC02978: h[c] + nadph[c] + 3dsphgn[c]  -> nadp[c] + sphgn[c] 
+Duplicate: 3DSPHR_c: h[c] + nadph[c] + 3dsphgn[c]  -> nadp[c] + sphgn[c] 
+Reversibility matches for both.
+Round 662 removed 1 reactions.
+Another copy of RC06521 exists at 2378: SBPP3_c
+Original: RC06521: h2o[c] + sphs1p[c]  -> pi[c] + sphings[c] 
+Duplicate: SBPP3_c: h2o[c] + sphs1p[c]  -> pi[c] + sphings[c] 
+Reversibility matches for both.
+Round 664 removed 1 reactions.
+Another copy of RC07760 exists at 2012: ECOAH8_c
+Original: RC07760: 3hodcoa[c]  <=> h2o[c] + od2coa[c] 
+Duplicate: ECOAH8_c: 3hodcoa[c]  -> h2o[c] + od2coa[c] 
+Duplicate reaction is irreversible.
+Another copy of RC07760 exists at 2615: RXN909_143_c
+Original: RC07760: 3hodcoa[c]  <=> h2o[c] + od2coa[c] 
+Duplicate: RXN909_143_c: h2o[c] + od2coa[c]  -> 3hodcoa[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 669 removed 2 reactions.
+Another copy of RC07761 exists at 2621: RXN_9546_c
+Original: RC07761: h[c] + nadph[c] + od2coa[c]  -> nadp[c] + stcoa[c] 
+Duplicate: RXN_9546_c: h[c] + nadph[c] + od2coa[c]  -> nadp[c] + stcoa[c] 
+Reversibility matches for both.
+Round 670 removed 1 reactions.
+Another copy of RC00251 exists at 3126: OPAH_c
+Original: RC00251: atp[c] + 2 h2o[c] + 5oxpro[c]  -> adp[c] + h[c] + pi[c] + glu_L[c] 
+Duplicate: OPAH_c: atp[c] + 2 h2o[c] + 5oxpro[c]  -> adp[c] + 2 h[c] + pi[c] + glu_L[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 694 removed 1 reactions.
+Another copy of RC00894 exists at 3025: GLUCYS_c
+Original: RC00894: atp[c] + glu_L[c] + cys_L[c]  -> adp[c] + h[c] + pi[c] + glucys[c] 
+Duplicate: GLUCYS_c: atp[c] + glu_L[c] + cys_L[c]  -> adp[c] + 2 h[c] + pi[c] + glucys[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 695 removed 1 reactions.
+Another copy of RC00497 exists at 2508: GTHS_c
+Original: RC00497: atp[c] + gly[c] + glucys[c]  -> adp[c] + h[c] + pi[c] + gthrd[c] 
+Duplicate: GTHS_c: atp[c] + gly[c] + glucys[c]  -> adp[c] + 2 h[c] + pi[c] + gthrd[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 696 removed 1 reactions.
+Another copy of RC00899 exists at 2276: AMPTASECG_c
+Original: RC00899: h2o[c] + cgly[c]  -> gly[c] + cys_L[c] 
+Duplicate: AMPTASECG_c: h2o[c] + cgly[c]  <=> gly[c] + cys_L[c] 
+Duplicate reaction is reversible.
+Another copy of RC00899 exists at 2434: RXN909_111_c
+Original: RC00899: h2o[c] + cgly[c]  -> gly[c] + cys_L[c] 
+Duplicate: RXN909_111_c: gly[c] + cys_L[c]  -> h2o[c] + cgly[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 697 removed 2 reactions.
+Another copy of RC00115 exists at 2170: GTHO_c
+Original: RC00115: h[c] + nadph[c] + gthox[c]  -> nadp[c] + 2 gthrd[c] 
+Duplicate: GTHO_c: nadp[c] + 2 gthrd[c]  <=> h[c] + nadph[c] + gthox[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 698 removed 1 reactions.
+Another copy of RC00274 exists at 3003: GTHP_c
+Original: RC00274: h2o2[c] + 2 gthrd[c]  <=> 2 h2o[c] + gthox[c] 
+Duplicate: GTHP_c: h2o2[c] + 2 gthrd[c]  -> 2 h2o[c] + gthox[c] 
+Duplicate reaction is irreversible.
+Round 699 removed 1 reactions.
+Another copy of RM00115 exists at 2181: GTHO_m
+Original: RM00115: h[m] + nadph[m] + gthox[m]  -> nadp[m] + 2 gthrd[m] 
+Duplicate: GTHO_m: nadp[m] + 2 gthrd[m]  <=> h[m] + nadph[m] + gthox[m] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 702 removed 1 reactions.
+Another copy of RC02493 exists at 3165: PYRAMKIN_RXN_c
+Original: RC02493: atp[c] + pydam[c]  -> adp[c] + h[c] + pyam5p[c] 
+Duplicate: PYRAMKIN_RXN_c: atp[c] + pydam[c]  -> adp[c] + h[c] + pyam5p[c] 
+Reversibility matches for both.
+Round 750 removed 1 reactions.
+Another copy of RC00174 exists at 2324: PYRIDOXKIN_RXN_c
+Original: RC00174: atp[c] + pydx[c]  -> adp[c] + h[c] + pydx5p[c] 
+Duplicate: PYRIDOXKIN_RXN_c: atp[c] + pydx[c]  -> adp[c] + h[c] + pydx5p[c] 
+Reversibility matches for both.
+Round 752 removed 1 reactions.
+Another copy of RC01909 exists at 2054: PNKIN_RXN_c
+Original: RC01909: atp[c] + pydxn[c]  -> adp[c] + h[c] + pdx5p[c] 
+Duplicate: PNKIN_RXN_c: atp[c] + pydxn[c]  -> adp[c] + h[c] + pdx5p[c] 
+Reversibility matches for both.
+Round 753 removed 1 reactions.
+Another copy of RC04452 exists at 2977: 3_1_1_47_RXN_c
+Original: RC04452: h2o[c] + ak2gchol[c]  -> h[c] + ac[c] + ak2lgchol[c] 
+Duplicate: 3_1_1_47_RXN_c: h2o[c] + ak2gchol[c]  <=> h[c] + ac[c] + ak2lgchol[c] 
+Duplicate reaction is reversible.
+Round 781 removed 1 reactions.
+Another copy of RC02265 exists at 2283: PROSTAGLANDIN_E_SYNTHASE_RXN_c
+Original: RC02265: prostgh2[c]  <=> prostge2[c] 
+Duplicate: PROSTAGLANDIN_E_SYNTHASE_RXN_c: prostgh2[c]  -> prostge2[c] 
+Duplicate reaction is irreversible.
+Round 791 removed 1 reactions.
+Another copy of RC03991 exists at 2183: RXN909_68_c
+Original: RC03991: coa[c] + 3ohdcoa[c]  -> accoa[c] + tdcoa[c] 
+Duplicate: RXN909_68_c: accoa[c] + tdcoa[c]  <=> coa[c] + 3ohdcoa[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 805 removed 1 reactions.
+Another copy of RC03858 exists at 2481: RXN909_76_c
+Original: RC03858: coa[c] + 3otdcoa[c]  -> accoa[c] + ddcacoa[c] 
+Duplicate: RXN909_76_c: accoa[c] + ddcacoa[c]  <=> coa[c] + 3otdcoa[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 808 removed 1 reactions.
+Another copy of RC04742 exists at 2079: RXN909_84_c
+Original: RC04742: coa[c] + 3oddcoa[c]  -> accoa[c] + dcacoa[c] 
+Duplicate: RXN909_84_c: accoa[c] + dcacoa[c]  <=> coa[c] + 3oddcoa[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 811 removed 1 reactions.
+Another copy of RC03778 exists at 3001: RXN909_90_c
+Original: RC03778: coa[c] + 3odcoa[c]  -> accoa[c] + occoa[c] 
+Duplicate: RXN909_90_c: accoa[c] + occoa[c]  <=> coa[c] + 3odcoa[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 814 removed 1 reactions.
+Another copy of RC00009 exists at 2327: CAT_c
+Original: RC00009: 2 h2o2[c]  -> 2 h2o[c] + o2[c] 
+Duplicate: CAT_c: 2 h2o2[c]  -> 2 h2o[c] + o2[c] 
+Reversibility matches for both.
+Round 817 removed 1 reactions.
+Another copy of RC08174 exists at 2780: FACOAE180_c
+Original: RC08174: h2o[c] + stcoa[c]  -> h[c] + coa[c] + ocdca[c] 
+Duplicate: FACOAE180_c: h2o[c] + stcoa[c]  <=> h[c] + coa[c] + ocdca[c] 
+Duplicate reaction is reversible.
+Round 891 removed 1 reactions.
+Another copy of RCC0128 exists at 2945: BUTYRATE__COA_LIGASE_RXN_c
+Original: RCC0128: atp[c] + coa[c] + Rtotal[c]  -> amp[c] + ppi[c] + Rtotalcoa[c] 
+Duplicate: BUTYRATE__COA_LIGASE_RXN_c: atp[c] + coa[c] + Rtotal[c]  -> amp[c] + ppi[c] + Rtotalcoa[c] 
+Reversibility matches for both.
+Round 893 removed 1 reactions.
+Another copy of RC00238 exists at 2907: ACACT1_c
+Original: RC00238: 2 accoa[c]  <=> coa[c] + aacoa[c] 
+Duplicate: ACACT1_c: 2 accoa[c]  <=> coa[c] + aacoa[c] 
+Reversibility matches for both.
+Round 896 removed 1 reactions.
+Another copy of RC01274 exists at 2551: FACOAE160_c
+Original: RC01274: h2o[c] + pmtcoa[c]  -> h[c] + coa[c] + hdca[c] 
+Duplicate: FACOAE160_c: h2o[c] + pmtcoa[c]  <=> h[c] + coa[c] + hdca[c] 
+Duplicate reaction is reversible.
+Round 898 removed 1 reactions.
+Another copy of RM02016 exists at 2605: TRDR_m
+Original: RM02016: h[m] + nadph[m] + trdox[m]  -> nadp[m] + trdrd[m] 
+Duplicate: TRDR_m: h[m] + nadph[m] + trdox[m]  -> nadp[m] + 2 trdrd[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 899 removed 1 reactions.
+Another copy of RM03158 exists at 2560: 3HPCOAHYD_m
+Original: RM03158: h2o[m] + 3hpcoa[m]  -> coa[m] + h[m] + 3hpp[m] 
+Duplicate: 3HPCOAHYD_m: h2o[m] + 3hpcoa[m]  -> coa[m] + h[m] + 3hpp[m] 
+Reversibility matches for both.
+Round 900 removed 1 reactions.
+Another copy of RC10092 exists at 2174: RXN0_5224_c
+Original: RC10092: h2o[c] + co2[c]  <=> h[c] + hco3[c] 
+Duplicate: RXN0_5224_c: h2o[c] + co2[c]  <=> h[c] + hco3[c] 
+Reversibility matches for both.
+Round 907 removed 1 reactions.
+Another copy of RM10092 exists at 2164: RXN0_5224_m
+Original: RM10092: co2[m] + h2o[m]  <=> h[m] + hco3[m] 
+Duplicate: RXN0_5224_m: co2[m] + h2o[m]  <=> h[m] + hco3[m] 
+Reversibility matches for both.
+Round 908 removed 1 reactions.
+Another copy of RC00548 exists at 2784: RXN909_220_c
+Original: RC00548: h2o[c] + fmn[c]  -> pi[c] + ribflv[c] 
+Duplicate: RXN909_220_c: pi[c] + ribflv[c]  -> h2o[c] + fmn[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 915 removed 1 reactions.
+Another copy of RC00161 exists at 2352: FMNAT_c
+Original: RC00161: atp[c] + h[c] + fmn[c]  -> ppi[c] + fad[c] 
+Duplicate: FMNAT_c: atp[c] + 2 h[c] + fmn[c]  -> ppi[c] + fad[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 917 removed 1 reactions.
+Another copy of RC00549 exists at 2492: RBFK_c
+Original: RC00549: atp[c] + ribflv[c]  -> adp[c] + h[c] + fmn[c] 
+Duplicate: RBFK_c: atp[c] + ribflv[c]  -> adp[c] + 2 h[c] + fmn[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 919 removed 1 reactions.
+Another copy of RC04734 exists at 3112: RXN_7908_c
+Original: RC04734: thbpt4acam[c]  -> h2o[c] + dhbpt[c] 
+Duplicate: RXN_7908_c: thbpt4acam[c]  -> h2o[c] + dhbpt[c] 
+Reversibility matches for both.
+Round 933 removed 1 reactions.
+Another copy of RC07172 exists at 2551: RXN909_321_c
+Original: RC07172: h[c] + nadph[c] + o2[c]  -> nadp[c] + h2o2[c] 
+Duplicate: RXN909_321_c: h[c] + nadph[c] + o2[c]  -> nadp[c] + h2o2[c] 
+Reversibility matches for both.
+Round 936 removed 1 reactions.
+Another copy of RC02396 exists at 2216: RXN909_124_c
+Original: RC02396: accoa[c] + crn[c]  -> coa[c] + acrn[c] 
+Duplicate: RXN909_124_c: accoa[c] + crn[c]  <=> coa[c] + acrn[c] 
+Duplicate reaction is reversible.
+Round 938 removed 1 reactions.
+Another copy of RM02396 exists at 2212: RXN909_124_m
+Original: RM02396: coa[m] + acrn[m]  -> accoa[m] + crn[m] 
+Duplicate: RXN909_124_m: accoa[m] + crn[m]  <=> coa[m] + acrn[m] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 939 removed 1 reactions.
+Another copy of RC03601 exists at 2629: RXN909_45_c
+Original: RC03601: acser[c] + seln[c]  <=> ac[c] + selcys[c] 
+Duplicate: RXN909_45_c: acser[c] + seln[c]  -> ac[c] + selcys[c] 
+Duplicate reaction is irreversible.
+Round 941 removed 1 reactions.
+Another copy of RM01931 exists at 2939: CYANST_m
+Original: RM01931: cyan[m] + tsul[m]  <=> h[m] + so3[m] + tcynt[m] 
+Duplicate: CYANST_m: cyan[m] + tsul[m]  -> 2 h[m] + so3[m] + tcynt[m] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 948 removed 1 reactions.
+Another copy of RC00188 exists at 2018: BPNT_c
+Original: RC00188: h2o[c] + pap[c]  -> amp[c] + pi[c] 
+Duplicate: BPNT_c: h2o[c] + pap[c]  -> amp[c] + pi[c] 
+Reversibility matches for both.
+Round 950 removed 1 reactions.
+Another copy of RC00275 exists at 2165: SPODM_c
+Original: RC00275: 2 h[c] + 2 o2s[c]  -> o2[c] + h2o2[c] 
+Duplicate: SPODM_c: 2 h[c] + 2 o2s[c]  <=> o2[c] + h2o2[c] 
+Duplicate reaction is reversible.
+Round 954 removed 1 reactions.
+Another copy of RM00275 exists at 2174: SPODM_m
+Original: RM00275: 2 h[m] + 2 o2s[m]  -> o2[m] + h2o2[m] 
+Duplicate: SPODM_m: 2 h[m] + 2 o2s[m]  <=> o2[m] + h2o2[m] 
+Duplicate reaction is reversible.
+Round 955 removed 1 reactions.
+Another copy of RC00032 exists at 2868: BETA_CAROTENE_1515_DIOXYGENASE_RXN_c
+Original: RC00032: o2[c] + caro[c]  -> 2 retinal[c] 
+Duplicate: BETA_CAROTENE_1515_DIOXYGENASE_RXN_c: o2[c] + caro[c]  -> 2 retinal[c] 
+Reversibility matches for both.
+Round 965 removed 1 reactions.
+Another copy of RC04420 exists at 2442: MTRI_c
+Original: RC04420: 5mdr1p[c]  <=> 5mdru1p[c] 
+Duplicate: MTRI_c: 5mdr1p[c]  -> 5mdru1p[c] 
+Duplicate reaction is irreversible.
+Round 979 removed 1 reactions.
+Another copy of RC02288 exists at 2461: IZPN_c
+Original: RC02288: h2o[c] + 4izp[c]  -> h[c] + forglu[c] 
+Duplicate: IZPN_c: h[c] + h2o[c] + 4izp[c]  <=> forglu[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 981 removed 1 reactions.
+Another copy of RC01905 exists at 2984: DGULND_c
+Original: RC01905: h[c] + 3dhguln[c]  -> co2[c] + xylu_L[c] 
+Duplicate: DGULND_c: h[c] + 3dhguln[c]  -> co2[c] + xylu_L[c] 
+Reversibility matches for both.
+Round 1000 removed 1 reactions.
+Another copy of RC01481 exists at 3147: GULND_c
+Original: RC01481: h[c] + nadph[c] + glcur[c]  <=> nadp[c] + guln[c] 
+Duplicate: GULND_c: nadp[c] + guln[c]  <=> h[c] + nadph[c] + glcur[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1001 removed 1 reactions.
+Another copy of RC06982 exists at 2846: RXN_2961_c
+Original: RC06982: fald[c] + gthrd[c]  <=> hmgth[c] 
+Duplicate: RXN_2961_c: hmgth[c]  <=> fald[c] + gthrd[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1005 removed 1 reactions.
+Another copy of RC03284 exists at 2695: GHMT3_c
+Original: RC03284: 3htmelys[c]  -> gly[c] + 4tmeabut[c] 
+Duplicate: GHMT3_c: 3htmelys[c]  <=> gly[c] + 4tmeabut[c] 
+Duplicate reaction is reversible.
+Round 1022 removed 1 reactions.
+Another copy of RC02055 exists at 2510: PHOSPHASERDECARB_RXN_c
+Original: RC02055: h[c] + ps[c]  -> co2[c] + pe[c] 
+Duplicate: PHOSPHASERDECARB_RXN_c: h[c] + ps[c]  -> co2[c] + pe[c] 
+Reversibility matches for both.
+Round 1031 removed 1 reactions.
+Another copy of RC01931 exists at 2944: CYANST_c
+Original: RC01931: cyan[c] + tsul[c]  <=> h[c] + so3[c] + tcynt[c] 
+Duplicate: CYANST_c: cyan[c] + tsul[c]  -> 2 h[c] + so3[c] + tcynt[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 1034 removed 1 reactions.
+Another copy of RC03106 exists at 2386: RXN909_115_c
+Original: RC03106: mercppyr[c] + cyan[c]  -> h[c] + pyr[c] + tcynt[c] 
+Duplicate: RXN909_115_c: mercppyr[c] + cyan[c]  -> h[c] + pyr[c] + tcynt[c] 
+Reversibility matches for both.
+Round 1035 removed 1 reactions.
+Another copy of RM00261 exists at 2654: GLUDC_m
+Original: RM00261: h[m] + glu_L[m]  -> co2[m] + 4abut[m] 
+Duplicate: GLUDC_m: h[m] + glu_L[m]  <=> co2[m] + 4abut[m] 
+Duplicate reaction is reversible.
+Round 1038 removed 1 reactions.
+Another copy of RM00472 exists at 2324: MALS_m
+Original: RM00472: accoa[m] + h2o[m] + glx[m]  -> coa[m] + h[m] + mal_L[m] 
+Duplicate: MALS_m: accoa[m] + h2o[m] + glx[m]  <=> coa[m] + h[m] + mal_L[m] 
+Duplicate reaction is reversible.
+Round 1040 removed 1 reactions.
+Another copy of RM00479 exists at 3042: ISOCIT_CLEAV_RXN_m
+Original: RM00479: icit[m]  <=> succ[m] + glx[m] 
+Duplicate: ISOCIT_CLEAV_RXN_m: icit[m]  <=> succ[m] + glx[m] 
+Reversibility matches for both.
+Round 1041 removed 1 reactions.
+Another copy of RM00751 exists at 2039: THRA_m
+Original: RM00751: thr_L[m]  <=> acald[m] + gly[m] 
+Duplicate: THRA_m: thr_L[m]  <=> acald[m] + gly[m] 
+Reversibility matches for both.
+Round 1046 removed 1 reactions.
+Another copy of RMC0075 exists at 2449: RXN909_137_m
+Original: RMC0075: trdrd[m] + h2o2[m]  -> 2 h2o[m] + trdox[m] 
+Duplicate: RXN909_137_m: 2 trdrd[m] + h2o2[m]  -> 2 h2o[m] + trdox[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1048 removed 1 reactions.
+Another copy of RC00472 exists at 2332: MALS_c
+Original: RC00472: h2o[c] + accoa[c] + glx[c]  -> h[c] + coa[c] + mal_L[c] 
+Duplicate: MALS_c: h2o[c] + accoa[c] + glx[c]  <=> h[c] + coa[c] + mal_L[c] 
+Duplicate reaction is reversible.
+Round 1049 removed 1 reactions.
+Another copy of RC08379 exists at 2623: RXN_10841_c
+Original: RC08379: nadp[c] + retinol[c]  <=> h[c] + nadph[c] + retinal[c] 
+Duplicate: RXN_10841_c: nadp[c] + retinol[c]  <=> h[c] + nadph[c] + retinal[c] 
+Reversibility matches for both.
+Round 1052 removed 1 reactions.
+Another copy of RC02367 exists at 2157: RXN_12547_c
+Original: RC02367: pmtcoa[c] + retinol[c]  <=> coa[c] + retpalm[c] 
+Duplicate: RXN_12547_c: coa[c] + retpalm[c]  -> pmtcoa[c] + retinol[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 1062 removed 1 reactions.
+Another copy of RC09394 exists at 2070: RXN_8340_c
+Original: RC09394: gtp[c]  -> ppi[c] + cpmp[c] 
+Duplicate: RXN_8340_c: gtp[c]  -> ppi[c] + cpmp[c] 
+Reversibility matches for both.
+Round 1063 removed 1 reactions.
+Another copy of RC01269 exists at 3020: NICOTINAMIDE_N_METHYLTRANSFERASE_RXN_c
+Original: RC01269: amet[c] + ncam[c]  -> ahcys[c] + 1mncam[c] 
+Duplicate: NICOTINAMIDE_N_METHYLTRANSFERASE_RXN_c: amet[c] + ncam[c]  -> ahcys[c] + 1mncam[c] 
+Reversibility matches for both.
+Round 1068 removed 1 reactions.
+Another copy of RC03430 exists at 2106: MI1345PP_c
+Original: RC03430: h2o[c] + mi1345p[c]  -> pi[c] + mi134p[c] 
+Duplicate: MI1345PP_c: h2o[c] + mi1345p[c]  <=> pi[c] + mi134p[c] 
+Duplicate reaction is reversible.
+Round 1072 removed 1 reactions.
+Another copy of RC05050 exists at 2717: NABTNO_c
+Original: RC05050: h2o[c] + nad[c] + n4abutn[c]  -> 2 h[c] + nadh[c] + 4aabutn[c] 
+Duplicate: NABTNO_c: h2o[c] + nad[c] + n4abutn[c]  <=> 2 h[c] + nadh[c] + 4aabutn[c] 
+Duplicate reaction is reversible.
+Round 1079 removed 1 reactions.
+Another copy of RC07212 exists at 2505: TYROSINE_3_MONOOXYGENASE_RXN_c
+Original: RC07212: o2[c] + tyr_L[c] + thbpt[c]  -> 34dhphe[c] + thbpt4acam[c] 
+Duplicate: TYROSINE_3_MONOOXYGENASE_RXN_c: o2[c] + tyr_L[c] + thbpt[c]  -> 34dhphe[c] + thbpt4acam[c] 
+Reversibility matches for both.
+Round 1087 removed 1 reactions.
+Another copy of RC07213 exists at 2744: TRPHYDRO2_c
+Original: RC07213: o2[c] + thbpt[c] + trp_L[c]  -> thbpt4acam[c] + 5htrp[c] 
+Duplicate: TRPHYDRO2_c: o2[c] + thbpt[c] + trp_L[c]  -> thbpt4acam[c] + 5htrp[c] 
+Reversibility matches for both.
+Round 1089 removed 1 reactions.
+Another copy of RC01154 exists at 2260: PTRCAT1_c
+Original: RC01154: accoa[c] + ptrc[c]  -> h[c] + coa[c] + aprut[c] 
+Duplicate: PTRCAT1_c: accoa[c] + ptrc[c]  <=> 2 h[c] + coa[c] + aprut[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1104 removed 1 reactions.
+Another copy of RC00966 exists at 2715: UPPRT_c
+Original: RC00966: prpp[c] + ura[c]  -> ppi[c] + ump[c] 
+Duplicate: UPPRT_c: ppi[c] + ump[c]  <=> prpp[c] + ura[c] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1107 removed 1 reactions.
+Another copy of RC00895 exists at 2783: RXN909_114_c
+Original: RC00895: akg[c] + cys_L[c]  <=> glu_L[c] + mercppyr[c] 
+Duplicate: RXN909_114_c: akg[c] + cys_L[c]  <=> glu_L[c] + mercppyr[c] 
+Reversibility matches for both.
+Round 1108 removed 1 reactions.
+Another copy of RC03433 exists at 2131: MI145PK_c
+Original: RC03433: atp[c] + mi145p[c]  <=> adp[c] + h[c] + mi1345p[c] 
+Duplicate: MI145PK_c: atp[c] + mi145p[c]  -> adp[c] + 2 h[c] + mi1345p[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 1109 removed 1 reactions.
+Another copy of RC02701 exists at 2518: 5HLTDL_c
+Original: RC02701: h[c] + 5htrp[c]  -> co2[c] + srtn[c] 
+Duplicate: 5HLTDL_c: h[c] + 5htrp[c]  -> co2[c] + srtn[c] 
+Reversibility matches for both.
+Round 1118 removed 1 reactions.
+Another copy of RC02749 exists at 2965: D_PPENTOMUT_RXN_c
+Original: RC02749: 2dr1p[c]  <=> 2dr5p[c] 
+Duplicate: D_PPENTOMUT_RXN_c: 2dr1p[c]  <=> 2dr5p[c] 
+Reversibility matches for both.
+Round 1120 removed 1 reactions.
+Another copy of RC01987 exists at 2227: AABTN_c
+Original: RC01987: h2o[c] + 4aabutn[c]  -> ac[c] + 4abut[c] 
+Duplicate: AABTN_c: h2o[c] + 4aabutn[c]  <=> ac[c] + 4abut[c] 
+Duplicate reaction is reversible.
+Round 1121 removed 1 reactions.
+Another copy of RC01975 exists at 2182: RXN909_60_c
+Original: RC01975: h[c] + nadh[c] + aacoa[c]  <=> nad[c] + 3hbcoa[c] 
+Duplicate: RXN909_60_c: nad[c] + 3hbcoa[c]  <=> h[c] + nadh[c] + aacoa[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1129 removed 1 reactions.
+Another copy of TCM5001 exists at 3253: PCRNtm
+Original: TCM5001: pmtcrn[c]  -> pmtcrn[m] 
+Duplicate: PCRNtm: pmtcrn[c]  -> pmtcrn[m] 
+Reversibility matches for both.
+Round 1268 removed 1 reactions.
+Another copy of TCE5006 exists at 3461: PHEMEe
+Original: TCE5006: pheme[e]  -> pheme[c] 
+Duplicate: PHEMEe: pheme[c]  <=> pheme[e] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1276 removed 1 reactions.
+Another copy of TCE5017 exists at 3440: thiamin_transport
+Original: TCE5017: thm[e]  <=> thm[c] 
+Duplicate: thiamin_transport: thm[c]  <=> thm[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1289 removed 1 reactions.
+Another copy of TCE5020 exists at 3458: Riboflavin_transport
+Original: TCE5020: ribflv[e]  -> ribflv[c] 
+Duplicate: Riboflavin_transport: ribflv[c]  <=> ribflv[e] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1292 removed 1 reactions.
+Another copy of TCM5027 exists at 3291: Cystm
+Original: TCM5027: cys_L[c]  -> cys_L[m] 
+Duplicate: Cystm: cys_L[c]  <=> cys_L[m] 
+Duplicate reaction is reversible.
+Round 1299 removed 1 reactions.
+Another copy of TCM5510 exists at 3304: 2OXOADPTm
+Original: TCM5510: akg[m] + 2oxoadp[c]  <=> akg[c] + 2oxoadp[m] 
+Duplicate: 2OXOADPTm: akg[m] + 2oxoadp[c]  <=> akg[c] + 2oxoadp[m] 
+Reversibility matches for both.
+Round 1308 removed 1 reactions.
+Another copy of TCM5037 exists at 3282: Ubiquinone8tm
+Original: TCM5037: q8[c]  <=> q8[m] 
+Duplicate: Ubiquinone8tm: q8[c]  <=> q8[m] 
+Reversibility matches for both.
+Round 1312 removed 1 reactions.
+Another copy of TCM5058 exists at 1333: TCM5059
+Original: TCM5058: 2obut[m]  -> 2obut[c] 
+Duplicate: TCM5059: 2obut[c]  -> 2obut[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1332 removed 1 reactions.
+Another copy of TCE5080 exists at 3421: N_Acetylglucosamine_transport
+Original: TCE5080: acgam[c]  <=> acgam[e] 
+Duplicate: N_Acetylglucosamine_transport: acgam[c]  <=> acgam[e] 
+Reversibility matches for both.
+Round 1349 removed 1 reactions.
+Another copy of TCE5505 exists at 3382: Proton_transport
+Original: TCE5505: h[c]  <=> h[e] 
+Duplicate: Proton_transport: h[c]  <=> h[e] 
+Reversibility matches for both.
+Another copy of TCE5505 exists at 3466: ALAALAPEPT1tc
+Original: TCE5505: h[c]  <=> h[e] 
+Duplicate: ALAALAPEPT1tc: h[e]  -> h[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 1350 removed 2 reactions.
+Another copy of EX00314 exists at 3447: pydxn(e)
+Original: EX00314: pydxn[e]  -> 
+Duplicate: pydxn(e): pydxn[e]  <=> 
+Duplicate reaction is reversible.
+Round 1365 removed 1 reactions.
+Another copy of EX00250 exists at 3448: pydx(e)
+Original: EX00250: pydx[e]  -> 
+Duplicate: pydx(e): pydx[e]  <=> 
+Duplicate reaction is reversible.
+Round 1366 removed 1 reactions.
+Another copy of EX00534 exists at 3445: pydam(e)
+Original: EX00534: pydam[e]  -> 
+Duplicate: pydam(e): pydam[e]  <=> 
+Duplicate reaction is reversible.
+Round 1367 removed 1 reactions.
+Another copy of EX00194 exists at 3411: Vitamin_B12_exchange(e)
+Original: EX00194: adocbl[e]  -> 
+Duplicate: Vitamin_B12_exchange(e): adocbl[e]  <=> 
+Duplicate reaction is reversible.
+Round 1369 removed 1 reactions.
+Another copy of EX00378 exists at 3432: thiamin_exchange(e)
+Original: EX00378: thm[e]  -> 
+Duplicate: thiamin_exchange(e): thm[e]  <=> 
+Duplicate reaction is reversible.
+Round 1373 removed 1 reactions.
+Another copy of EX00255 exists at 3446: Riboflavin_exchange(e)
+Original: EX00255: ribflv[e]  -> 
+Duplicate: Riboflavin_exchange(e): ribflv[e]  <=> 
+Duplicate reaction is reversible.
+Round 1374 removed 1 reactions.
+Another copy of EX00864 exists at 3434: Pantothenate_exchange(e)
+Original: EX00864: pnto_R[e]  -> 
+Duplicate: Pantothenate_exchange(e): pnto_R[e]  <=> 
+Duplicate reaction is reversible.
+Round 1376 removed 1 reactions.
+Another copy of EX00140 exists at 3418: N_Acetylglucosamine_exchange(e)
+Original: EX00140: acgam[e]  -> 
+Duplicate: N_Acetylglucosamine_exchange(e): acgam[e]  <=> 
+Duplicate reaction is reversible.
+Round 1379 removed 1 reactions.
+Another copy of TCE1189 exists at 3388: Histidine_transport
+Original: TCE1189: his_L[e]  <=> his_L[c] 
+Duplicate: Histidine_transport: his_L[c]  <=> his_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1380 removed 1 reactions.
+Another copy of TCE1182 exists at 3378: Pi_transport
+Original: TCE1182: pi[e]  <=> pi[c] 
+Duplicate: Pi_transport: pi[c]  <=> pi[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1381 removed 1 reactions.
+Another copy of TCE1184 exists at 3402: Lysine_transport
+Original: TCE1184: lys_L[e]  <=> lys_L[c] 
+Duplicate: Lysine_transport: lys_L[c]  <=> lys_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1383 removed 1 reactions.
+Another copy of TCM0215 exists at 3202: DNDPt12m
+Original: TCM0215: adp[m] + dadp[c]  -> adp[c] + dadp[m] 
+Duplicate: DNDPt12m: adp[m] + dadp[c]  -> adp[c] + dadp[m] 
+Reversibility matches for both.
+Round 1385 removed 1 reactions.
+Another copy of TCM0214 exists at 3209: DNDPt1m
+Original: TCM0214: adp[m] + datp[c]  -> adp[c] + datp[m] 
+Duplicate: DNDPt1m: adp[m] + datp[c]  -> adp[c] + datp[m] 
+Reversibility matches for both.
+Round 1386 removed 1 reactions.
+Another copy of TCM0217 exists at 3263: MALSO3tm
+Original: TCM0217: so3[m] + mal_L[c]  <=> mal_L[m] + so3[c] 
+Duplicate: MALSO3tm: so3[m] + mal_L[c]  <=> mal_L[m] + so3[c] 
+Reversibility matches for both.
+Round 1387 removed 1 reactions.
+Another copy of TCM0216 exists at 3218: DNDPt2m
+Original: TCM0216: atp[m] + datp[c]  -> atp[c] + datp[m] 
+Duplicate: DNDPt2m: atp[m] + datp[c]  -> atp[c] + datp[m] 
+Reversibility matches for both.
+Round 1388 removed 1 reactions.
+Another copy of TCM0212 exists at 3266: MALSULtm
+Original: TCM0212: tsul[m] + mal_L[c]  <=> mal_L[m] + tsul[c] 
+Duplicate: MALSULtm: tsul[m] + mal_L[c]  <=> mal_L[m] + tsul[c] 
+Reversibility matches for both.
+Round 1391 removed 1 reactions.
+Another copy of TCM0198 exists at 3194: DNDPt54m
+Original: TCM0198: dctp[c] + dadp[m]  -> dadp[c] + dctp[m] 
+Duplicate: DNDPt54m: dctp[c] + dadp[m]  -> dadp[c] + dctp[m] 
+Reversibility matches for both.
+Round 1394 removed 1 reactions.
+Another copy of TCM0196 exists at 3286: CHLtm
+Original: TCM0196: chol[c]  <=> chol[m] 
+Duplicate: CHLtm: chol[c]  <=> chol[m] 
+Reversibility matches for both.
+Round 1396 removed 1 reactions.
+Another copy of TCM0197 exists at 3274: GSNtm
+Original: TCM0197: gsn[c]  <=> gsn[m] 
+Duplicate: GSNtm: gsn[c]  <=> gsn[m] 
+Reversibility matches for both.
+Round 1397 removed 1 reactions.
+Another copy of TCE0360 exists at 3323: OCDCAFAPMtc
+Original: TCE0360: ocdca[e]  <=> ocdca[c] 
+Duplicate: OCDCAFAPMtc: ocdca[e]  -> ocdca[c] 
+Duplicate reaction is irreversible.
+Round 1401 removed 1 reactions.
+Another copy of TCE0440 exists at 3388: Urea_transport
+Original: TCE0440: urea[e]  <=> urea[c] 
+Duplicate: Urea_transport: urea[c]  <=> urea[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1402 removed 1 reactions.
+Another copy of TCE0382 exists at 3444: Isoleucine_transport
+Original: TCE0382: ile_L[e]  <=> ile_L[c] 
+Duplicate: Isoleucine_transport: ile_L[c]  <=> ile_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1406 removed 1 reactions.
+Another copy of TCE0508 exists at 3391: Valine_transport
+Original: TCE0508: val_L[e]  <=> val_L[c] 
+Duplicate: Valine_transport: val_L[c]  <=> val_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1407 removed 1 reactions.
+Another copy of TCE1164 exists at 3451: Glutamate_transport
+Original: TCE1164: glu_L[e]  <=> glu_L[c] 
+Duplicate: Glutamate_transport: glu_L[c]  <=> glu_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1410 removed 1 reactions.
+Another copy of TCE1169 exists at 3419: Pantothenate_transport
+Original: TCE1169: pnto_R[e]  <=> pnto_R[c] 
+Duplicate: Pantothenate_transport: pnto_R[c]  <=> pnto_R[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1414 removed 1 reactions.
+Another copy of TCM0066 exists at 1685: TCM0171
+Original: TCM0066: dgdp[c] + dadp[m]  -> dadp[c] + dgdp[m] 
+Duplicate: TCM0171: dadp[c] + dgdp[m]  -> dgdp[c] + dadp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0066 exists at 3200: DNDPt11m
+Original: TCM0066: dgdp[c] + dadp[m]  -> dadp[c] + dgdp[m] 
+Duplicate: DNDPt11m: dadp[c] + dgdp[m]  -> dgdp[c] + dadp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0066 exists at 3222: DNDPt35m
+Original: TCM0066: dgdp[c] + dadp[m]  -> dadp[c] + dgdp[m] 
+Duplicate: DNDPt35m: dgdp[c] + dadp[m]  -> dadp[c] + dgdp[m] 
+Reversibility matches for both.
+Round 1415 removed 3 reactions.
+Another copy of TCM0064 exists at 3292: FORt2m
+Original: TCM0064: for[m]  <=> for[c] 
+Duplicate: FORt2m: for[m]  <=> for[c] 
+Reversibility matches for both.
+Round 1416 removed 1 reactions.
+Another copy of TCM0148 exists at 3206: DNDPt20m
+Original: TCM0148: atp[m] + dtdp[c]  -> atp[c] + dtdp[m] 
+Duplicate: DNDPt20m: atp[m] + dtdp[c]  -> atp[c] + dtdp[m] 
+Reversibility matches for both.
+Round 1418 removed 1 reactions.
+Another copy of TCM0140 exists at 3216: DNDPt32m
+Original: TCM0140: atp[m] + dgdp[c]  -> atp[c] + dgdp[m] 
+Duplicate: DNDPt32m: atp[m] + dgdp[c]  -> atp[c] + dgdp[m] 
+Reversibility matches for both.
+Round 1422 removed 1 reactions.
+Another copy of TCM0143 exists at 3195: DNDPt57m
+Original: TCM0143: atp[m] + dgtp[c]  -> atp[c] + dgtp[m] 
+Duplicate: DNDPt57m: atp[m] + dgtp[c]  -> atp[c] + dgtp[m] 
+Reversibility matches for both.
+Round 1423 removed 1 reactions.
+Another copy of TCE0757 exists at 3413: Choline_transport
+Original: TCE0757: chol[e]  <=> chol[c] 
+Duplicate: Choline_transport: chol[c]  <=> chol[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1427 removed 1 reactions.
+Another copy of TCE0758 exists at 3386: Phenylalanine_transport
+Original: TCE0758: phe_L[e]  <=> phe_L[c] 
+Duplicate: Phenylalanine_transport: phe_L[c]  <=> phe_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1428 removed 1 reactions.
+Another copy of TCE1301 exists at 3382: O2_transport
+Original: TCE1301: o2[e]  <=> o2[c] 
+Duplicate: O2_transport: o2[c]  <=> o2[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1438 removed 1 reactions.
+Another copy of TCE1303 exists at 3449: Proline_transport
+Original: TCE1303: pro_L[e]  <=> pro_L[c] 
+Duplicate: Proline_transport: pro_L[c]  <=> pro_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1440 removed 1 reactions.
+Another copy of TCE1304 exists at 3337: Lact2r
+Original: TCE1304: lac_L[e]  <=> lac_L[c] 
+Duplicate: Lact2r: lac_L[e]  <=> lac_L[c] 
+Reversibility matches for both.
+Round 1441 removed 1 reactions.
+Another copy of TCE1306 exists at 3442: Glycine_transport
+Original: TCE1306: gly[e]  <=> gly[c] 
+Duplicate: Glycine_transport: gly[c]  <=> gly[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1443 removed 1 reactions.
+Another copy of TCM0099 exists at 1561: TCM0083
+Original: TCM0099: dgdp[c] + dcdp[m]  -> dcdp[c] + dgdp[m] 
+Duplicate: TCM0083: dcdp[c] + dgdp[m]  -> dgdp[c] + dcdp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0099 exists at 3211: DNDPt28m
+Original: TCM0099: dgdp[c] + dcdp[m]  -> dcdp[c] + dgdp[m] 
+Duplicate: DNDPt28m: dcdp[c] + dgdp[m]  -> dgdp[c] + dcdp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0099 exists at 3217: DNDPt36m
+Original: TCM0099: dgdp[c] + dcdp[m]  -> dcdp[c] + dgdp[m] 
+Duplicate: DNDPt36m: dgdp[c] + dcdp[m]  -> dcdp[c] + dgdp[m] 
+Reversibility matches for both.
+Round 1447 removed 3 reactions.
+Another copy of TCM0091 exists at 3212: DNDPt31m
+Original: TCM0091: atp[m] + dcdp[c]  -> atp[c] + dcdp[m] 
+Duplicate: DNDPt31m: atp[m] + dcdp[c]  -> atp[c] + dcdp[m] 
+Reversibility matches for both.
+Round 1451 removed 1 reactions.
+Another copy of TCM0097 exists at 3218: DNDPt40m
+Original: TCM0097: dutp[c] + dadp[m]  -> dadp[c] + dutp[m] 
+Duplicate: DNDPt40m: dutp[c] + dadp[m]  -> dadp[c] + dutp[m] 
+Reversibility matches for both.
+Round 1453 removed 1 reactions.
+Another copy of TCM0096 exists at 3194: DNDPt58m
+Original: TCM0096: adp[m] + dgtp[c]  -> adp[c] + dgtp[m] 
+Duplicate: DNDPt58m: adp[m] + dgtp[c]  -> adp[c] + dgtp[m] 
+Reversibility matches for both.
+Round 1454 removed 1 reactions.
+Another copy of TCE0687 exists at 3406: Niacin_transport
+Original: TCE0687: nac[e]  -> nac[c] 
+Duplicate: Niacin_transport: nac[c]  <=> nac[e] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1457 removed 1 reactions.
+Another copy of TCE0486 exists at 1705: TCE0622
+Original: TCE0486: 2 na1[e] + so4[e]  <=> so4[c] + 2 na1[c] 
+Duplicate: TCE0622: 3 na1[e] + so4[e]  <=> so4[c] + 3 na1[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1459 removed 1 reactions.
+Another copy of TCE0329 exists at 3302: HDCAFAPMtc
+Original: TCE0329: hdca[e]  <=> hdca[c] 
+Duplicate: HDCAFAPMtc: hdca[e]  -> hdca[c] 
+Duplicate reaction is irreversible.
+Round 1461 removed 1 reactions.
+Another copy of TCM1282 exists at 3224: MALtm
+Original: TCM1282: pi[m] + mal_L[c]  <=> pi[c] + mal_L[m] 
+Duplicate: MALtm: pi[m] + mal_L[c]  <=> pi[c] + mal_L[m] 
+Reversibility matches for both.
+Another copy of TCM1282 exists at 3250: Maltm
+Original: TCM1282: pi[m] + mal_L[c]  <=> pi[c] + mal_L[m] 
+Duplicate: Maltm: pi[m] + mal_L[c]  <=> pi[c] + mal_L[m] 
+Reversibility matches for both.
+Round 1466 removed 2 reactions.
+Another copy of TCM1285 exists at 3223: CITtam
+Original: TCM1285: cit[c] + mal_L[m]  <=> cit[m] + mal_L[c] 
+Duplicate: CITtam: cit[c] + mal_L[m]  <=> cit[m] + mal_L[c] 
+Reversibility matches for both.
+Round 1467 removed 1 reactions.
+Another copy of TCM1287 exists at 3281: CO2tm
+Original: TCM1287: co2[c]  <=> co2[m] 
+Duplicate: CO2tm: co2[c]  <=> co2[m] 
+Reversibility matches for both.
+Round 1469 removed 1 reactions.
+Another copy of TCM1286 exists at 3181: 4ABUTtm
+Original: TCM1286: 4abut[c]  <=> 4abut[m] 
+Duplicate: 4ABUTtm: 4abut[c]  <=> 4abut[m] 
+Reversibility matches for both.
+Round 1470 removed 1 reactions.
+Another copy of TCE1122 exists at 3426: Glutamine_transport
+Original: TCE1122: gln_L[e]  <=> gln_L[c] 
+Duplicate: Glutamine_transport: gln_L[c]  <=> gln_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1473 removed 1 reactions.
+Another copy of TCE0430 exists at 3402: pydxnt
+Original: TCE0430: pydxn[e]  <=> pydxn[c] 
+Duplicate: pydxnt: pydxn[c]  <=> pydxn[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1476 removed 1 reactions.
+Another copy of TCM1283 exists at 3259: CRNtim
+Original: TCM1283: crn[m]  -> crn[c] 
+Duplicate: CRNtim: crn[c]  -> crn[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1477 removed 1 reactions.
+Another copy of TCM1288 exists at 3268: GLYC3Ptm
+Original: TCM1288: glyc3p[c]  -> glyc3p[m] 
+Duplicate: GLYC3Ptm: glyc3p[c]  -> glyc3p[m] 
+Reversibility matches for both.
+Round 1487 removed 1 reactions.
+Another copy of TCM0117 exists at 3262: LEUt5m
+Original: TCM0117: leu_L[c]  <=> leu_L[m] 
+Duplicate: LEUt5m: leu_L[c]  <=> leu_L[m] 
+Reversibility matches for both.
+Round 1489 removed 1 reactions.
+Another copy of TCM0114 exists at 1700: TCM0076
+Original: TCM0114: dgdp[c] + dudp[m]  -> dudp[c] + dgdp[m] 
+Duplicate: TCM0076: dudp[c] + dgdp[m]  -> dgdp[c] + dudp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0114 exists at 3196: DNDPt15m
+Original: TCM0114: dgdp[c] + dudp[m]  -> dudp[c] + dgdp[m] 
+Duplicate: DNDPt15m: dudp[c] + dgdp[m]  -> dgdp[c] + dudp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0114 exists at 3209: DNDPt33m
+Original: TCM0114: dgdp[c] + dudp[m]  -> dudp[c] + dgdp[m] 
+Duplicate: DNDPt33m: dgdp[c] + dudp[m]  -> dudp[c] + dgdp[m] 
+Reversibility matches for both.
+Round 1490 removed 3 reactions.
+Another copy of TCM0115 exists at 3213: DNDPt42m
+Original: TCM0115: adp[m] + dutp[c]  -> adp[c] + dutp[m] 
+Duplicate: DNDPt42m: adp[m] + dutp[c]  -> adp[c] + dutp[m] 
+Reversibility matches for both.
+Round 1491 removed 1 reactions.
+Another copy of TCM0113 exists at 3253: GLYCtm
+Original: TCM0113: glyc[c]  <=> glyc[m] 
+Duplicate: GLYCtm: glyc[c]  <=> glyc[m] 
+Reversibility matches for both.
+Round 1492 removed 1 reactions.
+Another copy of TCM0110 exists at 1552: TCM0125
+Original: TCM0110: dcdp[c] + dudp[m]  -> dudp[c] + dcdp[m] 
+Duplicate: TCM0125: dudp[c] + dcdp[m]  -> dcdp[c] + dudp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0110 exists at 3196: DNDPt17m
+Original: TCM0110: dcdp[c] + dudp[m]  -> dudp[c] + dcdp[m] 
+Duplicate: DNDPt17m: dudp[c] + dcdp[m]  -> dcdp[c] + dudp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0110 exists at 3203: DNDPt26m
+Original: TCM0110: dcdp[c] + dudp[m]  -> dudp[c] + dcdp[m] 
+Duplicate: DNDPt26m: dcdp[c] + dudp[m]  -> dudp[c] + dcdp[m] 
+Reversibility matches for both.
+Round 1493 removed 3 reactions.
+Another copy of TCM0111 exists at 3253: ATPtm
+Original: TCM0111: adp[c] + atp[m]  -> atp[c] + adp[m] 
+Duplicate: ATPtm: adp[c] + atp[m]  -> atp[c] + adp[m] 
+Reversibility matches for both.
+Round 1494 removed 1 reactions.
+Another copy of TCM0118 exists at 3240: FUMTSULtm
+Original: TCM0118: fum[c] + tsul[m]  <=> fum[m] + tsul[c] 
+Duplicate: FUMTSULtm: fum[c] + tsul[m]  <=> fum[m] + tsul[c] 
+Reversibility matches for both.
+Round 1495 removed 1 reactions.
+Another copy of TCM0059 exists at 3249: CYANtm
+Original: TCM0059: cyan[c]  <=> cyan[m] 
+Duplicate: CYANtm: cyan[c]  <=> cyan[m] 
+Reversibility matches for both.
+Round 1497 removed 1 reactions.
+Another copy of TCM1275 exists at 3268: oxtm
+Original: TCM1275: o2[c]  <=> o2[m] 
+Duplicate: oxtm: o2[c]  <=> o2[m] 
+Reversibility matches for both.
+Round 1502 removed 1 reactions.
+Another copy of TCM1276 exists at 3241: H2Otm
+Original: TCM1276: h2o[c]  <=> h2o[m] 
+Duplicate: H2Otm: h2o[c]  <=> h2o[m] 
+Reversibility matches for both.
+Round 1503 removed 1 reactions.
+Another copy of TCM1277 exists at 3235: CITtbm
+Original: TCM1277: cit[c] + pep[m]  <=> pep[c] + cit[m] 
+Duplicate: CITtbm: cit[c] + pep[m]  <=> pep[c] + cit[m] 
+Reversibility matches for both.
+Round 1504 removed 1 reactions.
+Another copy of TCM1278 exists at 3218: ACRNtm
+Original: TCM1278: acrn[c]  -> acrn[m] 
+Duplicate: ACRNtm: acrn[c]  -> acrn[m] 
+Reversibility matches for both.
+Round 1505 removed 1 reactions.
+Another copy of TCM0201 exists at 3236: MALSO4tm
+Original: TCM0201: mal_L[c] + so4[m]  <=> mal_L[m] + so4[c] 
+Duplicate: MALSO4tm: mal_L[c] + so4[m]  <=> mal_L[m] + so4[c] 
+Reversibility matches for both.
+Round 1508 removed 1 reactions.
+Another copy of TCM0206 exists at 1558: TCM0081
+Original: TCM0206: dtdp[c] + dadp[m]  -> dadp[c] + dtdp[m] 
+Duplicate: TCM0081: dadp[c] + dtdp[m]  -> dtdp[c] + dadp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0206 exists at 3200: DNDPt24m
+Original: TCM0206: dtdp[c] + dadp[m]  -> dadp[c] + dtdp[m] 
+Duplicate: DNDPt24m: dtdp[c] + dadp[m]  -> dadp[c] + dtdp[m] 
+Reversibility matches for both.
+Round 1509 removed 2 reactions.
+Another copy of TCM0207 exists at 3234: FUMtm
+Original: TCM0207: pi[m] + fum[c]  <=> pi[c] + fum[m] 
+Duplicate: FUMtm: pi[m] + fum[c]  <=> pi[c] + fum[m] 
+Reversibility matches for both.
+Round 1510 removed 1 reactions.
+Another copy of TCM0204 exists at 3189: DNDPt59m
+Original: TCM0204: dgtp[c] + dadp[m]  -> dadp[c] + dgtp[m] 
+Duplicate: DNDPt59m: dgtp[c] + dadp[m]  -> dadp[c] + dgtp[m] 
+Reversibility matches for both.
+Round 1511 removed 1 reactions.
+Another copy of TCM0208 exists at 1540: TCM0156
+Original: TCM0208: dtdp[c] + dudp[m]  -> dudp[c] + dtdp[m] 
+Duplicate: TCM0156: dudp[c] + dtdp[m]  -> dtdp[c] + dudp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0208 exists at 3191: DNDPt14m
+Original: TCM0208: dtdp[c] + dudp[m]  -> dudp[c] + dtdp[m] 
+Duplicate: DNDPt14m: dudp[c] + dtdp[m]  -> dtdp[c] + dudp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0208 exists at 3196: DNDPt22m
+Original: TCM0208: dtdp[c] + dudp[m]  -> dudp[c] + dtdp[m] 
+Duplicate: DNDPt22m: dtdp[c] + dudp[m]  -> dudp[c] + dtdp[m] 
+Reversibility matches for both.
+Round 1512 removed 3 reactions.
+Another copy of TCM1082 exists at 3256: tyrtm
+Original: TCM1082: tyr_L[c]  <=> tyr_L[m] 
+Duplicate: tyrtm: tyr_L[c]  -> tyr_L[m] 
+Duplicate reaction is irreversible.
+Round 1515 removed 1 reactions.
+Another copy of TCM1085 exists at 3249: r1435
+Original: TCM1085: ser_L[c]  <=> ser_L[m] 
+Duplicate: r1435: ser_L[c]  -> ser_L[m] 
+Duplicate reaction is irreversible.
+Round 1517 removed 1 reactions.
+Another copy of TCE0518 exists at 3356: Thymine_transport
+Original: TCE0518: thym[e]  <=> thym[c] 
+Duplicate: Thymine_transport: thym[c]  <=> thym[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1525 removed 1 reactions.
+Another copy of TCM0158 exists at 3176: O2Stm
+Original: TCM0158: o2s[c]  <=> o2s[m] 
+Duplicate: O2Stm: o2s[c]  <=> o2s[m] 
+Reversibility matches for both.
+Round 1536 removed 1 reactions.
+Another copy of TCM0150 exists at 3202: DNDPt41m
+Original: TCM0150: dutp[c] + dcdp[m]  -> dcdp[c] + dutp[m] 
+Duplicate: DNDPt41m: dutp[c] + dcdp[m]  -> dcdp[c] + dutp[m] 
+Reversibility matches for both.
+Round 1538 removed 1 reactions.
+Another copy of TCM0154 exists at 3199: DNDPt38m
+Original: TCM0154: dutp[c] + dudp[m]  -> dudp[c] + dutp[m] 
+Duplicate: DNDPt38m: dutp[c] + dudp[m]  -> dudp[c] + dutp[m] 
+Reversibility matches for both.
+Round 1540 removed 1 reactions.
+Another copy of TCE0602 exists at 1575: TCE0342
+Original: TCE0602: hco3[e] + cl[c]  <=> hco3[c] + cl[e] 
+Duplicate: TCE0342: 2 hco3[c] + cl[e]  -> 2 hco3[e] + cl[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Another copy of TCE0602 exists at 1610: TCE0457
+Original: TCE0602: hco3[e] + cl[c]  <=> hco3[c] + cl[e] 
+Duplicate: TCE0457: hco3[c] + 2 cl[e]  -> hco3[e] + 2 cl[c] 
+Duplicate reaction is irreversible.
+The stoichiometry is different for duplicate.
+Round 1542 removed 2 reactions.
+Another copy of TCE0600 exists at 3308: 5HTRPVESSEC
+Original: TCE0600: 2 atp[c] + 2 h2o[c] + 3 5htrp[c]  -> 2 adp[c] + 2 h[c] + 2 pi[c] + 3 5htrp[e] 
+Duplicate: 5HTRPVESSEC: atp[c] + h2o[c] + 5htrp[c]  -> adp[c] + h[c] + pi[c] + 5htrp[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1544 removed 1 reactions.
+Another copy of TCE0766 exists at 3365: Niacinamide_transport
+Original: TCE0766: ncam[e]  -> ncam[c] 
+Duplicate: Niacinamide_transport: ncam[c]  <=> ncam[e] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1545 removed 1 reactions.
+Another copy of TCM0128 exists at 1588: TCM0163
+Original: TCM0128: dcdp[c] + dtdp[m]  -> dtdp[c] + dcdp[m] 
+Duplicate: TCM0163: dtdp[c] + dcdp[m]  -> dcdp[c] + dtdp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0128 exists at 3192: DNDPt27m
+Original: TCM0128: dcdp[c] + dtdp[m]  -> dtdp[c] + dcdp[m] 
+Duplicate: DNDPt27m: dcdp[c] + dtdp[m]  -> dtdp[c] + dcdp[m] 
+Reversibility matches for both.
+Round 1548 removed 2 reactions.
+Another copy of TCM0126 exists at 3197: DNDPt43m
+Original: TCM0126: atp[m] + dutp[c]  -> atp[c] + dutp[m] 
+Duplicate: DNDPt43m: atp[m] + dutp[c]  -> atp[c] + dutp[m] 
+Reversibility matches for both.
+Round 1550 removed 1 reactions.
+Another copy of TCM2002 exists at 3225: PSFLIPm
+Original: TCM2002: atp[c] + h2o[c] + ps[c]  -> adp[c] + h[c] + pi[c] + ps[m] 
+Duplicate: PSFLIPm: atp[c] + h2o[c] + ps[c]  -> adp[c] + 2 h[c] + pi[c] + ps[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1552 removed 1 reactions.
+Another copy of TCM0121 exists at 1647: TCM0222
+Original: TCM0121: dcdp[c] + dadp[m]  -> dadp[c] + dcdp[m] 
+Duplicate: TCM0222: dadp[c] + dcdp[m]  -> dcdp[c] + dadp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0121 exists at 3184: DNDPt10m
+Original: TCM0121: dcdp[c] + dadp[m]  -> dadp[c] + dcdp[m] 
+Duplicate: DNDPt10m: dadp[c] + dcdp[m]  -> dcdp[c] + dadp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0121 exists at 3191: DNDPt29m
+Original: TCM0121: dcdp[c] + dadp[m]  -> dadp[c] + dcdp[m] 
+Duplicate: DNDPt29m: dcdp[c] + dadp[m]  -> dadp[c] + dcdp[m] 
+Reversibility matches for both.
+Round 1553 removed 3 reactions.
+Another copy of TCM0088 exists at 3187: DNDPt21m
+Original: TCM0088: adp[m] + dtdp[c]  -> adp[c] + dtdp[m] 
+Duplicate: DNDPt21m: adp[m] + dtdp[c]  -> adp[c] + dtdp[m] 
+Reversibility matches for both.
+Round 1554 removed 1 reactions.
+Another copy of TCM0082 exists at 3190: DNDPt37m
+Original: TCM0082: dutp[c] + dtdp[m]  -> dtdp[c] + dutp[m] 
+Duplicate: DNDPt37m: dutp[c] + dtdp[m]  -> dtdp[c] + dutp[m] 
+Reversibility matches for both.
+Round 1557 removed 1 reactions.
+Another copy of TCM0087 exists at 3185: DNDPt18m
+Original: TCM0087: adp[m] + dudp[c]  -> adp[c] + dudp[m] 
+Duplicate: DNDPt18m: adp[m] + dudp[c]  -> adp[c] + dudp[m] 
+Reversibility matches for both.
+Round 1559 removed 1 reactions.
+Another copy of TCM0220 exists at 3190: DNDPt3m
+Original: TCM0220: datp[c] + dcdp[m]  -> dcdp[c] + datp[m] 
+Duplicate: DNDPt3m: datp[c] + dcdp[m]  -> dcdp[c] + datp[m] 
+Reversibility matches for both.
+Round 1560 removed 1 reactions.
+Another copy of TCM0188 exists at 3180: DNDPt53m
+Original: TCM0188: dctp[c] + dgdp[m]  -> dgdp[c] + dctp[m] 
+Duplicate: DNDPt53m: dctp[c] + dgdp[m]  -> dgdp[c] + dctp[m] 
+Reversibility matches for both.
+Round 1561 removed 1 reactions.
+Another copy of TCE0332 exists at 3274: MALTt1r
+Original: TCE0332: malt[e]  <=> malt[c] 
+Duplicate: MALTt1r: malt[e]  <=> malt[c] 
+Reversibility matches for both.
+Round 1562 removed 1 reactions.
+Another copy of TCE0338 exists at 3276: GALt1r
+Original: TCE0338: gal[e]  <=> gal[c] 
+Duplicate: GALt1r: gal[e]  <=> gal[c] 
+Reversibility matches for both.
+Round 1564 removed 1 reactions.
+Another copy of TCE1202 exists at 3386: Ex_for_t
+Original: TCE1202: for[e]  <=> for[c] 
+Duplicate: Ex_for_t: for[c]  <=> for[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1565 removed 1 reactions.
+Another copy of TCE0784 exists at 3340: cytidine_transport
+Original: TCE0784: cytd[e]  <=> cytd[c] 
+Duplicate: cytidine_transport: cytd[c]  <=> cytd[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1569 removed 1 reactions.
+Another copy of TCE1296 exists at 3265: TTDCAt
+Original: TCE1296: ttdca[e]  -> ttdca[c] 
+Duplicate: TTDCAt: ttdca[e]  -> ttdca[c] 
+Reversibility matches for both.
+Round 1575 removed 1 reactions.
+Another copy of TCE0424 exists at 3276: MANt1r
+Original: TCE0424: man[e]  <=> man[c] 
+Duplicate: MANt1r: man[e]  <=> man[c] 
+Reversibility matches for both.
+Round 1577 removed 1 reactions.
+Another copy of TCM1290 exists at 3227: THFtm
+Original: TCM1290: thf[c]  <=> thf[m] 
+Duplicate: THFtm: thf[c]  <=> thf[m] 
+Reversibility matches for both.
+Round 1579 removed 1 reactions.
+Another copy of TCM1291 exists at 3224: PROtm
+Original: TCM1291: pro_L[c]  <=> pro_L[m] 
+Duplicate: PROtm: pro_L[c]  <=> pro_L[m] 
+Reversibility matches for both.
+Round 1580 removed 1 reactions.
+Another copy of TCE0521 exists at 3374: Tyrosine_transport
+Original: TCE0521: tyr_L[e]  <=> tyr_L[c] 
+Duplicate: Tyrosine_transport: tyr_L[c]  <=> tyr_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1581 removed 1 reactions.
+Another copy of TCM0161 exists at 3186: DNDPt30m
+Original: TCM0161: adp[m] + dcdp[c]  -> adp[c] + dcdp[m] 
+Duplicate: DNDPt30m: adp[m] + dcdp[c]  -> adp[c] + dcdp[m] 
+Reversibility matches for both.
+Round 1589 removed 1 reactions.
+Another copy of TCM0165 exists at 3180: DNDPt55m
+Original: TCM0165: adp[m] + dctp[c]  -> adp[c] + dctp[m] 
+Duplicate: DNDPt55m: adp[m] + dctp[c]  -> adp[c] + dctp[m] 
+Reversibility matches for both.
+Round 1592 removed 1 reactions.
+Another copy of TCE0735 exists at 3365: Cysteine_transport
+Original: TCE0735: cys_L[e]  <=> cys_L[c] 
+Duplicate: Cysteine_transport: cys_L[c]  <=> cys_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1595 removed 1 reactions.
+Another copy of TCM0149 exists at 3180: DNDPt56m
+Original: TCM0149: atp[m] + dctp[c]  -> atp[c] + dctp[m] 
+Duplicate: DNDPt56m: atp[m] + dctp[c]  -> atp[c] + dctp[m] 
+Reversibility matches for both.
+Round 1598 removed 1 reactions.
+Another copy of TCE1298 exists at 3268: XYLt
+Original: TCE1298: xyl_D[e]  <=> xyl_D[c] 
+Duplicate: XYLt: xyl_D[e]  <=> xyl_D[c] 
+Reversibility matches for both.
+Round 1609 removed 1 reactions.
+Another copy of TCE0779 exists at 3333: Adenosine_transport
+Original: TCE0779: adn[e]  <=> adn[c] 
+Duplicate: Adenosine_transport: adn[c]  <=> adn[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1617 removed 1 reactions.
+Another copy of TCE0772 exists at 3329: Guanosine_transport
+Original: TCE0772: gsn[e]  <=> gsn[c] 
+Duplicate: Guanosine_transport: gsn[c]  <=> gsn[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1619 removed 1 reactions.
+Another copy of TCM0139 exists at 3209: FUMSO3tm
+Original: TCM0139: fum[c] + so3[m]  <=> fum[m] + so3[c] 
+Duplicate: FUMSO3tm: fum[c] + so3[m]  <=> fum[m] + so3[c] 
+Reversibility matches for both.
+Round 1626 removed 1 reactions.
+Another copy of TCM0135 exists at 3219: VALt5m
+Original: TCM0135: val_L[c]  <=> val_L[m] 
+Duplicate: VALt5m: val_L[c]  <=> val_L[m] 
+Reversibility matches for both.
+Round 1628 removed 1 reactions.
+Another copy of TCM0137 exists at 3179: DNDPt52m
+Original: TCM0137: dctp[c] + dudp[m]  -> dudp[c] + dctp[m] 
+Duplicate: DNDPt52m: dctp[c] + dudp[m]  -> dudp[c] + dctp[m] 
+Reversibility matches for both.
+Round 1629 removed 1 reactions.
+Another copy of TCM0132 exists at 3177: ILEt5m
+Original: TCM0132: ile_L[c]  <=> ile_L[m] 
+Duplicate: ILEt5m: ile_L[c]  <=> ile_L[m] 
+Reversibility matches for both.
+Round 1632 removed 1 reactions.
+Another copy of TCE1194 exists at 3302: Threonine_transport
+Original: TCE1194: thr_L[e]  <=> thr_L[c] 
+Duplicate: Threonine_transport: thr_L[c]  <=> thr_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1637 removed 1 reactions.
+Another copy of TCE1197 exists at 3278: ORNtiDF
+Original: TCE1197: orn[e]  <=> orn[c] 
+Duplicate: ORNtiDF: orn[e]  -> orn[c] 
+Duplicate reaction is irreversible.
+Round 1638 removed 1 reactions.
+Another copy of TCM0181 exists at 3207: FUMSO4tm
+Original: TCM0181: fum[c] + so4[m]  <=> fum[m] + so4[c] 
+Duplicate: FUMSO4tm: fum[c] + so4[m]  <=> fum[m] + so4[c] 
+Reversibility matches for both.
+Round 1640 removed 1 reactions.
+Another copy of TCM0185 exists at 3212: ADNtm
+Original: TCM0185: adn[c]  <=> adn[m] 
+Duplicate: ADNtm: adn[c]  <=> adn[m] 
+Reversibility matches for both.
+Round 1642 removed 1 reactions.
+Another copy of TCM0184 exists at 3177: DNDPt51m
+Original: TCM0184: dctp[c] + dcdp[m]  -> dcdp[c] + dctp[m] 
+Duplicate: DNDPt51m: dctp[c] + dcdp[m]  -> dcdp[c] + dctp[m] 
+Reversibility matches for both.
+Round 1643 removed 1 reactions.
+Another copy of TCM0187 exists at 3179: DNDPt19m
+Original: TCM0187: atp[m] + dudp[c]  -> atp[c] + dudp[m] 
+Duplicate: DNDPt19m: atp[m] + dudp[c]  -> atp[c] + dudp[m] 
+Reversibility matches for both.
+Round 1644 removed 1 reactions.
+Another copy of TCM0221 exists at 3181: DNDPt39m
+Original: TCM0221: dutp[c] + dgdp[m]  -> dgdp[c] + dutp[m] 
+Duplicate: DNDPt39m: dutp[c] + dgdp[m]  -> dgdp[c] + dutp[m] 
+Reversibility matches for both.
+Round 1646 removed 1 reactions.
+Another copy of TCM1101 exists at 3172: CMPtm
+Original: TCM1101: cmp[c]  <=> cmp[m] 
+Duplicate: CMPtm: cmp[c]  -> cmp[m] 
+Duplicate reaction is irreversible.
+Round 1652 removed 1 reactions.
+Another copy of TCE0453 exists at 3314: Uridine_transport
+Original: TCE0453: uri[e]  <=> uri[c] 
+Duplicate: Uridine_transport: uri[c]  <=> uri[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1660 removed 1 reactions.
+Another copy of TCE0450 exists at 3328: pydxt
+Original: TCE0450: pydx[e]  <=> pydx[c] 
+Duplicate: pydxt: pydx[c]  <=> pydx[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1661 removed 1 reactions.
+Another copy of TCE0531 exists at 3302: Leucine_transport
+Original: TCE0531: leu_L[e]  <=> leu_L[c] 
+Duplicate: Leucine_transport: leu_L[c]  <=> leu_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1664 removed 1 reactions.
+Another copy of TCM0172 exists at 1735: TCM0105
+Original: TCM0172: dgdp[c] + dtdp[m]  -> dtdp[c] + dgdp[m] 
+Duplicate: TCM0105: dtdp[c] + dgdp[m]  -> dgdp[c] + dtdp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0172 exists at 3178: DNDPt23m
+Original: TCM0172: dgdp[c] + dtdp[m]  -> dtdp[c] + dgdp[m] 
+Duplicate: DNDPt23m: dtdp[c] + dgdp[m]  -> dgdp[c] + dtdp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0172 exists at 3179: DNDPt34m
+Original: TCM0172: dgdp[c] + dtdp[m]  -> dtdp[c] + dgdp[m] 
+Duplicate: DNDPt34m: dgdp[c] + dtdp[m]  -> dtdp[c] + dgdp[m] 
+Reversibility matches for both.
+Round 1677 removed 3 reactions.
+Another copy of TCM0173 exists at 3205: CYTDtm
+Original: TCM0173: cytd[c]  <=> cytd[m] 
+Duplicate: CYTDtm: cytd[c]  <=> cytd[m] 
+Reversibility matches for both.
+Round 1678 removed 1 reactions.
+Another copy of TCM0175 exists at 1734: TCM0101
+Original: TCM0175: dudp[c] + dadp[m]  -> dadp[c] + dudp[m] 
+Duplicate: TCM0101: dadp[c] + dudp[m]  -> dudp[c] + dadp[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Another copy of TCM0175 exists at 3176: DNDPt16m
+Original: TCM0175: dudp[c] + dadp[m]  -> dadp[c] + dudp[m] 
+Duplicate: DNDPt16m: dudp[c] + dadp[m]  -> dadp[c] + dudp[m] 
+Reversibility matches for both.
+Round 1680 removed 2 reactions.
+Another copy of TCM0176 exists at 3169: PHEMEtm
+Original: TCM0176: pheme[m]  <=> pheme[c] 
+Duplicate: PHEMEtm: pheme[m]  <=> pheme[c] 
+Reversibility matches for both.
+Round 1681 removed 1 reactions.
+Another copy of TCM0077 exists at 3215: COAtm
+Original: TCM0077: coa[c]  <=> coa[m] 
+Duplicate: COAtm: coa[c]  <=> coa[m] 
+Reversibility matches for both.
+Round 1692 removed 1 reactions.
+Another copy of TCE1312 exists at 3274: Water_transport
+Original: TCE1312: h2o[e]  <=> h2o[c] 
+Duplicate: Water_transport: h2o[c]  <=> h2o[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1697 removed 1 reactions.
+Another copy of TCE1310 exists at 3276: CO2_transport
+Original: TCE1310: co2[e]  <=> co2[c] 
+Duplicate: CO2_transport: co2[c]  <=> co2[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1699 removed 1 reactions.
+Another copy of TCE0389 exists at 3301: myoinositol_transport
+Original: TCE0389: inost[e]  <=> inost[c] 
+Duplicate: myoinositol_transport: inost[c]  <=> inost[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1701 removed 1 reactions.
+Another copy of TCM0079 exists at 3173: DNDPt13m
+Original: TCM0079: atp[m] + dadp[c]  -> atp[c] + dadp[m] 
+Duplicate: DNDPt13m: atp[m] + dadp[c]  -> atp[c] + dadp[m] 
+Reversibility matches for both.
+Round 1716 removed 1 reactions.
+Another copy of TCE1137 exists at 3338: Serine_transport
+Original: TCE1137: ser_L[e]  <=> ser_L[c] 
+Duplicate: Serine_transport: ser_L[c]  <=> ser_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1721 removed 1 reactions.
+Another copy of TCE0542 exists at 3285: Tryptophan_transport
+Original: TCE0542: trp_L[e]  <=> trp_L[c] 
+Duplicate: Tryptophan_transport: trp_L[c]  <=> trp_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1729 removed 1 reactions.
+Another copy of TCM0109 exists at 3176: AKGMALtm
+Original: TCM0109: akg[m] + mal_L[c]  <=> akg[c] + mal_L[m] 
+Duplicate: AKGMALtm: akg[m] + mal_L[c]  <=> akg[c] + mal_L[m] 
+Reversibility matches for both.
+Round 1732 removed 1 reactions.
+Another copy of TCM0104 exists at 3198: SUCCt2m
+Original: TCM0104: pi[m] + succ[c]  <=> pi[c] + succ[m] 
+Duplicate: SUCCt2m: pi[m] + succ[c]  <=> pi[c] + succ[m] 
+Reversibility matches for both.
+Round 1734 removed 1 reactions.
+Another copy of TCE0718 exists at 3287: Methionine_transport
+Original: TCE0718: met_L[e]  <=> met_L[c] 
+Duplicate: Methionine_transport: met_L[c]  <=> met_L[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1737 removed 1 reactions.
+Another copy of TCE0713 exists at 3310: pydamt
+Original: TCE0713: pydam[e]  <=> pydam[c] 
+Duplicate: pydamt: pydam[c]  <=> pydam[e] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 1742 removed 1 reactions.
+Another copy of EX00097 exists at 3329: Ex_C_cys_L[c]_b
+Original: EX00097: cys_L[e]  -> 
+Duplicate: Ex_C_cys_L[c]_b: cys_L[e]  -> 
+Reversibility matches for both.
+Round 1749 removed 1 reactions.
+Another copy of EX00153 exists at 3309: Niacinamide_exchange(e)
+Original: EX00153: ncam[e]  -> 
+Duplicate: Niacinamide_exchange(e): ncam[e]  <=> 
+Duplicate reaction is reversible.
+Round 1756 removed 1 reactions.
+Another copy of EX00158 exists at 3307: Citrate_exchange(e)
+Original: EX00158: cit[e]  -> 
+Duplicate: Citrate_exchange(e): cit[e]  <=> 
+Duplicate reaction is reversible.
+Round 1763 removed 1 reactions.
+Another copy of EX00080 exists at 3271: Proton_exchange(e)
+Original: EX00080: h[e]  -> 
+Duplicate: Proton_exchange(e): h[e]  <=> 
+Duplicate reaction is reversible.
+Round 1779 removed 1 reactions.
+Another copy of EX00086 exists at 3283: Urea_exchange(e)
+Original: EX00086: urea[e]  -> 
+Duplicate: Urea_exchange(e): urea[e]  -> 
+Reversibility matches for both.
+Round 1782 removed 1 reactions.
+Another copy of EX01330 exists at 3316: na1(e)
+Original: EX01330: na1[e]  -> 
+Duplicate: na1(e):  <=> na1[e] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1785 removed 1 reactions.
+Another copy of EX00475 exists at 3297: cytidine_exchange(e)
+Original: EX00475: cytd[e]  -> 
+Duplicate: cytidine_exchange(e): cytd[e]  <=> 
+Duplicate reaction is reversible.
+Round 1787 removed 1 reactions.
+Another copy of EX00009 exists at 3269: Pi_exchange(e)
+Original: EX00009: pi[e]  <=> 
+Duplicate: Pi_exchange(e): pi[e]  <=> 
+Reversibility matches for both.
+Round 1791 removed 1 reactions.
+Another copy of EX00123 exists at 3276: Leucine_exchange(e)
+Original: EX00123: leu_L[e]  -> 
+Duplicate: Leucine_exchange(e): leu_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1795 removed 1 reactions.
+Another copy of EX00001 exists at 3269: Water_exchange(e)
+Original: EX00001: h2o[e]  <=> 
+Duplicate: Water_exchange(e): h2o[e]  <=> 
+Reversibility matches for both.
+Round 1797 removed 1 reactions.
+Another copy of EX00007 exists at 3280: O2_exchange(e)
+Original: EX00007: o2[e]  <=> 
+Duplicate: O2_exchange(e): o2[e]  <=> 
+Reversibility matches for both.
+Round 1798 removed 1 reactions.
+Another copy of EX00037 exists at 3321: Ex_C_gly[c]_b
+Original: EX00037: gly[e]  -> 
+Duplicate: Ex_C_gly[c]_b: gly[e]  -> 
+Reversibility matches for both.
+Round 1811 removed 1 reactions.
+Another copy of EX00032 exists at 3301: Heme_exchange(e)
+Original: EX00032: pheme[e]  -> 
+Duplicate: Heme_exchange(e): pheme[e]  <=> 
+Duplicate reaction is reversible.
+Round 1813 removed 1 reactions.
+Another copy of EX00135 exists at 3273: Histidine_exchange(e)
+Original: EX00135: his_L[e]  -> 
+Duplicate: Histidine_exchange(e): his_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1818 removed 1 reactions.
+Another copy of EX00137 exists at 3288: myoinositol_exchange(e)
+Original: EX00137: inost[e]  -> 
+Duplicate: myoinositol_exchange(e): inost[e]  <=> 
+Duplicate reaction is reversible.
+Round 1820 removed 1 reactions.
+Another copy of EX00387 exists at 3290: Guanosine_exchange(e)
+Original: EX00387: gsn[e]  -> 
+Duplicate: Guanosine_exchange(e): gsn[e]  <=> 
+Duplicate reaction is reversible.
+Round 1834 removed 1 reactions.
+Another copy of EX00188 exists at 3276: Threonine_exchange(e)
+Original: EX00188: thr_L[e]  -> 
+Duplicate: Threonine_exchange(e): thr_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1840 removed 1 reactions.
+Another copy of EX00025 exists at 3314: Ex_C_glu_L[c]_b
+Original: EX00025: glu_L[e]  -> 
+Duplicate: Ex_C_glu_L[c]_b: glu_L[e]  -> 
+Reversibility matches for both.
+Round 1844 removed 1 reactions.
+Another copy of EX00183 exists at 3277: Valine_exchange(e)
+Original: EX00183: val_L[e]  -> 
+Duplicate: Valine_exchange(e): val_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1846 removed 1 reactions.
+Another copy of EX00253 exists at 3295: Niacin_exchange(e)
+Original: EX00253: nac[e]  -> 
+Duplicate: Niacin_exchange(e): nac[e]  <=> 
+Duplicate reaction is reversible.
+Round 1854 removed 1 reactions.
+Another copy of EX00011 exists at 3269: CO2_exchange(e)
+Original: EX00011: co2[e]  -> 
+Duplicate: CO2_exchange(e): co2[e]  <=> 
+Duplicate reaction is reversible.
+Round 1863 removed 1 reactions.
+Another copy of EX00407 exists at 3272: Isoleucine_exchange(e)
+Original: EX00407: ile_L[e]  -> 
+Duplicate: Isoleucine_exchange(e): ile_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1879 removed 1 reactions.
+Another copy of EX00114 exists at 3292: Choline_exchange(e)
+Original: EX00114: chol[e]  -> 
+Duplicate: Choline_exchange(e): chol[e]  <=> 
+Duplicate reaction is reversible.
+Round 1880 removed 1 reactions.
+Another copy of EX00058 exists at 3317: Ex_forT_
+Original: EX00058: for[e]  -> 
+Duplicate: Ex_forT_: for[e]  <=> 
+Duplicate reaction is reversible.
+Round 1881 removed 1 reactions.
+Another copy of EX00101 exists at 3282: thf__exchange(e)
+Original: EX00101: thf[e]  -> 
+Duplicate: thf__exchange(e): thf[e]  <=> 
+Duplicate reaction is reversible.
+Round 1889 removed 1 reactions.
+Another copy of EX00238 exists at 3299: k(e)
+Original: EX00238: k[e]  -> 
+Duplicate: k(e):  <=> k[e] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1895 removed 1 reactions.
+Another copy of EX00047 exists at 3275: Lysine_exchange(e)
+Original: EX00047: lys_L[e]  -> 
+Duplicate: Lysine_exchange(e): lys_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1899 removed 1 reactions.
+Another copy of EX14818 exists at 3298: fe2(e)
+Original: EX14818: fe2[e]  -> 
+Duplicate: fe2(e):  <=> fe2[e] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1905 removed 1 reactions.
+Another copy of EX00064 exists at 3305: Ex_C_gln_L[c]_b
+Original: EX00064: gln_L[e]  -> 
+Duplicate: Ex_C_gln_L[c]_b: gln_L[e]  -> 
+Reversibility matches for both.
+Round 1915 removed 1 reactions.
+Another copy of EX00082 exists at 3306: Ex_C_tyr_L[c]_b
+Original: EX00082: tyr_L[e]  -> 
+Duplicate: Ex_C_tyr_L[c]_b: tyr_L[e]  -> 
+Reversibility matches for both.
+Round 1920 removed 1 reactions.
+Another copy of EX00504 exists at 3279: folate_exchange(e)
+Original: EX00504: fol[e]  -> 
+Duplicate: folate_exchange(e): fol[e]  <=> 
+Duplicate reaction is reversible.
+Round 1929 removed 1 reactions.
+Another copy of EX00178 exists at 3282: Thymine_exchange(e)
+Original: EX00178: thym[e]  -> 
+Duplicate: Thymine_exchange(e): thym[e]  <=> 
+Duplicate reaction is reversible.
+Round 1930 removed 1 reactions.
+Another copy of EX00073 exists at 3272: Methionine_exchange(e)
+Original: EX00073: met_L[e]  -> 
+Duplicate: Methionine_exchange(e): met_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1932 removed 1 reactions.
+Another copy of EX00078 exists at 3273: Tryptophan_exchange(e)
+Original: EX00078: trp_L[e]  -> 
+Duplicate: Tryptophan_exchange(e): trp_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1934 removed 1 reactions.
+Another copy of EX00079 exists at 3272: Phenylalanine_exchange(e)
+Original: EX00079: phe_L[e]  -> 
+Duplicate: Phenylalanine_exchange(e): phe_L[e]  <=> 
+Duplicate reaction is reversible.
+Round 1935 removed 1 reactions.
+Another copy of EX00148 exists at 3301: Ex_C_pro_L[c]_b
+Original: EX00148: pro_L[e]  -> 
+Duplicate: Ex_C_pro_L[c]_b: pro_L[e]  -> 
+Reversibility matches for both.
+Round 1951 removed 1 reactions.
+Another copy of EX00212 exists at 3280: Adenosine_exchange(e)
+Original: EX00212: adn[e]  -> 
+Duplicate: Adenosine_exchange(e): adn[e]  <=> 
+Duplicate reaction is reversible.
+Round 1953 removed 1 reactions.
+Another copy of EX00065 exists at 3299: Ex_C_ser_L[c]_b
+Original: EX00065: ser_L[e]  -> 
+Duplicate: Ex_C_ser_L[c]_b: ser_L[e]  -> 
+Reversibility matches for both.
+Round 1959 removed 1 reactions.
+Another copy of EX00299 exists at 3278: Uridine_exchange(e)
+Original: EX00299: uri[e]  -> 
+Duplicate: Uridine_exchange(e): uri[e]  <=> 
+Duplicate reaction is reversible.
+Round 1961 removed 1 reactions.
+Another copy of EX00698 exists at 3289: cl(e)
+Original: EX00698: cl[e]  -> 
+Duplicate: cl(e):  <=> cl[e] 
+Duplicate reaction is reversible.
+The stoichiometry is different for duplicate.
+Round 1969 removed 1 reactions.
+Another copy of RXN909_86_m exists at 2553: RXN909_85_m
+Original: RXN909_86_m: h[m] + fad[m] + dcacoa[m]  -> fadh2[m] + dc2coa[m] 
+Duplicate: RXN909_85_m: h[m] + fad[m] + dcacoa[m]  -> fadh2[m] + dc2coa[m] 
+Reversibility matches for both.
+Round 2067 removed 1 reactions.
+Another copy of RXN909_86_c exists at 2548: RXN909_85_c
+Original: RXN909_86_c: h[c] + dcacoa[c] + fad[c]  -> dc2coa[c] + fadh2[c] 
+Duplicate: RXN909_85_c: h[c] + dcacoa[c] + fad[c]  -> dc2coa[c] + fadh2[c] 
+Reversibility matches for both.
+Round 2068 removed 1 reactions.
+Another copy of RXN909_57_m exists at 2458: PHEAMINOTRANS_DEG_RXN_m
+Original: RXN909_57_m: akg[m] + phe_L[m]  <=> glu_L[m] + phpyr[m] 
+Duplicate: PHEAMINOTRANS_DEG_RXN_m: glu_L[m] + phpyr[m]  <=> akg[m] + phe_L[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 2082 removed 1 reactions.
+Another copy of NADPPHOSPHAT_RXN_c exists at 2249: NADPPPS_c
+Original: NADPPHOSPHAT_RXN_c: pi[c] + nad[c]  -> h2o[c] + nadp[c] 
+Duplicate: NADPPPS_c: pi[c] + nad[c]  -> h2o[c] + nadp[c] 
+Reversibility matches for both.
+Round 2088 removed 1 reactions.
+Another copy of RXN909_140_m exists at 2678: RXN909_141_m
+Original: RXN909_140_m: h[m] + fad[m] + stcoa[m]  -> fadh2[m] + od2coa[m] 
+Duplicate: RXN909_141_m: h[m] + fad[m] + stcoa[m]  -> fadh2[m] + od2coa[m] 
+Reversibility matches for both.
+Round 2105 removed 1 reactions.
+Another copy of GDP_KIN_RXN_m exists at 2567: NDPK1_m
+Original: GDP_KIN_RXN_m: atp[m] + gdp[m]  -> h[m] + adp[m] + gtp[m] 
+Duplicate: NDPK1_m: atp[m] + gdp[m]  -> h[m] + adp[m] + gtp[m] 
+Reversibility matches for both.
+Round 2114 removed 1 reactions.
+Another copy of GDP_KIN_RXN_c exists at 2525: NDPK1_c
+Original: GDP_KIN_RXN_c: atp[c] + gdp[c]  -> adp[c] + h[c] + gtp[c] 
+Duplicate: NDPK1_c: atp[c] + gdp[c]  -> adp[c] + h[c] + gtp[c] 
+Reversibility matches for both.
+Round 2122 removed 1 reactions.
+Another copy of RXN909_35_c exists at 2746: RXN909_34_c
+Original: RXN909_35_c: h[c] + ivcoa[c] + fad[c]  -> fadh2[c] + 3mb2coa[c] 
+Duplicate: RXN909_34_c: h[c] + ivcoa[c] + fad[c]  -> fadh2[c] + 3mb2coa[c] 
+Reversibility matches for both.
+Round 2123 removed 1 reactions.
+Another copy of GDP_KIN_RXN_n exists at 2565: NDPK1_n
+Original: GDP_KIN_RXN_n: atp[n] + gdp[n]  -> h[n] + gtp[n] + adp[n] 
+Duplicate: NDPK1_n: atp[n] + gdp[n]  -> h[n] + gtp[n] + adp[n] 
+Reversibility matches for both.
+Round 2130 removed 1 reactions.
+Another copy of RXN909_144_c exists at 2707: RXN909_145_c
+Original: RXN909_144_c: nad[c] + 3hodcoa[c]  -> h[c] + nadh[c] + 3ohodcoa[c] 
+Duplicate: RXN909_145_c: nad[c] + 3hodcoa[c]  -> h[c] + nadh[c] + 3ohodcoa[c] 
+Reversibility matches for both.
+Round 2134 removed 1 reactions.
+Another copy of RXN909_144_m exists at 2695: RXN909_145_m
+Original: RXN909_144_m: nad[m] + 3hodcoa[m]  -> nadh[m] + h[m] + 3ohodcoa[m] 
+Duplicate: RXN909_145_m: nad[m] + 3hodcoa[m]  -> nadh[m] + h[m] + 3ohodcoa[m] 
+Reversibility matches for both.
+Round 2140 removed 1 reactions.
+Another copy of RXN909_140_c exists at 2795: RXN909_141_c
+Original: RXN909_140_c: h[c] + stcoa[c] + fad[c]  -> od2coa[c] + fadh2[c] 
+Duplicate: RXN909_141_c: h[c] + stcoa[c] + fad[c]  -> od2coa[c] + fadh2[c] 
+Reversibility matches for both.
+Round 2173 removed 1 reactions.
+Another copy of ACOAD9_m exists at 3032: RXN909_24_m
+Original: ACOAD9_m: h[m] + fad[m] + ibcoa[m]  -> fadh2[m] + 2mp2coa[m] 
+Duplicate: RXN909_24_m: h[m] + fad[m] + ibcoa[m]  -> fadh2[m] + 2mp2coa[m] 
+Reversibility matches for both.
+Round 2180 removed 1 reactions.
+Another copy of RXN909_15_c exists at 2300: HACD9_c
+Original: RXN909_15_c: nad[c] + 3hmbcoa[c]  <=> h[c] + nadh[c] + 2maacoa[c] 
+Duplicate: HACD9_c: nad[c] + 3hmbcoa[c]  -> h[c] + nadh[c] + 2maacoa[c] 
+Duplicate reaction is irreversible.
+Round 2205 removed 1 reactions.
+Another copy of RXN909_128_c exists at 2359: RXN909_126_c
+Original: RXN909_128_c: crn[c] + occoa[c]  -> coa[c] + c8crn[c] 
+Duplicate: RXN909_126_c: crn[c] + occoa[c]  <=> coa[c] + c8crn[c] 
+Duplicate reaction is reversible.
+Round 2216 removed 1 reactions.
+Another copy of RXN909_73_c exists at 2754: RXN909_72_c
+Original: RXN909_73_c: nad[c] + 3hddcoa[c]  <=> h[c] + nadh[c] + 3oddcoa[c] 
+Duplicate: RXN909_72_c: nad[c] + 3hddcoa[c]  <=> h[c] + nadh[c] + 3oddcoa[c] 
+Reversibility matches for both.
+Round 2220 removed 1 reactions.
+Another copy of RXN909_128_m exists at 2353: RXN909_126_m
+Original: RXN909_128_m: occoa[m] + crn[m]  -> coa[m] + c8crn[m] 
+Duplicate: RXN909_126_m: occoa[m] + crn[m]  <=> coa[m] + c8crn[m] 
+Duplicate reaction is reversible.
+Round 2230 removed 1 reactions.
+Another copy of RXN909_35_m exists at 2776: RXN909_34_m
+Original: RXN909_35_m: h[m] + fad[m] + ivcoa[m]  -> fadh2[m] + 3mb2coa[m] 
+Duplicate: RXN909_34_m: h[m] + fad[m] + ivcoa[m]  -> fadh2[m] + 3mb2coa[m] 
+Reversibility matches for both.
+Round 2237 removed 1 reactions.
+Another copy of RXN909_95_c exists at 2879: RXN909_94_c
+Original: RXN909_95_c: nad[c] + 3hocoa[c]  <=> h[c] + nadh[c] + 3oocoa[c] 
+Duplicate: RXN909_94_c: nad[c] + 3hocoa[c]  <=> h[c] + nadh[c] + 3oocoa[c] 
+Reversibility matches for both.
+Round 2276 removed 1 reactions.
+Another copy of RXN909_91_c exists at 2922: RXN909_92_c
+Original: RXN909_91_c: h[c] + occoa[c] + fad[c]  -> fadh2[c] + oc2coa[c] 
+Duplicate: RXN909_92_c: h[c] + occoa[c] + fad[c]  -> fadh2[c] + oc2coa[c] 
+Reversibility matches for both.
+Round 2300 removed 1 reactions.
+Another copy of RXN909_91_m exists at 2918: RXN909_92_m
+Original: RXN909_91_m: h[m] + fad[m] + occoa[m]  -> fadh2[m] + oc2coa[m] 
+Duplicate: RXN909_92_m: h[m] + fad[m] + occoa[m]  -> fadh2[m] + oc2coa[m] 
+Reversibility matches for both.
+Round 2308 removed 1 reactions.
+Another copy of RXN909_63_m exists at 2870: RXN909_62_m
+Original: RXN909_63_m: h[m] + fad[m] + pmtcoa[m]  <=> fadh2[m] + hdd2coa[m] 
+Duplicate: RXN909_62_m: fadh2[m] + hdd2coa[m]  <=> h[m] + fad[m] + pmtcoa[m] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 2332 removed 1 reactions.
+Another copy of RXN909_63_c exists at 2858: RXN909_62_c
+Original: RXN909_63_c: h[c] + pmtcoa[c] + fad[c]  <=> hdd2coa[c] + fadh2[c] 
+Duplicate: RXN909_62_c: hdd2coa[c] + fadh2[c]  <=> h[c] + pmtcoa[c] + fad[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 2342 removed 1 reactions.
+Another copy of RXN909_82_m exists at 2818: RXN909_81_m
+Original: RXN909_82_m: h[m] + fad[m] + ddcacoa[m]  -> fadh2[m] + dd2coa[m] 
+Duplicate: RXN909_81_m: h[m] + fad[m] + ddcacoa[m]  -> fadh2[m] + dd2coa[m] 
+Reversibility matches for both.
+Round 2350 removed 1 reactions.
+Another copy of RXN909_82_c exists at 2812: RXN909_81_c
+Original: RXN909_82_c: h[c] + ddcacoa[c] + fad[c]  -> dd2coa[c] + fadh2[c] 
+Duplicate: RXN909_81_c: h[c] + ddcacoa[c] + fad[c]  -> dd2coa[c] + fadh2[c] 
+Reversibility matches for both.
+Round 2354 removed 1 reactions.
+Another copy of RXN909_89_c exists at 2836: RXN909_88_c
+Original: RXN909_89_c: nad[c] + 3hdcoa[c]  <=> h[c] + nadh[c] + 3odcoa[c] 
+Duplicate: RXN909_88_c: nad[c] + 3hdcoa[c]  <=> h[c] + nadh[c] + 3odcoa[c] 
+Reversibility matches for both.
+Round 2381 removed 1 reactions.
+Another copy of RXN909_97_c exists at 2852: RXN909_98_c
+Original: RXN909_97_c: h[c] + fad[c] + hxcoa[c]  -> fadh2[c] + hx2coa[c] 
+Duplicate: RXN909_98_c: h[c] + fad[c] + hxcoa[c]  -> fadh2[c] + hx2coa[c] 
+Reversibility matches for both.
+Round 2415 removed 1 reactions.
+Another copy of RXN909_102_c exists at 2931: RXN909_103_c
+Original: RXN909_102_c: accoa[c] + btcoa[c]  <=> coa[c] + 3ohcoa[c] 
+Duplicate: RXN909_103_c: accoa[c] + btcoa[c]  <=> coa[c] + 3ohcoa[c] 
+Reversibility matches for both.
+Round 2418 removed 1 reactions.
+Another copy of RXN909_97_m exists at 2994: RXN909_98_m
+Original: RXN909_97_m: h[m] + fad[m] + hxcoa[m]  -> fadh2[m] + hx2coa[m] 
+Duplicate: RXN909_98_m: h[m] + fad[m] + hxcoa[m]  -> fadh2[m] + hx2coa[m] 
+Reversibility matches for both.
+Round 2421 removed 1 reactions.
+Another copy of RXN909_106_c exists at 2919: RXN909_105_c
+Original: RXN909_106_c: h[c] + fad[c] + btcoa[c]  -> fadh2[c] + b2coa[c] 
+Duplicate: RXN909_105_c: h[c] + fad[c] + btcoa[c]  -> fadh2[c] + b2coa[c] 
+Reversibility matches for both.
+Round 2428 removed 1 reactions.
+Another copy of RXN909_106_m exists at 2923: RXN909_105_m
+Original: RXN909_106_m: h[m] + fad[m] + btcoa[m]  -> fadh2[m] + b2coa[m] 
+Duplicate: RXN909_105_m: h[m] + fad[m] + btcoa[m]  -> fadh2[m] + b2coa[m] 
+Reversibility matches for both.
+Round 2434 removed 1 reactions.
+Another copy of RXN909_185_c exists at 2806: ADK1_c
+Original: RXN909_185_c: atp[c] + amp[c]  -> 2 adp[c] + h[c] 
+Duplicate: ADK1_c: atp[c] + amp[c]  -> 2 adp[c] + h[c] 
+Reversibility matches for both.
+Round 2452 removed 1 reactions.
+Another copy of RXN909_100_c exists at 2976: RXN909_101_c
+Original: RXN909_100_c: nad[c] + 3hhcoa[c]  <=> h[c] + nadh[c] + 3ohcoa[c] 
+Duplicate: RXN909_101_c: nad[c] + 3hhcoa[c]  <=> h[c] + nadh[c] + 3ohcoa[c] 
+Reversibility matches for both.
+Round 2458 removed 1 reactions.
+Another copy of RXN909_65_c exists at 2868: RXN909_66_c
+Original: RXN909_65_c: nad[c] + 3hhdcoa[c]  <=> h[c] + nadh[c] + 3ohdcoa[c] 
+Duplicate: RXN909_66_c: nad[c] + 3hhdcoa[c]  <=> h[c] + nadh[c] + 3ohdcoa[c] 
+Reversibility matches for both.
+Round 2480 removed 1 reactions.
+Another copy of RXN909_320_c exists at 2619: 2_4_1_41_RXN_c
+Original: RXN909_320_c: h[c] + udp[c] + tn_antigen[c]  -> udpacgal[c] + polypeptide[c] 
+Duplicate: 2_4_1_41_RXN_c: udpacgal[c] + polypeptide[c]  -> h[c] + udp[c] + tn_antigen[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 2587 removed 1 reactions.
+Another copy of RXN909_185_m exists at 2808: ADK1_m
+Original: RXN909_185_m: atp[m] + amp[m]  -> h[m] + 2 adp[m] 
+Duplicate: ADK1_m: atp[m] + amp[m]  -> h[m] + 2 adp[m] 
+Reversibility matches for both.
+Round 2717 removed 1 reactions.
+Another copy of RXN909_69_c exists at 3046: RXN909_70_c
+Original: RXN909_69_c: h[c] + tdcoa[c] + fad[c]  -> td2coa[c] + fadh2[c] 
+Duplicate: RXN909_70_c: h[c] + tdcoa[c] + fad[c]  -> td2coa[c] + fadh2[c] 
+Reversibility matches for both.
+Round 2749 removed 1 reactions.
+Another copy of RXN909_74_c exists at 2946: RXN909_75_c
+Original: RXN909_74_c: nad[c] + 3htdcoa[c]  -> h[c] + nadh[c] + 3otdcoa[c] 
+Duplicate: RXN909_75_c: nad[c] + 3htdcoa[c]  <=> h[c] + nadh[c] + 3otdcoa[c] 
+Duplicate reaction is reversible.
+Round 2765 removed 1 reactions.
+Another copy of RXN909_69_m exists at 3040: RXN909_70_m
+Original: RXN909_69_m: h[m] + fad[m] + tdcoa[m]  -> fadh2[m] + td2coa[m] 
+Duplicate: RXN909_70_m: h[m] + fad[m] + tdcoa[m]  -> fadh2[m] + td2coa[m] 
+Reversibility matches for both.
+Round 2787 removed 1 reactions.
+Another copy of 3_2_1_48_RXN_c exists at 3046: RXN909_110_c
+Original: 3_2_1_48_RXN_c: h2o[c] + sucr[c]  -> glc_aD[c] + fru_B[c] 
+Duplicate: RXN909_110_c: h2o[c] + sucr[c]  <=> glc_aD[c] + fru_B[c] 
+Duplicate reaction is reversible.
+Round 2837 removed 1 reactions.
+Another copy of GLYC3PDEHYDROG_RXN_c exists at 3134: RXN_9927_2
+Original: GLYC3PDEHYDROG_RXN_c: glyc3p[c] + q9[m]  -> dhap[c] + q9h2[m] 
+Duplicate: RXN_9927_2: glyc3p[c] + q9[m]  -> dhap[c] + q9h2[m] 
+Reversibility matches for both.
+Round 3131 removed 1 reactions.
+Another copy of PIt7 exists at 3223: PIt8
+Original: PIt7: pi[e] + 3 na1[e]  <=> pi[c] + 3 na1[c] 
+Duplicate: PIt8: pi[e] + 1.5 na1[e]  <=> pi[c] + 1.5 na1[c] 
+Reversibility matches for both.
+The stoichiometry is different for duplicate.
+Round 3219 removed 1 reactions.
+617 duplicate reactions were removed.
