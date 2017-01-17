@@ -9,21 +9,26 @@ function impr2 = reconcile_stoichiometry(impr)
 % OUTPUT:
 % impr2: improvement structure after reconciling stoichiometry
 
+% calculate atom balance
 rxn_bal(:,1) = atom_balance(impr.model,impr.diff_s(:,1),false);
 rxn_bal(:,2) = atom_balance(impr.model,impr.diff_s(:,2),false);
+% calculate charge balance
+ch_bal(:,1) = charge_balance(impr.model,impr.diff_s(:,1),false);
+ch_bal(:,2) = charge_balance(impr.model,impr.diff_s(:,2),false);
 
 r10 = rxn_bal(:,1)==0; r21 = rxn_bal(:,2)==1;
 r20 = rxn_bal(:,2)==0; r11 = rxn_bal(:,1)==1;
+ch_bal1 = ch_bal(:,1)==1; ch_bal2 = ch_bal(:,2)==1;
 
 % reactions to remove and update impr to impr1
 impr1 = impr;
-rxns = [impr.diff_s(r11 & r20,1);impr.diff_s(r10 & r21,2)];
+rxns = [impr.diff_s((r11&r20)|ch_bal1,1);impr.diff_s((r10&r21)|ch_bal2,2)];
 rindex = find(ismember(impr.model.rxns,rxns));
 impr1.model = update_reaction_properties(impr.model,rindex);
 % add the reaction pair to impr.rem_rxns
-impr1.rem_rxns = [impr1.rem_rxns;impr1.diff_s((r11&r20)|(r10&r21),:)];
+impr1.rem_rxns = [impr1.rem_rxns;impr1.diff_s(((r11&r20)|ch_bal1)|((r10&r21)|ch_bal2),:)];
 % remove the reaction pair from impr.diff_s
-impr1.diff_s((r11&r20)|(r10&r21),:) = [];
+impr1.diff_s(((r11&r20)|ch_bal1)|((r10&r21)|ch_bal2),:) = [];
 % removing the reaction pairs from initially identified pair
 tot = [impr1.diff_s;impr1.diff_gra];
 k1 = ismember(impr1.dup_rxns(:,1),tot(:,1)); k2 = ismember(impr1.dup_rxns(:,2),tot(:,2));

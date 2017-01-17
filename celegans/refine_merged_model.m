@@ -143,10 +143,10 @@ while c~=length(model1.rxns)
                             g = g+1;
                             kg = kg+1;
                             % % decide which reaction to keep
-                            if charge_balance(model1,model1.rxns(i))
+                            if charge_balance(model1,model1.rxns(i))==1
                                 rem_rxns{kg,1} = model1.rxns{i,1}; % % stores original
                                 rem_rxns{kg,2} = model1.rxns{c,1}; % % stores duplicate
-                                model1 = update_reaction_properties(model1,[i c]);                                
+                                model1 = update_reaction_properties(model1,[i c]); % copy from reaction i to reaction c
                             else
                                 rem_rxns{kg,1} = model1.rxns{c,1}; % % stores original
                                 rem_rxns{kg,2} = model1.rxns{i,1}; % % stores duplicate
@@ -211,20 +211,20 @@ impr.diff_s = diff_s; % % different stoichiometry, needs to be resolved (duplica
 impr.diff_gra = diff_gra; % % different stoichiometry, needs to be resolved (duplicate reactions subset, not removed)
 impr.rem_rxns = rem_rxns; % % removed reactions (duplicate reactions subset)
 impr.model = model1;
-% removing duplicate reaction pairs that originate in the same model
+
+% removing duplicate reaction pairs that originate from the same model
 % assumption: no duplicates exist within the models, onlt amongst the
 % models
 index = find(cellfun(@strcmp,impr.belong_dups(:,1),impr.belong_dups(:,2)));
 impr.dup_rxns(index,:) = [];
 impr.belong_dups(index,:) = [];
-
-% removing uptake and exchange reactions from various lists
-impr = remove_duplicate_uptake(impr,1);
-
 % removing diff_gra pairs that belong to same model
 ic1 = ismember(impr.diff_gra(:,1),modelA.rxns); ic2 = ismember(impr.diff_gra(:,2),modelA.rxns);
 el1 = ismember(impr.diff_gra(:,1),modelB.rxns); el2 = ismember(impr.diff_gra(:,2),modelB.rxns);
 impr.diff_gra((el1 & el2) | (ic1 & ic2),:) = [];
+
+% removing uptake and exchange reactions from various lists
+impr = remove_duplicate_uptake(impr,1);
 
 % removing diff_s pairs that belong to same model or those that have been
 % removed from the model
@@ -232,11 +232,6 @@ ic1 = ismember(impr.diff_s(:,1),modelA.rxns); ic2 = ismember(impr.diff_s(:,2),mo
 el1 = ismember(impr.diff_s(:,1),modelB.rxns); el2 = ismember(impr.diff_s(:,2),modelB.rxns);
 i1 = ismember(impr.diff_s(:,1),impr.model.rxns); i2 = ismember(impr.diff_s(:,2),impr.model.rxns);
 impr.diff_s((el1 & el2) | (ic1 & ic2) | ~i1 | ~i2,:) = [];
-% resolve stoichiometry
-
-% 
-% % remove pairs which belong to the same model from 
-% % lists: diff_gra, diff_s,
 
 fprintf('\nSUMMARY:\n---------------------------------------------------------\n');
 fprintf('%d unused metabolties were found and removed.\n',length(iunmets));

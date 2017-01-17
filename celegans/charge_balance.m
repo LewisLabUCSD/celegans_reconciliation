@@ -21,20 +21,26 @@ end
 charge_imb = false;
 charge = zeros(length(rxns),1);
 for i=1:length(rxns)
-    charge(i) = sum(full(model.S(:,i)'*double(model.metCharge)));
-    if charge(i)==0
-        charge_imb(i,1) = true;
+    if ~isempty(strcmp(model.rxns,rxns{i,1}))
+        charge(i) = sum(full(model.S(:,strcmp(model.rxns,rxns{i,1}))'*double(model.metCharge)));
+        if charge(i)==0
+            charge_imb(i,1) = 1;
+        else
+            charge_imb(i,1) = 0;
+        end
     else
-        charge_imb(i,1) = false;
+        charge(i) = -100000;
+        charge_imb(i,1) = -1;
     end
 end
 if disp_flag
-    if sum(charge_imb)==size(model.rxns,1)
-        fprintf('Reaction(s) is(are) charge balanced.');
+    if sum(charge_imb)==size(rxns,1)
+        fprintf('All reaction(s) is(are) charge balanced.\n');
     else
-        fprintf('%d reaction(s) not balanced.\nReaction id\t\tNet charge\n---------------------------\n',sum(charge_imb))
+        fprintf('%d reaction(s) not charge balanced.\nReaction id\t\tNet charge\n---------------------------\n',sum(charge_imb))
         for i=1:length(rxns)
             fprintf('%s\t\t%d\n',rxns{i,1},charge(i));
         end
     end
 end
+charge = charge';
