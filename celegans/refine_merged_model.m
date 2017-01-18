@@ -1,5 +1,5 @@
 function [model_unref,impr,t] = refine_merged_model(modelA,modelB,obj_rxn,org_code)
-% [model_unref,impr] = refine_merged_model(model)
+% [model_unref,impr,t] = refine_merged_model(model)
 % refines the merged model
 % user-defined functions used:
 % 1. mergeTwoModels
@@ -42,7 +42,11 @@ fprintf('Finished.\n');
 fprintf('Looking for genes in WormBase...');
 [~,genes_not_found_wb,twice_present] = getgeneinfo_WormBase('online',model1.genes);
 fprintf('Finished\nLooking for genes, not found in WormBase, in KEGG...');
-[~,genes_not_found] = getgeneinfo_KEGG(org_code,genes_not_found_wb);
+[genes_found,genes_not_found] = getgeneinfo_KEGG(org_code,genes_not_found_wb);
+genes_found(:,[2 4]) = []; genes_found(:,[2 1]) = genes_found(:,[1 2]);
+g1 = ismember(genes_found(:,1),model1.genes);
+g2 = ismember(genes_found(:,2),model1.genes);
+twice_present = [twice_present;genes_found(g1 & g2,:)];
 fprintf('Finished\nCombining duplicate genes...');
 h = waitbar(0,'Combining duplicate genes...');
 steps = size(twice_present,1);
@@ -239,6 +243,7 @@ fprintf('%d duplicate genes have been found, combined and removed.\n',size(impr.
 fprintf('%d genes not found in WormBase or KEGG.\n',size(impr.genes_not_found,1));
 fprintf('%d total duplicate reactions were found.\n',size(impr.dup_rxns,1));
 fprintf('%d reactions were made reversible and duplicates removed.\n',size(impr.changed_rev,1));
+
 is1 = ismember(impr.dup_rxns(:,1),impr.rem_rxns(:,2));
 is2 = ismember(impr.dup_rxns(:,2),impr.rem_rxns(:,1));
 tot = [impr.diff_s;impr.diff_gra];
@@ -247,6 +252,9 @@ is = find((is1&is2)|(~k1&k2));
 impr.dup_rxns(is,:) = [];
 impr.belong_dups(is,:) = [];
 impr = reconcile_stoichiometry(impr);
+% analyzing and resolving gene-reaction
+impr = reconcile_gene_reaction(impr);
+
 fprintf('%d duplicate reactions with different gene-reaction still remain.\n',size(impr.diff_gra,1));
 fprintf('%d duplicate reactions with different stoichiometry still remain.\n',size(impr.diff_s,1));
 fprintf('%d duplicate reactions could be removed.\n',size(impr.rem_rxns,1));
