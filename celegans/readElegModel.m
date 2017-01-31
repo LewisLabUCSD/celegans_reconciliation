@@ -1,4 +1,4 @@
-function [eleg] = readElegModel(filename,all_mets,all_bigg,all_kegg,all_names,all_formulas)
+function [eleg,genes_found,twice_present,genes_not_found] = readElegModel(filename,all_mets,all_bigg,all_kegg,all_names,all_formulas)
 % [eleg] = readElegModel(filename,all_mets,all_bigg,all_kegg,all_names)
 % reads the icel model and converts it in the necessary format
 
@@ -92,3 +92,51 @@ if ~isempty(newmets)
     eleg.metKEGGID = keggid;
     eleg.metFormulas = formula;
 end
+printRxnFormula(eleg,{'MDH_m';'MDH_c'},true,true,false,1,true,true);
+% find(strcmp(eleg.genes,'F46E10.10'))
+% find(strcmp(eleg.genes,'Y49E10.11'))
+model1 = eleg;
+% % find duplicate genes, uses WormBase and KEGG subsequently to look up information
+filename_local = 'E:\Downloads\c_elegans.canonical_bioproject.current\functional_descriptions.txt';
+fprintf('Looking for genes in WormBase and fixing:');
+[genes_found1,genes_not_found_wb,twice_present] = getgeneinfo_WormBase(filename_local,model1.genes);
+genes_found1(:,[1 4 5]) = [];
+genes_found1(:,2) = strrep(genes_found1(:,2),'not known','');
+empty_ind = find(cellfun(@isempty,genes_found1(:,2)));
+genes_found1(empty_ind,2)=genes_found1(empty_ind,1);
+genes_found1(:,2) = regexprep(genes_found1(:,2),'[a-z]','');
+genes_not_found_wb(ismember(genes_not_found_wb,genes_found1(:,1))==1) = [];
+genes_not_found_wb(ismember(genes_not_found_wb,genes_found1(:,2))==1) = [];
+gf1 = ismember(genes_found1(:,1),twice_present(:,1)); gf2 = ismember(genes_found1(:,2),twice_present(:,2));
+genes_found1(gf1 & gf2,:) = [];
+
+fprintf('Finished\n');
+fprintf('%d genes found in WormBase.\n',length(genes_found1));
+fprintf('Looking for %d genes, not found in WormBase, in KEGG and fixing:',length(genes_not_found_wb));
+[genes_found2,genes_not_found] = getgeneinfo_KEGG('cel',genes_not_found_wb);
+genes_found2(:,[2 4]) = []; genes_found2(:,[2 1]) = genes_found2(:,[1 2]);
+genes_found2(cellfun(@isempty,genes_found2(:,1))==1,:)=[];
+genes_not_found(ismember(genes_not_found,genes_found2(:,1))==1) = [];
+genes_not_found(ismember(genes_not_found,genes_found2(:,2))==1) = [];
+model1 = update_gene_properties(model1,twice_present,1); % substitution, merge, and remove
+model1 = merge_gene_properties(model1); % merge and remove
+fprintf('Finished\n');
+genes_found = [genes_found1;genes_found2];
+model1 = update_gene_properties(model1,genes_found(ismember(genes_found(:,1),model1.genes),:),0); % final substitution
+
+% % check if duplicate genes have been updated correctly
+[~,~,del_match] = check_gene_account(eleg,model1,twice_present);
+if sum(del_match==del_match)~=length(del_match)
+    fprintf('Genes have not been updated correctly and are accounted for.\n');
+end
+if ~isempty(genes_not_found)
+    fprintf('%d genes were not found in either database, and were left as it is.\n',size(genes_not_found,1));
+else
+    fprintf('All genes were found in at least one of the databases.\n');
+end
+if ~isempty(twice_present)
+    fprintf('%d genes were duplicates.\n',size(twice_present,1));
+end
+fprintf('%d genes were finally reduced to %d genes using KEGG and WormBase.\n',length(eleg.genes),length(model1.genes));
+
+eleg = model1;

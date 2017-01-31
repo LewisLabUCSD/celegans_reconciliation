@@ -29,7 +29,7 @@ for i=1:length(rxns)
             charge_imb(i,1) = 0;
         end
     else
-        charge(i) = -100000;
+        charge(i) = NaN;
         charge_imb(i,1) = -1;
     end
 end
@@ -41,6 +41,8 @@ if disp_flag
         for i=1:length(rxns)
             fprintf('%s\t\t%d\n',rxns{i,1},charge(i));
         end
+        fprintf('%d reaction(s) could not be calculated.\n',length(find(charge~=charge)));
+        fprintf('%d reaction(s) is(are) not charge balanced.\n',length(find(charge_imb==0)));
     end
 end
 charge = charge';

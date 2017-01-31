@@ -1,11 +1,11 @@
-function [genes,gene_entry,twice_present,header] = getgeneinfo_WormBase(filename_local,gene_entry)
+function [genes,gene_entry,twice_present,header] = getgeneinfo_WormBase(filename_local,gene_entry,disp_flag)
 % [genes,header,gene_entry] = getallgenes_WormBase(filename,gene_entry)
 % gets information on all the genes querried in gene_entry, else all genes
 % in WormBase
 %
 % INPUT:
 % filename: provide the location of the file on disk, or 'online' (optional)
-% gene_entry: list of genes that need querrying (optional)
+% gene_entry: list of genes that need querrying (optional), genes_not_found
 %
 % OUTPUT:
 % genes: list of genes
@@ -16,7 +16,9 @@ function [genes,gene_entry,twice_present,header] = getgeneinfo_WormBase(filename
 % header: format of genes
 %
 % Written by Chintan Joshi
-
+if nargin < 3
+    disp_flag = false;
+end
 if strcmp(filename_local,'online') % this if loop goes to the ftp site and downloads the file and data
     db = ftp('ftp.wormbase.org');
     cd(db,'pub/wormbase/species/c_elegans/annotation/functional_descriptions/');
@@ -50,10 +52,10 @@ for i=1:length(A) % got to each line
         genes(i,2:8) = {' '};
     end
 end
-genes(:,4:7) = []; % remove unwanted columns (is likely to change depending upon the file
-header(4:7) = [];
 
-if nargin==2
+if nargin>=2
+    genes(:,4:7) = []; % remove unwanted columns (is likely to change depending upon the file
+    header(4:7) = [];
     genes_col2 = genes;
     genes_col3 = genes;
     rem_genes = {'NA';'ND';'Unknown';'TBD'};
@@ -62,29 +64,37 @@ if nargin==2
     end
     col2 = repmat({'public_name (WB)'},sum(ismember(genes(:,2),gene_entry)),1); % whether the gene in the list is recognized by public_name
     genes_col2(~ismember(genes(:,2),gene_entry),:) = [];
-    fprintf('%d genes in the list have been annotated based on public_name.\n',size(col2,1));
     gene_entry(ismember(gene_entry,genes(:,2))) = [];
     col3 = repmat({'molecular_name (WB)'},sum(ismember(genes(:,3),gene_entry)),1); % whether the gene in the list is recognized by molecular_name
     genes_col3(~ismember(genes(:,3),gene_entry),:) = [];
-    fprintf('%d genes in the list have been annotated based on molecular_name.\n',size(col3,1));
     twice_present = genes_col2(ismember(genes_col2(:,2),genes_col3(:,2)),:);
-    fprintf('%d genes have duplicates.\n',size(twice_present,1));
     col2(ismember(genes_col2(:,2),genes_col3(:,2))) = [];
     genes_col2(ismember(genes_col2(:,2),genes_col3(:,2)),:) = [];
     genes = [genes_col2;genes_col3];
     cols = [col2;col3];
     gene_entry(ismember(gene_entry,genes(:,3))) = [];
-    fprintf('%d genes were not found in WormBase.\n',size(gene_entry,1));
     genes(:,5) = cols;
     header{1,5} = 'info_type_in_model';
+    twice_present(:,[1,4]) = [];
+%     genes(:,[1 4 5]) = [];
 else
+    genes(:,5:7) = []; % remove unwanted columns (is likely to change depending upon the file
+    header(5:7) = [];
     gene_entry = [];
+    twice_present = [];    
 end
-fprintf('%d genes found in WormBase.\n',size(genes,1));
-if nargin==2
+
+if disp_flag
+    fprintf('%d genes found in WormBase.\n',size(genes,1));
+    fprintf('%d genes in the list have been annotated based on public_name.\n',size(col2,1));
+    fprintf('%d genes in the list have been annotated based on molecular_name.\n',size(col3,1));
+    fprintf('%d genes have duplicates.\n',size(twice_present,1));
+    fprintf('%d genes were not found in WormBase.\n',size(gene_entry,1));
     fprintf('%d unique genes present in the list.\n',size(genes,1)+size(gene_entry,1));
 end
-twice_present(:,[1,4]) = [];
+
 fclose('all');
-delete('c_elegans.canonical_bioproject.current.functional_descriptions.txt');
-delete('c_elegans.canonical_bioproject.current.functional_descriptions.txt.gz');
+if strcmp(filename_local,'online')
+    delete('c_elegans.canonical_bioproject.current.functional_descriptions.txt');
+    delete('c_elegans.canonical_bioproject.current.functional_descriptions.txt.gz');
+end
