@@ -1,4 +1,4 @@
-function [model1,model_unref,dup_rxns,rem_rxns,res_rxns,gra_rxns,prep_rem,account,ch] = refine_merged_model_v2(modelA,modelB,obj_rxn)
+function [model1,model_unref,dup_rxns,rem_rxns,res_rxns,gra_rxns,prep_rem,account,ch] = refine_merged_model_v2(modelA,modelB,obj_rxn,remFlag)
 % [model_unref,impr,t] = refine_merged_model(model)
 % refines the merged model
 % user-defined functions used:
@@ -193,7 +193,7 @@ for i=1:size(S,2)
     end
     waitbar(i/size(S,2));
 end
-
+res_rxns(ismember(res_rxns(:,1),rem_rxns) | ismember(res_rxns(:,2),rem_rxns),:) = [];
 close(h);
 fprintf('Looking for duplicate reactions: Finished.\n');
 fprintf('\nSUMMARY:\n---------------------------------------------------------\n');
@@ -209,4 +209,8 @@ fprintf('%d duplicate reactions for which GRA has been resolved.\n',length(find(
 % fprintf('%d duplicate reactions for which neither GRA, nor stoichiometry been resolved.\n',length(find(strcmp(gra_rxns,'not resolved')))-size(prep_rem,1));
 fprintf('%d duplicate reactions that still need to be resolved.\n',size(prep_rem,1)+length(res_rxns));
 
+if remFlag
+    rindex = find(ismember(model1.rxns,rem_rxns));
+    model1 = update_reaction_properties(model1,rindex);
+end
 t = toc;
