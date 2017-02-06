@@ -27,7 +27,7 @@ sym('n');
 for i=1:length(rxns)
     rxn_index = find(strcmp(model.rxns,rxns{i,1}));
     if ~isempty(rxn_index)
-        met_index = find(model.S(:,rxn_index)~=0);
+        met_index = find(model.S(:,rxn_index)~=0); metp_index = find(model.S(:,rxn_index) > 0); metn_index = find(model.S(:,rxn_index) < 0);
         mets = model.mets(met_index);
         atoms_mat = create_atom_matrix(model,mets,false);
         %     printRxnFormula(model,model.rxns(i));
@@ -45,7 +45,7 @@ for i=1:length(rxns)
                 Sj = Sj + model.S(met_index(j),rxn_index)*cellfun(@eval,atoms_mat(j,:));
             end
             bal(i,:) = Sj;
-            if sum(bal(i,:)) == 0
+            if sum(bal(i,:)) == 0 || (~isempty(metp_index) && isempty(metn_index)) || (isempty(metp_index) && ~isempty(metn_index))
                 stat(i,1) = 1;
                 if disp_flag
                     fprintf('%d. %s: Atoms balanced.\n',i,rxns{i,1});
