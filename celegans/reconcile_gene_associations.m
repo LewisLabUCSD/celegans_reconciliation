@@ -1,4 +1,4 @@
-function [model,reconcile] = reconcile_gene_associations(model,rxn)
+function [model,reconcile] = reconcile_gene_associations(model,rxn,disp_flag)
 
 rid1 = ismember(model.rxns,rxn(1));
 rid2 = ismember(model.rxns,rxn(2));
@@ -27,6 +27,8 @@ elseif isempty(strfind(model.grRules{rid1,1},'or')) && isempty(strfind(model.grR
     end
     reconcile = true;
 else
-    fprintf('\nGene reaction was not resolved.\n');
+    if disp_flag
+        fprintf('\nGene reaction was not resolved.\n');
+    end
     reconcile = false;
 end

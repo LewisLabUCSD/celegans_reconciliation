@@ -17,7 +17,9 @@ if nargin < 2
     mets = model.mets;
     metFormulas = model.metFormulas;
 else
-    metFormulas = model.metFormulas(ismember(model.mets,mets));
+    for i=1:length(mets)
+        metFormulas{i,1} = model.metFormulas{ismember(model.mets,mets{i,1}),1};
+    end
 end
 if nargin < 3
     disp_flag = false;
@@ -26,7 +28,6 @@ end
 elements = {'C';'Ca';'Cl';'Co';'Cu';'Fe';'H';'I';'K';'Mg';'Mo';'N';'Na';'O';'P';'R';'S';'Se';'Zn'};
 atoms_mat = cell(size(mets,1),size(elements,1));
 for i=1:length(mets)
-%     metFormulas{i,1}
     if isempty(regexp(metFormulas{i,1},' |Generic'))
         x = regexp(metFormulas{i,1},'\)[a-z]|\)[1-9]');
         if isempty(x)
