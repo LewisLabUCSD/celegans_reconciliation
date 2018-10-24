@@ -16,6 +16,12 @@ kaleta_new.mat
 yilmaz_1273_2.mat
 The above two files contain manual ID conversions of genes (WBGene ids), reactions (BiGG format) and metabolites (BiGG format) for previously published models.
 
+mergedModel.mat
+Contains output of the code above. The merged model is model1 in the mat file. To access the model use the code below
+%%%%%%%
+load('mergedModel.mat','model1');
+%%%%%%%
+
 readElegModel.m
 readICELModel.m
 The above two files take conversions from the mat files and reads the above two existing models in desired model identifiers.
